@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.AdobeAcrobatProXIUpdate</string>
+	<key>Input</key>
+	<dict>
+		<key>MAJOR_VERSION</key>
+		<string>11</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>Adobe/Acrobat</string>
+		<key>NAME</key>
+		<string>Adobe-AcrobatXI-Upd</string>
+		<key>VERSION</key>
+		<string>latest</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>blocking_applications</key>
+			<array>
+				<string>Acrobat</string>
+			</array>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>This update provides system requirement enhancements, mitigation for security issues, improved overall stability, bug fixes, and feature enhancements. For a list of specific bug fixes, new features, and other changes in this release, see the Release Notes.</string>
+			<key>display_name</key>
+			<string>Adobe Acrobat Pro XI Update</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+			<key>postinstall_script</key>
+			<string>#!/bin/bash
+			defaults delete /Library/Preferences/com.adobe.Acrobat.Pro.plist 11
+			/usr/libexec/PlistBuddy -c 'Add :11:FeatureLockdown:bUpdater bool false' /Library/Preferences/com.adobe.Acrobat.Pro.plist
+			exit 0
+			</string>
+			<key>update_for</key>
+			<array>
+				<string>Adobe-AcrobatXI</string>
+			</array>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.munki.AdobeAcrobatProXIUpdate</string>
+</dict>
+</plist>

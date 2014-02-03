@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.AdobeShockwavePlayer</string>
+	<key>Input</key>
+	<dict>
+		<key>DOWNLOAD_URL</key>
+		<string>http://fpdownload.macromedia.com/get/shockwave/default/english/macosx/latest/Shockwave_Installer_Full_64bit.dmg</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>Utilities</string>
+		<key>NAME</key>
+		<string>Adobe-Shockwave_Full64</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>blocking_applications</key>
+			<array>
+				<string>Firefox.app</string>
+				<string>Opera.app</string>
+				<string>Safari.app</string>
+			</array>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>Shockwave Player is a Web standard for powerful multimedia playback. The Shockwave Player allows you to view interactive Web content like games, business presentations, entertainment, and advertisements from your Web browser. Shockwave Player displays Web content that has been created by Adobe Director.</string>
+			<key>display_name</key>
+			<string>Adobe Shockwave Player Plugin</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jleggat.autopkg-recipes.AdobeShockwavePlayer.munki</string>
+</dict>
+</plist>
