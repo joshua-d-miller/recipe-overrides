@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.AdobeReader</string>
+	<key>Input</key>
+	<dict>
+		<key>LANGUAGE</key>
+		<string>English</string>
+		<key>MAJOR_VERSION</key>
+		<string>11</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>/Adobe/Acrobat</string>
+		<key>NAME</key>
+		<string>Adobe-Reader</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>blocking_applications</key>
+			<array>
+				<string>Adobe Reader.app</string>
+				<string>Firefox.app</string>
+				<string>Opera.app</string>
+				<string>Safari.app</string>
+			</array>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>Adobe® Reader® is the global standard for reliably viewing, printing, and commenting on PDF documents. It's the only PDF file viewer that can open and interact with all types of PDF content, including forms and multimedia.</string>
+			<key>display_name</key>
+			<string>Adobe Reader</string>
+			<key>minimum_os_version</key>
+			<string>10.6.4</string>
+			<key>name</key>
+			<string>%NAME%</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+
+# Set some variables...
+
+USERPREFS_DIR="/System/Library/User Template/English.lproj/Library/Preferences"
+PREFS_DIR="/Library/Preferences"
+
+# Disables Adobe Reader update checks and EULA.
+
+/usr/libexec/PlistBuddy -c "Delete 10:EULAAccepted" "${USERPREFS_DIR}/com.adobe.Reader.plist"
+/usr/libexec/PlistBuddy -c "Add 10:EULAAccepted bool TRUE" "${USERPREFS_DIR}/com.adobe.Reader.plist"
+/usr/libexec/PlistBuddy -c "Delete 10:AVGeneral:CheckForUpdatesAtStartup:1" "${USERPREFS_DIR}/com.adobe.Reader.plist"
+/usr/libexec/PlistBuddy -c "Add 10:AVGeneral:CheckForUpdatesAtStartup array" "${USERPREFS_DIR}/com.adobe.Reader.plist"
+/usr/libexec/PlistBuddy -c "Add 10:AVGeneral:CheckForUpdatesAtStartup:1" "${USERPREFS_DIR}/com.adobe.Reader.plist"
+/usr/libexec/PlistBuddy -c "Add 10:AVGeneral:CheckForUpdatesAtStartup:1 integer 0" "${USERPREFS_DIR}/com.adobe.Reader.plist"
+/usr/libexec/PlistBuddy -c "Add 10:AVGeneral:CheckForUpdatesAtStartup:1 bool FALSE" "${USERPREFS_DIR}/com.adobe.Reader.plist"
+
+# Exit with zero status
+
+exit 0
+			</string>
+	<key>preinstall_script</key>
+	<string>#!/bin/sh
+if [ -e "/Applications/Adobe Reader.app" ]; then
+rm -r "/Applications/Adobe Reader.app"
+fi
+exit 0
+            </string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.munki.AdobeReader</string>
+</dict>
+</plist>

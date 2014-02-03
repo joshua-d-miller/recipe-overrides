@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.Skype</string>
+	<key>Input</key>
+	<dict>
+		<key>DOWNLOAD_URL</key>
+		<string>http://www.skype.com/go/getskype-macosx.dmg</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>Social</string>
+		<key>NAME</key>
+		<string>Microsoft-Skype</string>
+		<key>USER_AGENT</key>
+		<string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/536.28.10 (KHTML, like Gecko) Version/6.0.3 Safari/536.28.10</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>Make internet calls for free with Skype. Call friends and family on any phone with Pay As You Go and Pay Monthly subscriptions, sign up today at Skype.com</string>
+			<key>display_name</key>
+			<string>Skype</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+			<key>postinstall_script</key>
+			<string>#!/bin/bash/
+defaults write /Library/Preferences/com.skype.skype SKSilentUpgradeNoticeShown -bool true
+defaults write /Library/Preferences/com.skype.skype SKSilentUpgradeNotice -bool false
+			</string>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.munki.Skype</string>
+</dict>
+</plist>
