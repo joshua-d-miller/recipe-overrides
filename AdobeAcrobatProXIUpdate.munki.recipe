@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.munki.AdobeAcrobatProXUpdate</string>
+	<string>local.munki.AdobeAcrobatProXIUpdate</string>
 	<key>Input</key>
 	<dict>
 		<key>MAJOR_VERSION</key>
