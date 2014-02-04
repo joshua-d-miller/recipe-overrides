@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.munki.AdobeAcrobatProXIUpdate</string>
+	<string>local.munki.AdobeAcrobatProXUpdate</string>
 	<key>Input</key>
 	<dict>
 		<key>MAJOR_VERSION</key>
@@ -18,7 +18,7 @@
 		<dict>
 			<key>blocking_applications</key>
 			<array>
-				<string>Acrobat</string>
+				<string>Adobe Acrobat Pro.app</string>
 			</array>
 			<key>catalogs</key>
 			<array>
