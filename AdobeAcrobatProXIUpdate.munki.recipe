@@ -45,6 +45,6 @@
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg.munki.AdobeAcrobatProXIUpdate</string>
+	<string>com.github.autopkg.munki.AdobeAcrobatProXUpdate</string>
 </dict>
 </plist>
