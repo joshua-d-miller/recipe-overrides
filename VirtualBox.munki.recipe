@@ -14,7 +14,7 @@
 		<dict>
 			<key>blocking_applications</key>
 			<array>
-				<string>Oracle-VirtualBox-ALL</string>
+				<string>Oracle VirtualBox</string>
 			</array>
 			<key>catalogs</key>
 			<array>

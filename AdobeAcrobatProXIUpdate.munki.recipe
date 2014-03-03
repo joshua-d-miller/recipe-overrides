@@ -11,7 +11,7 @@
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>Adobe/Acrobat</string>
 		<key>NAME</key>
-		<string>Adobe-AcrobatXI-Upd</string>
+		<string>Adobe Acrobat XI Update</string>
 		<key>VERSION</key>
 		<string>latest</string>
 		<key>pkginfo</key>
@@ -40,7 +40,7 @@
 			</string>
 			<key>update_for</key>
 			<array>
-				<string>Adobe-AcrobatXI</string>
+				<string>Adobe Acrobat XI</string>
 			</array>
 		</dict>
 	</dict>

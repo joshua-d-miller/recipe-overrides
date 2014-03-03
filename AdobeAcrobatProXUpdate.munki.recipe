@@ -11,14 +11,14 @@
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>Adobe/Acrobat</string>
 		<key>NAME</key>
-		<string>Adobe-AcrobatX-Upd</string>
+		<string>Adobe Acrobat X Update</string>
 		<key>VERSION</key>
 		<string>latest</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>blocking_applications</key>
 			<array>
-				<string>Acrobat</string>
+				<string>Adobe Acrobat Pro.app</string>
 			</array>
 			<key>catalogs</key>
 			<array>
@@ -27,7 +27,7 @@
 			<key>description</key>
 			<string>This update provides system requirement enhancements, mitigation for security issues, improved overall stability, bug fixes, and feature enhancements. For a list of specific bug fixes, new features, and other changes in this release, see the Release Notes.</string>
 			<key>display_name</key>
-			<string>Adobe Acrobat Pro Update</string>
+			<string>Adobe Acrobat Pro X Update</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>

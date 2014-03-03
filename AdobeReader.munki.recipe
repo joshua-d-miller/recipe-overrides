@@ -13,7 +13,7 @@
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>/Adobe/Acrobat</string>
 		<key>NAME</key>
-		<string>Adobe-Reader</string>
+		<string>Adobe Reader</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>blocking_applications</key>
