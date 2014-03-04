@@ -129,5 +129,19 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.jessepeterson.munki.VirtualBox</string>
+	<key>Process</key>
+    <array>
+        <dict>
+            <key>Arguments</key>
+            <dict>
+                <key>pkg_path</key>
+                <string>%pathname%</string>
+                <key>repo_subdirectory</key>
+                <string>%MUNKI_REPO_SUBDIR%</string>
+            </dict>
+            <key>Processor</key>
+            <string>MunkiImporter</string>
+        </dict>
+    </array>
 </dict>
 </plist>
