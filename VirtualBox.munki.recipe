@@ -9,7 +9,7 @@
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>Admin</string>
 		<key>NAME</key>
-		<string>Oracle-VirtualBox</string>
+		<string>Oracle VirtualBox</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>blocking_applications</key>
@@ -71,61 +71,61 @@
 &lt;/VirtualBox&gt;' &gt; /Users/Shared/VirtualBox/VirtualBox.xml
 	touch /etc/launchd.conf
 	/bin/echo 'setenv VBOX_USER_HOME /Users/Shared/VirtualBox' &gt;&gt; /etc/launchd.conf
-	</string>
-	<key>receipts</key>
-	<array>
-		<dict>
-			<key>installed_size</key>
-			<integer>900</integer>
-			<key>packageid</key>
-			<string>org.virtualbox.pkg.vboxkexts</string>
-			<key>version</key>
-			<string>4.2.18</string>
+		</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>900</integer>
+				<key>packageid</key>
+				<string>org.virtualbox.pkg.vboxkexts</string>
+				<key>version</key>
+				<string>4.2.18</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>12</integer>
+				<key>packageid</key>
+				<string>org.virtualbox.pkg.vboxstartupitems</string>
+				<key>version</key>
+				<string>4.2.18</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>221747</integer>
+				<key>packageid</key>
+				<string>org.virtualbox.pkg.virtualbox</string>
+				<key>version</key>
+				<string>4.2.18</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>4</integer>
+				<key>packageid</key>
+				<string>org.virtualbox.pkg.virtualboxcli</string>
+				<key>version</key>
+				<string>4.2.18</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>uninstall_script</string>
+		<key>uninstall_script</key>
+		<string>#!bin/sh
+		# VirtualBox Uninstaller Script
+		rm -rf /Applications/VirtualBox.app
+		rm -rf /Users/Shared/VirtualBox
+		rm -rf ~/Library/VirtualBox
+		rm -rf /etc/launchd.conf
+		pkgutil --forget org.virtualbox.pkg.vboxkexts
+    	pkgutil --forget org.virtualbox.pkg.vboxstartupitems
+    	pkgutil --forget org.virtualbox.pkg.virtualbox
+    	pkgutil --forget org.virtualbox.pkg.virtualboxcli
+    	</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>unattended_install</key>
+		<true/>
 		</dict>
-		<dict>
-			<key>installed_size</key>
-			<integer>12</integer>
-			<key>packageid</key>
-			<string>org.virtualbox.pkg.vboxstartupitems</string>
-			<key>version</key>
-			<string>4.2.18</string>
-		</dict>
-		<dict>
-			<key>installed_size</key>
-			<integer>221747</integer>
-			<key>packageid</key>
-			<string>org.virtualbox.pkg.virtualbox</string>
-			<key>version</key>
-			<string>4.2.18</string>
-		</dict>
-		<dict>
-			<key>installed_size</key>
-			<integer>4</integer>
-			<key>packageid</key>
-			<string>org.virtualbox.pkg.virtualboxcli</string>
-			<key>version</key>
-			<string>4.2.18</string>
-		</dict>
-	</array>
-	<key>uninstall_method</key>
-	<string>uninstall_script</string>
-	<key>uninstall_script</key>
-	<string>#!bin/sh
-	# VirtualBox Uninstaller Script
-	rm -rf /Applications/VirtualBox.app
-	rm -rf /Users/Shared/VirtualBox
-	rm -rf ~/Library/VirtualBox
-	rm -rf /etc/launchd.conf
-	pkgutil --forget org.virtualbox.pkg.vboxkexts
-    pkgutil --forget org.virtualbox.pkg.vboxstartupitems
-    pkgutil --forget org.virtualbox.pkg.virtualbox
-    pkgutil --forget org.virtualbox.pkg.virtualboxcli
-    </string>
-	<key>uninstallable</key>
-	<true/>
-	<key>unattended_install</key>
-	<true/>
-	</dict>
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.jessepeterson.munki.VirtualBox</string>
