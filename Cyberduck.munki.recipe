@@ -3,27 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.munki.CoRD</string>
+	<string>local.munki.Cyberduck</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>Admin</string>
 		<key>NAME</key>
-		<string>CoRD</string>
+		<string>Cyberduck</string>
 		<key>SPARKLE_FEED_URL</key>
-		<string>http://cord.sourceforge.net/sparkle.xml</string>
+		<string>http://version.cyberduck.ch/changelog.rss</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
 			</array>
-			<key>category</key>
-			<string>Administrative Tools</string>
 			<key>description</key>
-			<string>CoRD is a Mac OS X remote desktop client for Microsoft Windows computers using the RDP protocol.</string>
+			<string>With an easy to use interface, connect to FTP, SFTP, WebDAV, Amazon S3, Google Storage, Windows Azure, Rackspace Cloud Files and even Google Docs.</string>
 			<key>display_name</key>
-			<string>CoRD</string>
+			<string>Cyberduck</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
@@ -31,6 +29,6 @@
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.keeleysam.recipes.CoRD.munki</string>
+	<string>com.github.autopkg.munki.Cyberduck</string>
 </dict>
 </plist>

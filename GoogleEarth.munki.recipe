@@ -18,6 +18,8 @@
 			<array>
 				<string>testing</string>
 			</array>
+			<key>category</key>
+			<string>Science</string>
 			<key>description</key>
 			<string>Take a virtual journey to any location in the world. Explore 3D buildings, imagery, and terrain. Find cities, places and local businesses.</string>
 			<key>display_name</key>
