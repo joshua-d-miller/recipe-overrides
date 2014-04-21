@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.UnityWebPlayer</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>Utilities</string>
+		<key>NAME</key>
+		<string>Unity Web Player</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>The Unity Web Player enables you to view blazing 3D content created with Unity directly in your browser, and autoupdates as necessary.</string>
+			<key>display_name</key>
+			<string>Unity Web Player</string>
+			<key>minimum_os_version</key>
+			<string>10.5.8</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.nmcspadden.munki.unitywebplayer</string>
+</dict>
+</plist>
