@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.munki.UnityWebPlayer</string>
+	<string>local.munki.unitywebplayer</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
@@ -29,6 +29,6 @@
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.nmcspadden.munki.unitywebplayer</string>
+	<string>com.github.nmcspadden.munki.UnityWebPlayer</string>
 </dict>
 </plist>
