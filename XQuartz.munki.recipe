@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.XQuartz</string>
+	<key>Input</key>
+	<dict>
+		<key>BRANCH</key>
+		<string>release</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>Admin</string>
+		<key>NAME</key>
+		<string>XQuartz</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>blocking_applications</key>
+			<array>
+				<string>X11</string>
+				<string>XQuartz</string>
+			</array>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>A version of the X.Org X Window System that runs on OS X
+The XQuartz project is an open-source effort to develop a version of the X.Org X Window System that runs on OS X. Together with supporting libraries and applications, it forms the X11.app that Apple has shipped with OS X since version 10.5.</string>
+			<key>display_name</key>
+			<string>%NAME%</string>
+			<key>category</key>
+			<string>Administrative Tools</string>
+			<key>minimum_os_version</key>
+			<string>10.6.3</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.munki.xquartz</string>
+</dict>
+</plist>
