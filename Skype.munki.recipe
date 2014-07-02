@@ -28,6 +28,14 @@
 			<string>%NAME%</string>
 			<key>unattended_install</key>
 			<true/>
+			<key>postinstall_script</key>
+			<string>#!/bin/bash
+/usr/bin/defaults write /Library/Preferences/com.skype.skype SKAllowStealthUpgrade -bool false
+/usr/bin/defaults write /Library/Preferences/com.skype.skype SKShowSilentUpgradeNotice -bool false
+/usr/bin/defaults write /Library/Preferences/com.skype.skype SKSilentUpgradeNoticeShown -bool false
+/usr/bin/defaults write /Library/Preferences/com.skype.skype SKDisableWelcomeTour -bool true
+/usr/bin/defaults write /Library/Preferences/com.skype.skype SKShowWelcomeTour -bool false
+			</string>
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
