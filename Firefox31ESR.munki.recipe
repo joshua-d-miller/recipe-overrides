@@ -13,7 +13,7 @@
 		<key>NAME</key>
 		<string>Mozilla Firefox</string>
 		<key>RELEASE</key>
-		<string>latest-24.0esr</string>
+		<string>latest-esr</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
