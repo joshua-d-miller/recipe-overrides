@@ -20,6 +20,8 @@
 			</array>
 			<key>category</key>
 			<string>Administrative Tools</string>
+			<key>developer</key>
+			<string>iTerm Development Team</string>
 			<key>description</key>
 			<string>Powerful alternative to Terminal.app.</string>
 			<key>display_name</key>

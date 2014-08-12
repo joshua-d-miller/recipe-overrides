@@ -24,6 +24,10 @@
 				<string>Microsoft Communicator</string>
 				<string>Microsoft Messenger</string>
 			</array>
+			<key>category</key>
+			<string>Social</string>
+			<key>developer</key>
+			<string>Microsoft Corporation</string>
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>

@@ -18,6 +18,10 @@
 			<array>
 				<string>testing</string>
 			</array>
+			<key>category</key>
+			<string>Web Plugins</string>
+			<key>developer</key>
+			<string>Adobe Systems Inc.</string>
 			<key>description</key>
 			<string>The Adobe AIR runtime enables developers to use HTML, JavaScript, Adobe Flash software, and ActionScript to build web applications that run as standalone client applications without the constraints of a browser.</string>
 			<key>display_name</key>

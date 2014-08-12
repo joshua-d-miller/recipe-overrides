@@ -74,6 +74,10 @@ Keep all of your itineraries, confirmations, scanned travel documents, maps, and
 &lt;/p&gt;
 &lt;/html&gt;
 			</string>
+			<key>category</key>
+			<string>Reference</string>
+			<key>developer</key>
+			<string>Evernote Corporation</string>
 			<key>display_name</key>
 			<string>Evernote</string>
 			<key>name</key>

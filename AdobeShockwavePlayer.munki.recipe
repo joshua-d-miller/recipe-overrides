@@ -24,6 +24,10 @@
 			<array>
 				<string>testing</string>
 			</array>
+			<key>category</key>
+			<string>Web Plugins</string>
+			<key>developer</key>
+			<string>Adobe Systems Inc.</string>
 			<key>description</key>
 			<string>Shockwave Player is a Web standard for powerful multimedia playback. The Shockwave Player allows you to view interactive Web content like games, business presentations, entertainment, and advertisements from your Web browser. Shockwave Player displays Web content that has been created by Adobe Director.</string>
 			<key>display_name</key>

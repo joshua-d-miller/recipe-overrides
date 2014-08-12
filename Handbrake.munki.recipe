@@ -18,6 +18,10 @@
 			<array>
 				<string>testing</string>
 			</array>
+			<key>category</key>
+			<string>Media</string>
+			<key>developer</key>
+			<string>The HandBrake Team</string>
 			<key>description</key>
 			<string>HandBrake is a tool for converting video from nearly any format to a selection of modern, widely supported codecs.</string>
 			<key>display_name</key>

@@ -20,6 +20,8 @@
 			</array>
 			<key>category</key>
 			<string>Administrative Tools</string>
+			<key>developer</key>
+			<string>Dorian Johnson</string>
 			<key>description</key>
 			<string>CoRD is a Mac OS X remote desktop client for Microsoft Windows computers using the RDP protocol.</string>
 			<key>display_name</key>

@@ -20,6 +20,10 @@
 			<array>
 				<string>testing</string>
 			</array>
+			<key>category</key>
+			<string>Social</string>
+			<key>developer</key>
+			<string>Microsoft Corporation</string>
 			<key>description</key>
 			<string>Make internet calls for free with Skype. Call friends and family on any phone with Pay As You Go and Pay Monthly subscriptions, sign up today at Skype.com</string>
 			<key>display_name</key>

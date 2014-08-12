@@ -24,6 +24,10 @@
 			<array>
 				<string>testing</string>
 			</array>
+			<key>category</key>
+			<string>Productivity</string>
+			<key>developer</key>
+			<string>Adobe Systems Inc.</string>
 			<key>description</key>
 			<string>This update provides system requirement enhancements, mitigation for security issues, improved overall stability, bug fixes, and feature enhancements. For a list of specific bug fixes, new features, and other changes in this release, see the Release Notes.</string>
 			<key>display_name</key>

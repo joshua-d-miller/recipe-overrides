@@ -48,6 +48,10 @@
 			<array>
 				<string>testing</string>
 			</array>
+			<key>category</key>
+			<string>Productivity</string>
+			<key>developer</key>
+			<string>Microsoft Corporation</string>
 			<key>requires</key>
 			<array>
 				<string>Microsoft Office 2011-14.2.3</string>

@@ -16,6 +16,10 @@
 			<array>
 				<string>testing</string>
 			</array>
+			<key>category</key>
+			<string>Web Plugins</string>
+			<key>developer</key>
+			<string>Unity Technologies</string>
 			<key>description</key>
 			<string>The Unity Web Player enables you to view blazing 3D content created with Unity directly in your browser, and autoupdates as necessary.</string>
 			<key>display_name</key>

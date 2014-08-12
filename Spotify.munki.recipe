@@ -18,6 +18,10 @@
 			<array>
 				<string>production</string>
 			</array>
+			<key>category</key>
+			<string>Media</string>
+			<key>developer</key>
+			<string>Spotify</string>
 			<key>description</key>
 			<string>Spotify is a music streaming service offering unlimited streaming of selected music from a range of major and independent record labels.</string>
 			<key>display_name</key>

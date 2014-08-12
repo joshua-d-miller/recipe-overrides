@@ -18,6 +18,10 @@
 			<array>
 				<string>R</string>
 			</array>
+			<key>category</key>
+			<string>Mathematics</string>
+			<key>developer</key>
+			<string>R Core Team</string>
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>

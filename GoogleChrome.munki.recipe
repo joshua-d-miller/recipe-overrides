@@ -22,6 +22,10 @@
 			<array>
 				<string>testing</string>
 			</array>
+			<key>category</key>
+			<string>Web Browsers</string>
+			<key>developer</key>
+			<string>Google Inc.</string>
 			<key>description</key>
 			<string>Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.</string>
 			<key>display_name</key>

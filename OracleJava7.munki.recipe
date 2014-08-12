@@ -16,6 +16,10 @@
 			<array>
 				<string>testing</string>
 			</array>
+			<key>category</key>
+			<string>Web Plugins</string>
+			<key>developer</key>
+			<string>Orcale Corporation</string>
 			<key>description</key>
 			<string>Java 7 is the latest release for Java that contains many new features, enhancements and bug fixes to improve efficiency to develop and run Java programs.</string>
 			<key>display_name</key>
