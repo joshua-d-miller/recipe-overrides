@@ -24,6 +24,10 @@
 			<string>Box Edit is an add-on feature that allows you to edit or create files directly on Box. Designed for all file types, browsers, and platforms, Box Edit uses the default application installed on your computer to edit or create simple and centralized content: DOC files open in Microsoft Word, PPT files open in Microsoft PowerPoint, images open in Photoshop (if installed), CAD files open in AutoCAD, and so forth.</string>
 			<key>display_name</key>
 			<string>Box Edit</string>
+			<key>category</key>
+			<string>Social</string>
+			<key>developer</key>
+			<string>Box</string>
 			<key>minimum_os_version</key>
 			<string>10.7</string>
 			<key>name</key>
