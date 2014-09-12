@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.BoxEdit</string>
+	<key>Input</key>
+	<dict>
+		<key>DOWNLOAD_URL</key>
+		<string>https://app.box.com/static/BoxEdit/BoxEditInstaller.dmg</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>Social</string>
+		<key>NAME</key>
+		<string>Box Edit</string>
+		<key>USER_AGENT</key>
+		<string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/536.28.10 (KHTML, like Gecko) Version/6.0.3 Safari/536.28.10</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>Box Edit is an add-on feature that allows you to edit or create files directly on Box. Designed for all file types, browsers, and platforms, Box Edit uses the default application installed on your computer to edit or create simple and centralized content: DOC files open in Microsoft Word, PPT files open in Microsoft PowerPoint, images open in Photoshop (if installed), CAD files open in AutoCAD, and so forth.</string>
+			<key>display_name</key>
+			<string>Box Edit</string>
+			<key>minimum_os_version</key>
+			<string>10.7</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+			<key>unattended_uninstall</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.groob.munki.boxedit</string>
+</dict>
+</plist>

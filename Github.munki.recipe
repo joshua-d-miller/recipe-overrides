@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.Github</string>
+	<key>Input</key>
+	<dict>
+		<key>DOWNLOAD_URL</key>
+		<string>https://central.github.com/mac/latest</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>Admin</string>
+		<key>NAME</key>
+		<string>GitHub</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>production</string>
+			</array>
+			<key>description</key>
+			<string>Sharing code should be as simple as possible.  That is why GitHub for Mac was created.
+
+			Synchronize branches
+			The sync button pushes your changes to GitHub and pulls down other’s changes in one operation, letting you quickly share local changes.
+
+			Clone repositories in one click
+			Quickly clone repositories from your account or any organization you belong to. Want to pull down a repository from GitHub.com? Look for the Clone in Desktop button.
+
+			Powerfully simple branching
+			Branching is one of Git’s best features. We’ve made it easy to try out remote branches, create new local branches and publish branches to share with others.</string>
+			<key>display_name</key>
+			<string>GitHub</string>
+			<key>category</key>
+			<string>Administrative Tools</string>
+			<key>developer</key>
+			<string>GitHub Inc.</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.keeleysam.recipes.GitHub.munki</string>
+</dict>
+</plist>
