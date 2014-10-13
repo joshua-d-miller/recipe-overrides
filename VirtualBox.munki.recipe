@@ -56,7 +56,7 @@ test -e /Users/Shared/VirtualBox/VirtualBox.xml || /bin/echo '&lt;?xml version="
       &lt;ExtraDataItem name="GUI/LastWindowPosition" value="895,325,770,550"/&gt;
       &lt;ExtraDataItem name="GUI/SplitterSizes" value="153,610"/&gt;
       &lt;ExtraDataItem name="GUI/UpdateCheckCount" value="2"/&gt;
-      &lt;ExtraDataItem name="GUI/UpdateDate" value="1 d, 2013-10-22, stable, 4.2.18"/&gt;
+      &lt;ExtraDataItem name="GUI/UpdateDate" value="never"/&gt;
     &lt;/ExtraData&gt;
     &lt;MachineRegistry/&gt;
     &lt;MediaRegistry&gt;
@@ -76,41 +76,6 @@ test -e /Users/Shared/VirtualBox/VirtualBox.xml || /bin/echo '&lt;?xml version="
 test -e /etc/launchd.conf || touch /etc/launchd.conf
 grep -qi /etc/launchd.conf "setenv VBOX_USER_HOME /Users/Shared/VirtualBox" || /bin/echo 'setenv VBOX_USER_HOME /Users/Shared/VirtualBox' &gt;&gt; /etc/launchd.conf
 	</string>
-		<key>receipts</key>
-		<array>
-			<dict>
-				<key>installed_size</key>
-				<integer>900</integer>
-				<key>packageid</key>
-				<string>org.virtualbox.pkg.vboxkexts</string>
-				<key>version</key>
-				<string>4.2.18</string>
-			</dict>
-			<dict>
-				<key>installed_size</key>
-				<integer>12</integer>
-				<key>packageid</key>
-				<string>org.virtualbox.pkg.vboxstartupitems</string>
-				<key>version</key>
-				<string>4.2.18</string>
-			</dict>
-			<dict>
-				<key>installed_size</key>
-				<integer>221747</integer>
-				<key>packageid</key>
-				<string>org.virtualbox.pkg.virtualbox</string>
-				<key>version</key>
-				<string>4.2.18</string>
-			</dict>
-			<dict>
-				<key>installed_size</key>
-				<integer>4</integer>
-				<key>packageid</key>
-				<string>org.virtualbox.pkg.virtualboxcli</string>
-				<key>version</key>
-				<string>4.2.18</string>
-			</dict>
-		</array>
 		<key>uninstall_method</key>
 		<string>uninstall_script</string>
 		<key>uninstall_script</key>
@@ -126,7 +91,7 @@ grep -qi /etc/launchd.conf "setenv VBOX_USER_HOME /Users/Shared/VirtualBox" || /
     	pkgutil --forget org.virtualbox.pkg.virtualboxcli
     	</string>
 		<key>uninstallable</key>
-		<true/>
+		<false/>
 		<key>unattended_install</key>
 		<true/>
 		</dict>
