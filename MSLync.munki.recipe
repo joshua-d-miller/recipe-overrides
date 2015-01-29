@@ -39,6 +39,6 @@
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.arubdesu.munki.LinkInstaller</string>
+	<string>com.github.arubdesu.munki.LyncInstaller</string>
 </dict>
 </plist>
