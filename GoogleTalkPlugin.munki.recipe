@@ -49,17 +49,6 @@
 			<string>%NAME%</string>
 			<key>unattended_install</key>
 			<true/>
-	<key>receipts</key>
-	<array>
-		<dict>
-			<key>installed_size</key>
-			<integer>35475</integer>
-			<key>packageid</key>
-			<string>com.google.pkg.GoogleVoiceAndVideo</string>
-			<key>version</key>
-			<string>4.9.1.16010</string>
-		</dict>
-	</array>
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
