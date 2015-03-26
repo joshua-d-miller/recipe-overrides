@@ -12,12 +12,6 @@
 		<string>Media</string>
 		<key>NAME</key>
 		<string>SketchUp Pro</string>
-		<key>RELEASE_YEAR</key>
-		<string>2015</string>
-		<key>SUP_DOWNLOAD_PAGE_URL</key>
-		<string>http://www.sketchup.com/download/all</string>
-		<key>SU_FOLDER</key>
-		<string>SketchUp %RELEASE_YEAR%</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>blocking_applications</key>
