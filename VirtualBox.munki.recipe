@@ -46,7 +46,7 @@
 	&lt;key&gt;RunAtLoad&lt;/key&gt;
 	&lt;true/&gt;
 	&lt;key&gt;Label&lt;/key&gt;
-	&lt;string&gt;edu.psu.educ.virtualboxhome&gt;/string&gt;
+	&lt;string&gt;edu.psu.educ.virtualboxhome&lt;/string&gt;
 	&lt;key&gt;ProgramArguments&lt;/key&gt;
 	&lt;array&gt;
 		&lt;string&gt;/bin/launchctl&lt;/string&gt;
@@ -58,7 +58,7 @@
 &lt;/plist&gt;' &gt; /Library/LaunchAgents/edu.psu.educ.virtualboxhome.plist
 
 /bin/test -e /etc/launchd.conf &amp;&amp; /bin/rm -f /etc/launchd.conf
-			</string>
+		</string>
 			<key>preinstall_script</key>
 			<string>#!/bin/bash
 /bin/test -d /Users/Shared/VirtualBox || mkdir /Users/Shared/VirtualBox/
