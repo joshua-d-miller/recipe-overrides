@@ -11,7 +11,7 @@
 		<key>MAJOR_VERSION</key>
 		<string>AcrobatDC</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>/Adobe/Acrobat</string>
+		<string>Adobe/Acrobat</string>
 		<key>NAME</key>
 		<string>Adobe Reader DC</string>
 		<key>OS_VERSION</key>
