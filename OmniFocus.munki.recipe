@@ -7,7 +7,7 @@
 	<key>Input</key>
 	<dict>
 		<key>APPCAST_URL</key>
-		<string>http://update.omnigroup.com/appcast/com.omnigroup.OmniFocus</string>
+		<string>http://update.omnigroup.com/appcast/com.omnigroup.OmniFocus2</string>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>Productivity</string>
 		<key>NAME</key>
