@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.OmniFocus</string>
+	<key>Input</key>
+	<dict>
+		<key>APPCAST_URL</key>
+		<string>http://update.omnigroup.com/appcast/com.omnigroup.OmniFocus</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>Productivity</string>
+		<key>NAME</key>
+		<string>OmniFocus</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>OmniFocus is designed to quickly capture your thoughts and allow you to store, manage, and process them into actionable to-do items. Perfect for the Getting Things Done® system, but flexible enough for any task management style, OmniFocus helps you work smarter by giving you powerful tools for staying on top of all the things you need to do.</string>
+			<key>display_name</key>
+			<string>OmniFocus</string>
+			<key>developer</key>
+			<string>The Omni Group</string>
+			<key>category</key>
+			<string>Productivity</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.munki.omnifocus</string>
+</dict>
+</plist>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.OmniOutliner</string>
+	<key>Input</key>
+	<dict>
+		<key>APPCAST_URL</key>
+		<string>http://update.omnigroup.com/appcast/com.omnigroup.OmniOutliner3</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>Productivity</string>
+		<key>NAME</key>
+		<string>OmniOutliner</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>Welcome to OmniOutliner 3, an amazingly flexible program for creating, collecting, and organizing information. Use OmniOutliner's document structure to brainstorm new ideas, drill out specifics, and line up the steps needed to get everything done. It's more than just an outlining tool—you've got multiple columns, smart checkboxes, customizable popup lists, and an über-innovative styles system at your disposal. Use OmniOutliner to draft to-do lists, create agendas, manage tasks, track expenses, take notes, plan events, write screenplays . . . and just about anything else you can think of. </string>
+			<key>developer</key>
+			<string>The Omni Group</string>
+			<key>category</key>
+			<string>Productivity</string>
+			<key>display_name</key>
+			<string>OmniOutliner</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.munki.omnioutliner</string>
+</dict>
+</plist>
