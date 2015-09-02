@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.Thunderbird</string>
+	<key>Input</key>
+	<dict>
+		<key>LOCALE</key>
+		<string>en_US</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>Productivity</string>
+		<key>NAME</key>
+		<string>Mozilla Thunderbird</string>
+		<key>RELEASE</key>
+		<string>latest</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>Mozilla Thunderbird is a free and open source mail client.</string>
+			<key>category</key>
+			<string>Productivity</string>
+			<key>developer</key>
+			<string>Mozilla Corporation</string>
+			<key>display_name</key>
+			<string>Mozilla Thunderbird</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.munki.thunderbird</string>
+</dict>
+</plist>
