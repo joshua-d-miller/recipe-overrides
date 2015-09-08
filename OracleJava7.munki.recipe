@@ -28,10 +28,6 @@
 			<string>10.7.3</string>
 			<key>name</key>
 			<string>%NAME%</string>
-			<key>requires</key>
-			<array>
-				<string>Apple JavaForOSX</string>
-			</array>
 			<key>postinstall_script</key>
 			<string>#!/bin/sh
 # This command will check to see if the Java Deployment directory
