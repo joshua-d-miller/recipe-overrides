@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.munki.CanonLaserPrinterDrivers</string>
+	<string>local.munki.AppleBrotherPrinterDrivers</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>Printers</string>
 		<key>NAME</key>
-		<string>Printer Software Canon</string>
+		<string>Printer Software Brother</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -21,14 +21,14 @@
 			<key>developer</key>
 			<string>Apple Inc.</string>
 			<key>description</key>
-			<string>Provides the latest Canon printing and scanning software for OS X.</string>
+			<string>Provides the latest Brother printing and scanning software for OS X.</string>
 			<key>display_name</key>
-			<string>Printer Software Canon</string>
+			<string>Printer Software Brother</string>
 			<key>name</key>
 			<string>%NAME%</string>
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.n8felton.munki.CanonLaserPrinterDrivers</string>
+	<string>com.github.n8felton.munki.AppleBrotherPrinterDrivers</string>
 </dict>
 </plist>

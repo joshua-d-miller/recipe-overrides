@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.munki.HPPrinterDrivers</string>
+	<string>local.munki.AppleHPPrinterDrivers</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
@@ -29,6 +29,6 @@
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.n8felton.munki.HPPrinterDrivers</string>
+	<string>com.github.n8felton.munki.AppleHPPrinterDrivers</string>
 </dict>
 </plist>
