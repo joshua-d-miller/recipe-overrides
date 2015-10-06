@@ -7,7 +7,7 @@
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>utility/Oracle</string>
+		<string>Java</string>
 		<key>NAME</key>
 		<string>Oracle Java JDK</string>
 		<key>ORACLE_LICENSE_COOKIE</key>
