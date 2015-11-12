@@ -33,11 +33,11 @@
 			<key>postinstall_script</key>
 			<string>#!/bin/sh
 echo 'pref("general.config.obscure_value", 0);
-pref("general.config.filename", "firefox_munki.cfg");' > /Applications/Firefox.app/Contents/MacOS/defaults/pref/local-settings.js
+pref("general.config.filename", "firefox_munki.cfg");' > /Applications/Firefox.app/Contents/Resources/defaults/pref/local-settings.js
 
 echo 'lockPref("app.update.auto", false);
 lockPref("app.update.enabled", false);
-lockPref("app.update.autoUpdateEnabled", false);' > /Applications/Firefox.app/Contents/MacOS/firefox_munki.cfg
+lockPref("app.update.autoUpdateEnabled", false);' > /Applications/Firefox.app/Contents/Resources/firefox_munki.cfg
 			</string>
 			<key>unattended_install</key>
 			<true/>
