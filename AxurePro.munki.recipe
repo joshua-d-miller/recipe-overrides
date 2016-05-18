@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.munki.AxurePro</string>
+	<string>local.munki.AxureRP</string>
 	<key>Input</key>
 	<dict>
 		<key>DOWNLOAD_URL</key>
@@ -33,6 +33,6 @@
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.thenikola.munki.AxurePro</string>
+	<string>com.github.thenikola.munki.AxureRP</string>
 </dict>
 </plist>
