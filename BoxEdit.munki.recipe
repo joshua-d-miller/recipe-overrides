@@ -9,7 +9,7 @@
 		<key>DOWNLOAD_URL</key>
 		<string>https://e3.boxcdn.net/box-installers/boxedit/mac/currentrelease/BoxEditInstaller.dmg</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>Social/Box/Edit/</string>
+		<string>Social/Box/Edit</string>
 		<key>NAME</key>
 		<string>Box Edit</string>
 		<key>USER_AGENT</key>

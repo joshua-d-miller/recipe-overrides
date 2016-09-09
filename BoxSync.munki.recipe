@@ -7,7 +7,7 @@
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>Social/Box/Sync/</string>
+		<string>Social/Box/Sync</string>
 		<key>NAME</key>
 		<string>Box Sync</string>
 		<key>URL</key>
