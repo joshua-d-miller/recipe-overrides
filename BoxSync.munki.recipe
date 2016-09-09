@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.BoxSync</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>Social/Box/Sync/</string>
+		<key>NAME</key>
+		<string>Box Sync</string>
+		<key>URL</key>
+		<string>http://sites.box.com/sync4</string>
+		<key>USER_AGENT</key>
+		<string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>Social</string>
+			<key>description</key>
+			<string>Box – the single, secure solution for content access, sharing and collaboration – lets you replace a myriad of file transfer systems and unsecured, consumer-focused tools like YouSendIt and Dropbox. Bottom line: You reduce content silos, lower costs and give users the simplicity and functionality they want with the security IT requires.</string>
+			<key>developer</key>
+			<string>Box</string>
+			<key>display_name</key>
+			<string>Box Sync</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>postinstall_script</key>
+			<string>#!bin/bash
+# Install the helper tool so there is no prompt for Admin Credentials
+# Matt Hansen 03-05-2014
+/bin/cp -f "/Applications/Box Sync.app/Contents/Resources/com.box.sync.bootstrapper" /Library/PrivilegedHelperTools/com.box.sync.bootstrapper
+/bin/cp -f "/Applications/Box Sync.app/Contents/Resources/com.box.sync.iconhelper" /Library/PrivilegedHelperTools/com.box.sync.iconhelper
+
+/usr/sbin/chown root:wheel /Library/PrivilegedHelperTools/com.box.sync.bootstrapper /Library/PrivilegedHelperTools/com.box.sync.iconhelper
+/bin/chmod 4755 /Library/PrivilegedHelperTools/com.box.sync.bootstrapper /Library/PrivilegedHelperTools/com.box.sync.iconhelper
+            </string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.joshua-d-miller.autopkg.munki.boxsync</string>
+</dict>
+</plist>
