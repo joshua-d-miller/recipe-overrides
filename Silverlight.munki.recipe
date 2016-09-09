@@ -9,7 +9,7 @@
 		<key>DOWNLOAD_URL</key>
 		<string>http://www.microsoft.com/getsilverlight/handlers/getsilverlight.ashx</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>Utilities</string>
+		<string>Web Plug-ins/Microsoft Silverlight</string>
 		<key>NAME</key>
 		<string>Microsoft Silverlight</string>
 		<key>USER_AGENT</key>
