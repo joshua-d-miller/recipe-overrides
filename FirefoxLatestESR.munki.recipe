@@ -9,7 +9,7 @@
 		<key>LOCALE</key>
 		<string>en_US</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>Web</string>
+		<string>Image/Mozilla Firefox</string>
 		<key>NAME</key>
 		<string>Mozilla Firefox</string>
 		<key>RELEASE</key>
