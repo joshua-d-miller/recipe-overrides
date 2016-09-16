@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.munki.iTerm2</string>
+	<string>local.munki.NVivo11</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>Admin</string>
+		<string>Mathematics</string>
 		<key>NAME</key>
-		<string>iTerm2</string>
+		<string>NVivo</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -17,13 +17,13 @@
 				<string>testing</string>
 			</array>
 			<key>category</key>
-			<string>Administrative Tools</string>
-			<key>developer</key>
-			<string>iTerm Development Team</string>
+			<string>Mathematics</string>
 			<key>description</key>
-			<string>Powerful alternative to Terminal.app.</string>
+			<string>NVivo 11 for Mac is your platform for analyzing all forms of unstructured data.  Quickly interrogate data using powerful search, query and visualization tools.  Get the big picture or get into the detail.  Uncover subtle connections, rigorously justify findings, and effortlessly share your work.</string>
+			<key>developer</key>
+			<string>QSR International</string>
 			<key>display_name</key>
-			<string>iTerm2</string>
+			<string>%NAME%</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
@@ -31,6 +31,6 @@
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.keeleysam.autopkg.munki.iTerm2</string>
+	<string>com.github.joshua-d-miller.autopkg.munki.nvivo11</string>
 </dict>
 </plist>

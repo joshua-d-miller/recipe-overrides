@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.munki.iTerm2</string>
+	<string>local.munki.Viber</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>Admin</string>
+		<string>Social</string>
 		<key>NAME</key>
-		<string>iTerm2</string>
+		<string>Viber</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -17,13 +17,13 @@
 				<string>testing</string>
 			</array>
 			<key>category</key>
-			<string>Administrative Tools</string>
-			<key>developer</key>
-			<string>iTerm Development Team</string>
+			<string>Social</string>
 			<key>description</key>
-			<string>Powerful alternative to Terminal.app.</string>
+			<string>Viber for Mac lets you send free messages and make free calls to other Viber users, on any device and network, in any country!</string>
+			<key>developer</key>
+			<string>Viber Media</string>
 			<key>display_name</key>
-			<string>iTerm2</string>
+			<string>%NAME%</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
@@ -31,6 +31,6 @@
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.keeleysam.autopkg.munki.iTerm2</string>
+	<string>com.github.joshua-d-miller.autopkg.munki.viber</string>
 </dict>
 </plist>

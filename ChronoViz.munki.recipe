@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.munki.iTerm2</string>
+	<string>local.munki.ChronoViz</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>Admin</string>
+		<string>Media</string>
 		<key>NAME</key>
-		<string>iTerm2</string>
+		<string>ChronoViz</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -17,13 +17,13 @@
 				<string>testing</string>
 			</array>
 			<key>category</key>
-			<string>Administrative Tools</string>
-			<key>developer</key>
-			<string>iTerm Development Team</string>
+			<string>Media</string>
 			<key>description</key>
-			<string>Powerful alternative to Terminal.app.</string>
+			<string>ChronoViz is a tool to aid visualization and analysis of multimodal sets of time-coded information, with a focus on the analysis of video in combination with other data sources.</string>
+			<key>developer</key>
+			<string>University of California, San Diego</string>
 			<key>display_name</key>
-			<string>iTerm2</string>
+			<string>%NAME%</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
@@ -31,6 +31,6 @@
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.keeleysam.autopkg.munki.iTerm2</string>
+	<string>com.github.joshua-d-miller.autopkg.munki.ChronoViz</string>
 </dict>
 </plist>

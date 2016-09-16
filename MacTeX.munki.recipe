@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.MacTeX</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>Mathematics</string>
+		<key>NAME</key>
+		<string>MacTeX</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>Mathematics</string>
+			<key>description</key>
+			<string>MacTeX is a product produced by the MacTeX TeXnical working group of the TeX Users Group (TUG). It is the Macintosh component of the TeX Collection DVD, the reference edition of TeX distributed by TeX User Groups across the world. The reference edition runs on Mac OS X, Windows, GNU/Linux, various BSD Unix systems, and most other computer architectures.
+            </string>
+			<key>developer</key>
+			<string>TeX Users Group</string>
+			<key>display_name</key>
+			<string>%NAME%</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>postuninstall_script</key>
+			<string>#!/bin/bash
+            /bin/rm -rf /Applications/TeX
+            </string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.joshua-d-miller.autopkg.munki.MacTeX</string>
+</dict>
+</plist>

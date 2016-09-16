@@ -10,8 +10,6 @@
 		<string>Admin</string>
 		<key>NAME</key>
 		<string>CoRD</string>
-		<key>SPARKLE_FEED_URL</key>
-		<string>http://cord.sourceforge.net/sparkle.xml</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>

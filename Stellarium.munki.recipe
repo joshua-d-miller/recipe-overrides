@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.Stellarium</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>Science</string>
+		<key>NAME</key>
+		<string>Stellarium</string>
+		<key>SEARCH_PATTERN</key>
+		<string>(?P&lt;url&gt;https://sourceforge\.net/projects/stellarium/files/Stellarium-MacOSX/[0-9.]+/Stellarium-(?P&lt;version&gt;[0-9.]+)\.dmg)</string>
+		<key>SEARCH_URL</key>
+		<string>https://sourceforge.net/projects/stellarium/rss?path=/Stellarium-MacOSX</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>Science</string>
+			<key>description</key>
+			<string>Stellarium is a free open source planetarium for your computer. It shows a realistic sky in 3D, just like what you see with the naked eye, binoculars or a telescope.</string>
+			<key>developer</key>
+			<string>Stellarium Development Team</string>
+			<key>display_name</key>
+			<string>%NAME%</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.joshua-d-miller.autopkg.munki.Stellarium</string>
+</dict>
+</plist>

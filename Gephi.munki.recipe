@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.munki.iTerm2</string>
+	<string>local.munki.Gephi</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>Admin</string>
+		<string>Productivity</string>
 		<key>NAME</key>
-		<string>iTerm2</string>
+		<string>Gephi</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -17,13 +17,13 @@
 				<string>testing</string>
 			</array>
 			<key>category</key>
-			<string>Administrative Tools</string>
-			<key>developer</key>
-			<string>iTerm Development Team</string>
+			<string>Productivity</string>
 			<key>description</key>
-			<string>Powerful alternative to Terminal.app.</string>
+			<string>Gephi is an interactive visualization and exploration platform for all kinds of networks and complex systems, dynamic and hierarchical graphs.</string>
+			<key>developer</key>
+			<string>Gephi.org</string>
 			<key>display_name</key>
-			<string>iTerm2</string>
+			<string>%NAME%</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
@@ -31,6 +31,6 @@
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.keeleysam.autopkg.munki.iTerm2</string>
+	<string>com.github.joshua-d-miller.autopkg.munki.gephi</string>
 </dict>
 </plist>

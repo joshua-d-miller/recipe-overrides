@@ -35,9 +35,9 @@
 		<key>MUNKI_CATALOG</key>
 		<string>development</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>munkitools</string>
+		<string>Image/Munki</string>
 		<key>NAME</key>
-		<string>munkitools</string>
+		<string>Munki Tools</string>
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.autopkg.munki.munkitools</string>

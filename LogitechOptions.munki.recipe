@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.LogitechOptions</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>Setup</string>
+		<key>NAME</key>
+		<string>Logitech Options</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>RestartAction</key>
+			<string>RequireRestart</string>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>Peripherals</string>
+			<key>description</key>
+			<string>Logitech Options lets you customize gesture controls for Logitech touch products. It also adds enhanced key functions for Logitech keyboards, and notification for device-specific status features such as battery level, key backlighting level, and Caps Lock.</string>
+			<key>developer</key>
+			<string>Logitech International S.A.</string>
+			<key>display_name</key>
+			<string>%NAME%</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.joshua-d-miller.autopkg.munki.logitechoptions</string>
+</dict>
+</plist>

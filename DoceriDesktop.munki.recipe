@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.DoceriDesktop</string>
+	<key>Input</key>
+	<dict>
+		<key>DOWNLOAD_URL</key>
+		<string>https://doceri.com</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>Productivity</string>
+		<key>NAME</key>
+		<string>Doceri Desktop</string>
+		<key>SEARCH_PATTERN</key>
+		<string>(?P&lt;zip&gt;/DoceriDesktop/v.*?/Doceri_Desktop_.*?.zip)</string>
+		<key>SEARCH_URL</key>
+		<string>http://doceri.com/download_form.php</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>Productivity</string>
+			<key>description</key>
+			<string>Set your presentation free!  When connected via WIFI or an ad hoc wireless connection to your Windows PC or Mac, you can control your desktop using Doceri on a tablet device and Doceri Desktop for your computer. Launch, open, edit, save – you now have full control of your computer just like sitting behind the keyboard.</string>
+			<key>developer</key>
+			<string>SP Controls, Inc.</string>
+			<key>display_name</key>
+			<string>Doceri Desktop</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.joshua-d-miller.autopkg.munki.DoceriDesktop</string>
+</dict>
+</plist>

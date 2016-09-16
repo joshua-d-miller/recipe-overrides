@@ -3,13 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.munki.iTerm2</string>
+	<string>local.munki.BookryUploader</string>
 	<key>Input</key>
 	<dict>
+		<key>DOWNLOAD_URL</key>
+		<string>https://bookry.com/static/downloads/BookryUploader.dmg</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>Admin</string>
+		<string>Media</string>
 		<key>NAME</key>
-		<string>iTerm2</string>
+		<string>Bookry Uploader</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -17,13 +19,13 @@
 				<string>testing</string>
 			</array>
 			<key>category</key>
-			<string>Administrative Tools</string>
-			<key>developer</key>
-			<string>iTerm Development Team</string>
+			<string>Media</string>
 			<key>description</key>
-			<string>Powerful alternative to Terminal.app.</string>
+			<string>You will need this free Mac OS x App to upload your iBooks Author projects to Bookry. Click on the icon below to get the App.</string>
+			<key>developer</key>
+			<string>Bookry Ltd.</string>
 			<key>display_name</key>
-			<string>iTerm2</string>
+			<string>Bookry Uploader</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
@@ -31,6 +33,6 @@
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.keeleysam.autopkg.munki.iTerm2</string>
+	<string>com.github.joshua-d-miller.autopkg.munki.bookryuploader</string>
 </dict>
 </plist>
