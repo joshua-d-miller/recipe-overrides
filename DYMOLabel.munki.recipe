@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.DYMOLabel</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>Printers/Drivers/DYMO</string>
+		<key>NAME</key>
+		<string>DYMO Label</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>Printer and Scanner Software</string>
+			<key>description</key>
+			<string>Print one label or hundreds, with ease... With DYMO Label v.8 software and your DYMO LabelWriter printer, you'll design and print impressive labels that look exactly the way you want them to look - without the waste and hassle of sheet labels.</string>
+			<key>developer</key>
+			<string>DYMO</string>
+			<key>display_name</key>
+			<string>DYMO Label v.8</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.joshua-d-miller.autopkg.munki.dymolabel</string>
+</dict>
+</plist>
