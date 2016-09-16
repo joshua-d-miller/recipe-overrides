@@ -9,7 +9,7 @@
 		<key>LOCALE_ID</key>
 		<string>1033</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>Productivity</string>
+		<string>Image/Microsoft Office 2016/Updates</string>
 		<key>NAME</key>
 		<string>Microsoft Office 2016 Excel Update</string>
 		<key>VERSION</key>
