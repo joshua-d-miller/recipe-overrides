@@ -10,12 +10,6 @@
 		<string>Java</string>
 		<key>NAME</key>
 		<string>Oracle Java JDK</string>
-		<key>ORACLE_LICENSE_COOKIE</key>
-		<string>oraclelicense=accept-securebackup-cookie</string>
-		<key>SEARCH_PATTERN</key>
-		<string>(?P&lt;url&gt;http://download.oracle.com/otn-pub/java/jdk/.*?/jdk-8u[0-9]?[0-9]?-macosx-x64.dmg)</string>
-		<key>SEARCH_URL</key>
-		<string>http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
