@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.Slack</string>
+	<key>Input</key>
+	<dict>
+		<key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
+		<false/>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>Social/Slack</string>
+		<key>NAME</key>
+		<string>Slack</string>
+		<key>SPARKLE_FEED_URL</key>
+		<string>https://rink.hockeyapp.net/api/2/apps/38e415752d573e7e78e06be8daf5acc1</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>Social</string>
+			<key>description</key>
+			<string>Slack is a platform for team communication: everything in one place, instantly searchable, available wherever you go.</string>
+			<key>developer</key>
+			<string>Slack</string>
+			<key>display_name</key>
+			<string>Slack</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.killahquam.munki.slack</string>
+</dict>
+</plist>
