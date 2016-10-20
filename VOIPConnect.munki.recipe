@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.VOIPConnect</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>Social</string>
+		<key>NAME</key>
+		<string>VOIP Connect</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>Social</string>
+			<key>description</key>
+			<string>Download the free universal Dellmont VoipConnect desktop client here! Simply choose your operating system and install the file directly on your computer. VoipConnect offers a free softphone client for both Windows as well as Mac computers.
+
+            After you've installed the client, please use your Voip credentials to log in. Saving on your calling charges was never this easy!</string>
+			<key>developer</key>
+			<string>VoipConnect</string>
+			<key>display_name</key>
+			<string>%NAME%</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.joshua-d-miller.autopkg.munki.voipconnect</string>
+</dict>
+</plist>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.RStudio</string>
+	<key>Input</key>
+	<dict>
+		<key>DOWNLOAD_MIRROR</key>
+		<string>http://download1.rstudio.org</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>Mathematics</string>
+		<key>NAME</key>
+		<string>RStudio</string>
+		<key>SEARCH_PATTERN</key>
+		<string>(?P&lt;dmg&gt;RStudio-(?P&lt;version&gt;[0-9.]+)\.dmg)</string>
+		<key>SEARCH_URL</key>
+		<string>https://www.rstudio.com/products/rstudio/download/</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>Mathematics</string>
+			<key>description</key>
+			<string>RStudio is the premier integrated development environment for R. It is available in open source and commercial editions and runs on the desktop (Windows, Mac, and Linux) or over the web with RStudio Server.</string>
+			<key>developer</key>
+			<string>RStudio</string>
+			<key>display_name</key>
+			<string>RStudio</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>requires</key>
+			<array>
+				<string>R</string>
+			</array>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.joshua-d-miller.autopkg.munki.RStudio</string>
+</dict>
+</plist>
