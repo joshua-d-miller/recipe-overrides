@@ -6,8 +6,6 @@
 	<string>local.munki.AxureRP</string>
 	<key>Input</key>
 	<dict>
-		<key>DOWNLOAD_URL</key>
-		<string>http://axure.cachefly.net/AxureRP-Pro-Setup.dmg</string>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>Media</string>
 		<key>NAME</key>
