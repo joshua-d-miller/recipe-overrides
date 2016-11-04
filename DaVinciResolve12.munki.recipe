@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.DaVinciResolve12</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>Media/%NAME%</string>
+		<key>NAME</key>
+		<string>DaVinciResolve12</string>
+		<key>PRODUCT_NAME_PATTERN</key>
+		<string>^DaVinci Resolve (?P&lt;version&gt;12(\.\d+)*)( Update)*$</string>
+		<key>REG_CITY</key>
+		<string>University Park</string>
+		<key>REG_EMAIL</key>
+		<string>noreply@psu.edu</string>
+		<key>REG_FIRSTNAME</key>
+		<string>Carrara Education</string>
+		<key>REG_LASTNAME</key>
+		<string>Technology Center</string>
+		<key>REG_PHONE</key>
+		<string>814-865-0626</string>
+		<key>REG_STATE</key>
+		<string>Pennsylvania</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>DaVinci Resolve 12 combines professional non-linear video editing with the world’s most advanced color corrector so now you can edit, color correct, finish and deliver all from one system! DaVinci Resolve is completely scalable and resolution independent so it can be used on set, in a small studio or integrated into the largest Hollywood production pipeline! From creative editing and multi camera television production to high end finishing and color correction, only DaVinci Resolve features the creative tools, compatibility, speed and legendary image quality you need to manage your entire workflow, which is why it is the number one solution used on Hollywood feature films.</string>
+			<key>display_name</key>
+			<string>DaVinci Resolve 12</string>
+			<key>minimum_os_version</key>
+			<string>10.10.2</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>uninstall_method</key>
+			<string>uninstall_script</string>
+			<key>uninstall_script</key>
+			<string>#!/bin/sh
+            # Run the uninstaller script provided with the app.
+            # Alternatively, replace this with your own version of their uninstaller.
+            # For example, their uninstaller intentionally leaves the following on the
+            # system, which you may disagree with:
+            # - /Library/Application Support/Blackmagic Design/DaVinci Resolve
+            # - /Library/Preferences/Blackmagic Design/DaVinci Resolve
+            #
+            # Their uninstaller is also executable and world-writable.
+
+            UNINSTALL_SCRIPT="/Applications/DaVinci Resolve/Uninstall Resolve.app/Contents/Resources/uninstall.sh"
+
+            [ -x "${UNINSTALL_SCRIPT}" ] || exit 1
+            "${UNINSTALL_SCRIPT}"
+            </string>
+			<key>uninstallable</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.timsutton.munki.davinciresolve12</string>
+</dict>
+</plist>
