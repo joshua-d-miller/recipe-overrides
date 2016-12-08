@@ -18,10 +18,10 @@
 			</array>
 			<key>category</key>
 			<string>Web Plugins</string>
-			<key>developer</key>
-			<string>Unity Technologies</string>
 			<key>description</key>
 			<string>The Unity Web Player enables you to view blazing 3D content created with Unity directly in your browser, and autoupdates as necessary.</string>
+			<key>developer</key>
+			<string>Unity Technologies</string>
 			<key>display_name</key>
 			<string>Unity Web Player</string>
 			<key>minimum_os_version</key>
@@ -34,5 +34,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.nmcspadden.munki.UnityWebPlayer</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.nmcspadden.download.UnityWebPlayer</key>
+			<dict>
+				<key>git_hash</key>
+				<string>0d7a60b70645718e4575674049ede9caa5a547b2</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.nmcspadden-recipes/UnityWebPlayer/unitywebplayer.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>ef3192549fad0998fb87846455f28e418c30777578d3d77b1bd0eb5e121f9483</string>
+			</dict>
+			<key>com.github.nmcspadden.munki.UnityWebPlayer</key>
+			<dict>
+				<key>git_hash</key>
+				<string>4e967e53169ad298fbee29c505065b2df9810187</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.nmcspadden-recipes/UnityWebPlayer/unitywebplayer.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>3d96a506855f1340da6a6dd6579e99d776ae541e3ca7a56ff1b1046b96f7d81b</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

@@ -18,23 +18,23 @@
 			</array>
 			<key>category</key>
 			<string>Web Plugins</string>
-			<key>developer</key>
-			<string>Oracle Corporation</string>
 			<key>description</key>
 			<string>Java SE Runtime Environment 8 enables support for running Java-powered applets and applications.</string>
+			<key>developer</key>
+			<string>Oracle Corporation</string>
 			<key>display_name</key>
 			<string>Java 8 Update</string>
 			<key>minimum_os_version</key>
 			<string>10.7.3</string>
 			<key>name</key>
 			<string>%NAME%</string>
-			<key>unattended_install</key>
-			<true/>
 			<key>postinstall_script</key>
 			<string>#!/bin/sh
 			# Turns off auto Update for Java
 			defaults write /Library/Preferences/com.oracle.java.Java-Updater JavaAutoUpdateEnabled -bool false
 			</string>
+			<key>unattended_install</key>
+			<true/>
 			<key>uninstall_method</key>
 			<string>uninstall_script</string>
 			<key>uninstall_script</key>
@@ -49,5 +49,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.autopkg.munki.OracleJava8</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.OracleJava8</key>
+			<dict>
+				<key>git_hash</key>
+				<string>8e54b7fd5f5ed196709e787e104519b99a85624d</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/OracleJava/OracleJava8.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>415895415df9f10ef8d97334c24adbeefacf7cd249b98a1d0417b1087da6ab6b</string>
+			</dict>
+			<key>com.github.autopkg.munki.OracleJava8</key>
+			<dict>
+				<key>git_hash</key>
+				<string>8e54b7fd5f5ed196709e787e104519b99a85624d</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/OracleJava/OracleJava8.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>a2b50fca8fceeabf2bc3761e00a0994ac9aea6da963a511ca866d12200360f76</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

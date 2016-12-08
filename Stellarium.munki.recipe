@@ -36,5 +36,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.joshua-d-miller.autopkg.munki.Stellarium</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.hansen-m.download.Stellarium</key>
+			<dict>
+				<key>git_hash</key>
+				<string>44eecf1132a9c5729e924f833993ffaaf6f2fc16</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.hansen-m-recipes/Stellarium/Stellarium.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>e4bd1cbdba6b5121fdb2663af7c3918c4240a6a5d933ed471fe5ff24f4459212</string>
+			</dict>
+			<key>com.github.joshua-d-miller.autopkg.munki.Stellarium</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b7a30b4da851a63480f840d6423ea2d176fada33</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/Stellarium/Stellarium.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>64d6c52a5871872db93615ab4bbc5d4bb928e16203cab4ba88e2cda57f572011</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

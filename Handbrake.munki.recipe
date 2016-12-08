@@ -20,10 +20,10 @@
 			</array>
 			<key>category</key>
 			<string>Media</string>
-			<key>developer</key>
-			<string>The HandBrake Team</string>
 			<key>description</key>
 			<string>HandBrake is a tool for converting video from nearly any format to a selection of modern, widely supported codecs.</string>
+			<key>developer</key>
+			<string>The HandBrake Team</string>
 			<key>display_name</key>
 			<string>Handbrake</string>
 			<key>name</key>
@@ -34,5 +34,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.autopkg.munki.Handbrake</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.Handbrake</key>
+			<dict>
+				<key>git_hash</key>
+				<string>ac81e5e06db47f60ad8d294680ae669ebb7c61a7</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Handbrake/Handbrake.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>fb1c663a887520371cf1dbb618f41b3bee34a8f58a39983cea367071af14f446</string>
+			</dict>
+			<key>com.github.autopkg.munki.Handbrake</key>
+			<dict>
+				<key>git_hash</key>
+				<string>490e0b2db109294c1d3a4f260df9fb9814f59464</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Handbrake/Handbrake.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>8f73454852b63e613b982bccd17f781622df82f4611b023b1f2a39ab8e3d2a99</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

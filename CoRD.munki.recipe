@@ -18,10 +18,10 @@
 			</array>
 			<key>category</key>
 			<string>Administrative Tools</string>
-			<key>developer</key>
-			<string>Dorian Johnson</string>
 			<key>description</key>
 			<string>CoRD is a Mac OS X remote desktop client for Microsoft Windows computers using the RDP protocol.</string>
+			<key>developer</key>
+			<string>Dorian Johnson</string>
 			<key>display_name</key>
 			<string>CoRD</string>
 			<key>name</key>
@@ -32,5 +32,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.keeleysam.recipes.CoRD.munki</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.keeleysam.recipes.CoRD.download</key>
+			<dict>
+				<key>git_hash</key>
+				<string>bd68c2f451bb7d088705102a1a0fddc543c48f37</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.keeleysam-recipes/CoRD/CoRD.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>2c479800a3f1812a527325bd09ddbfa398db45249dcade4db3d02530a41a1f7c</string>
+			</dict>
+			<key>com.github.keeleysam.recipes.CoRD.munki</key>
+			<dict>
+				<key>git_hash</key>
+				<string>bd68c2f451bb7d088705102a1a0fddc543c48f37</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.keeleysam-recipes/CoRD/CoRD.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>211a79e50900bd08642740857e41594bb6d589ee9c4952630693e093e694fac6</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

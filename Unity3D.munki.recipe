@@ -32,5 +32,41 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.joshua-d-miller.autopkg.munki.Unity3D</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>Unity3DComponetsURLProvider</key>
+			<dict>
+				<key>git_hash</key>
+				<string>dd7f43dbb125bef2ec6d4941dbbbcd82df202b45</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.hansen-m-recipes/Unity3D/Unity3DComponetsURLProvider.py</string>
+				<key>sha256_hash</key>
+				<string>b7f1784d2eeec1d61c6616989a889a8e9797ce56020c5151e14f84ca884fa6c5</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.hansen-m.download.Unity3D</key>
+			<dict>
+				<key>git_hash</key>
+				<string>dd7f43dbb125bef2ec6d4941dbbbcd82df202b45</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.hansen-m-recipes/Unity3D/Unity3D.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>ef789a559e19a70a6967ed0d96e6d407f1b60ce54071a23b0f64f45343ff457b</string>
+			</dict>
+			<key>com.github.joshua-d-miller.autopkg.munki.Unity3D</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b7a30b4da851a63480f840d6423ea2d176fada33</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/Unity3D/Unity3D.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>d75558897567fa523d8496089909acf0f712d618b693580b2d4c94f55925fcea</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

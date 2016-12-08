@@ -42,5 +42,41 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.joshua-d-miller.autopkg.munki.AdobeAcrobatDCUpdate</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>AdobeAcrobatDcUpdateInfoProvider</key>
+			<dict>
+				<key>git_hash</key>
+				<string>6c880344b481f4dde8271ee99cc4ebebf4d9615e</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.novaksam-recipes/Recipes - Download/AdobeAcrobatDcUpdateInfoProvider.py</string>
+				<key>sha256_hash</key>
+				<string>5916e8671fdc087df9c100b3d80da369ad18af9a30f011fc77e4b952afb5d83a</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.joshua-d-miller.autopkg.munki.AdobeAcrobatDCUpdate</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b7a30b4da851a63480f840d6423ea2d176fada33</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/Adobe/AdobeAcrobatDCUpdate.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>569a322bddcc11d87c77e7bcb94e94fc1811a4a85534645add08b469ae7c38c0</string>
+			</dict>
+			<key>com.github.novaksam.download.AdobeAcrobatDCUpdate</key>
+			<dict>
+				<key>git_hash</key>
+				<string>eba3d0160acb4e5d6e2c4fc5c36d236fbc412e11</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.novaksam-recipes/Recipes - Download/AdobeAcrobatDCUpdates.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>1f1bb4a92c523059dd95f9dc27c3737445dd78fd6ca260b1c39d536361ce553c</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

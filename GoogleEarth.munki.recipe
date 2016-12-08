@@ -20,10 +20,10 @@
 			</array>
 			<key>category</key>
 			<string>Science</string>
-			<key>developer</key>
-			<string>Google Inc.</string>
 			<key>description</key>
 			<string>Take a virtual journey to any location in the world. Explore 3D buildings, imagery, and terrain. Find cities, places and local businesses.</string>
+			<key>developer</key>
+			<string>Google Inc.</string>
 			<key>display_name</key>
 			<string>Google Earth</string>
 			<key>name</key>
@@ -34,5 +34,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.autopkg.munki.google-earth</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.google-earth</key>
+			<dict>
+				<key>git_hash</key>
+				<string>1ee2b9bc67dd5baa1577ea807f9b7cb821a73011</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/GoogleEarth/GoogleEarth.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>9642060e1a7500097a249a1a811c367dc444dbe950103c6ec6eefaea0ee7e465</string>
+			</dict>
+			<key>com.github.autopkg.munki.google-earth</key>
+			<dict>
+				<key>git_hash</key>
+				<string>f9c7b9306cf758b49602e24224d13583df0179cd</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/GoogleEarth/GoogleEarth.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>cd18b07197b8a1cf4da312c4a88db517e3f809cf3ba25f1d42ee49aae616f301</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

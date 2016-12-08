@@ -34,5 +34,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.homebysix.munki.Scrivener</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.homebysix.download.Scrivener</key>
+			<dict>
+				<key>git_hash</key>
+				<string>8a011dfd74579a361268b4c6d5cd07e7e9166b9c</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/LiteratureAndLatte/Scrivener.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>5421dca220e3ccc7455875871917affc82dcbf0af9adbaa04c3ae47b9dd9e41b</string>
+			</dict>
+			<key>com.github.homebysix.munki.Scrivener</key>
+			<dict>
+				<key>git_hash</key>
+				<string>8a011dfd74579a361268b4c6d5cd07e7e9166b9c</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/LiteratureAndLatte/Scrivener.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>70d62815abefe28985565da6e3fccec7763802b8393fcaf470b6f5b9ea603408</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

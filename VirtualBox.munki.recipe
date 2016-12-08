@@ -22,19 +22,14 @@
 			</array>
 			<key>category</key>
 			<string>Administrative Tools</string>
-			<key>developer</key>
-			<string>Orcale Corporation</string>
 			<key>description</key>
 			<string>Oracle VirtualBox is a powerful x86 and AMD64/Intel64 virtualization product for enterprise as well as home use. Not only is VirtualBox an extremely feature rich, high performance product for enterprise customers, it is also the only professional solution that is freely available as Open Source Software under the terms of the GNU General Public License (GPL) version 2. See "About VirtualBox" for an introduction.</string>
+			<key>developer</key>
+			<string>Orcale Corporation</string>
 			<key>display_name</key>
 			<string>Oracle VM VirtualBox</string>
 			<key>name</key>
 			<string>%NAME%</string>
-			<key>supported_architectures</key>
-			<array>
-				<string>i386</string>
-				<string>x86_64</string>
-			</array>
 			<key>postinstall_script</key>
 			<string>#!/bin/sh
 /bin/chmod -R +a "everyone allow delete,chown,list,search,add_file,add_subdirectory,delete_child,file_inherit,directory_inherit" /Users/Shared/VirtualBox
@@ -94,21 +89,53 @@
   &lt;/Global&gt;
 &lt;/VirtualBox&gt;' &gt; /Users/Shared/VirtualBox/VirtualBox.xml
 	</string>
-		<key>uninstall_method</key>
-		<string>removepackages</string>
-		<key>uninstall_script</key>
-		<string>#!bin/sh
+			<key>supported_architectures</key>
+			<array>
+				<string>i386</string>
+				<string>x86_64</string>
+			</array>
+			<key>unattended_install</key>
+			<true/>
+			<key>uninstall_method</key>
+			<string>removepackages</string>
+			<key>uninstall_script</key>
+			<string>#!bin/sh
 # VirtualBox Uninstaller Script
 /bin/rm -rf /Users/Shared/VirtualBox
 /bin/rm -f /Library/LaunchAgents/edu.psu.educ.virtualboxhome.plist
     	</string>
-		<key>uninstallable</key>
-		<false/>
-		<key>unattended_install</key>
-		<true/>
+			<key>uninstallable</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.jessepeterson.munki.VirtualBox</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>VirtualBoxURLProvider</key>
+			<dict>
+				<key>git_hash</key>
+				<string>bc82b3935da1b8942f42a3ce2dbde66fc1c389ce</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.jessepeterson-recipes/Oracle/VirtualBoxURLProvider.py</string>
+				<key>sha256_hash</key>
+				<string>7eb16397abf0822b792ca88368c585c6dacd055efbacae96fe88636ddff4cb9a</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.jessepeterson.munki.VirtualBox</key>
+			<dict>
+				<key>git_hash</key>
+				<string>942f78c8740f54483f14568c90a4d716b59db01a</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.jessepeterson-recipes/Oracle/VirtualBox.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>c51a11773028879a1ea20a985827f0022fb72a01f43730700ea01320eaf3fe69</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

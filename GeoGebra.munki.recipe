@@ -36,5 +36,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.joshua-d-miller.autopkg.munki.geogebra</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.joshua-d-miller.autopkg.munki.geogebra</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b7a30b4da851a63480f840d6423ea2d176fada33</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/GeoGebra/GeoGebra.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>fd0e1804b7586b1f0d266da1302e742a0612f934a5a180675e48296969ba5f6b</string>
+			</dict>
+			<key>com.github.joshua-d-miller.download.geogebra</key>
+			<dict>
+				<key>git_hash</key>
+				<string>e16b11bc522febc2f51a1aada646b11a1c483671</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/GeoGebra/GeoGebra.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>b5c6eb051247ade0dc744ee9ed7678f0c26e508ab8383ee424b4f2c4267534c5</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

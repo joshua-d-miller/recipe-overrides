@@ -26,10 +26,10 @@
 			</array>
 			<key>category</key>
 			<string>Web Plugins</string>
-			<key>developer</key>
-			<string>Adobe Systems Inc.</string>
 			<key>description</key>
 			<string>Shockwave Player is a Web standard for powerful multimedia playback. The Shockwave Player allows you to view interactive Web content like games, business presentations, entertainment, and advertisements from your Web browser. Shockwave Player displays Web content that has been created by Adobe Director.</string>
+			<key>developer</key>
+			<string>Adobe Systems Inc.</string>
 			<key>display_name</key>
 			<string>Adobe Shockwave Player Plugin</string>
 			<key>name</key>
@@ -40,5 +40,22 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.jleggat.download.AdobeShockwavePlayer</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.jleggat.download.AdobeShockwavePlayer</key>
+			<dict>
+				<key>git_hash</key>
+				<string>798a940227e0232af05103bfc1336081970d0dd2</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.jleggat-recipes/AdobeShockwavePlayer/AdobeShockwavePlayer.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>b754bf09b28fdb8ed59eb2d71e0bdc3d53d7c27c0d71885108710603f7a2a132</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

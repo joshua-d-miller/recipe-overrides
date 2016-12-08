@@ -36,5 +36,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.jleggat.MunkiAdmin.munki</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.jleggat.MunkiAdmin.download</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b2f7d806f8ff2a840b8511e246c1177898c769d3</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.jleggat-recipes/MunkiAdmin/MunkiAdmin.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>9c01be7d51abb4f62e4cbddff1e434c49c2b2ff605aff91a273ddfaf20e18f1b</string>
+			</dict>
+			<key>com.github.jleggat.MunkiAdmin.munki</key>
+			<dict>
+				<key>git_hash</key>
+				<string>75ae46b2bf5826b261b0e1da29816d25a2fea94e</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.jleggat-recipes/MunkiAdmin/MunkiAdmin.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>6ed5a444db32299f40bc29a8583390d83b1403037f091f7ddd112c1c8e34f402</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

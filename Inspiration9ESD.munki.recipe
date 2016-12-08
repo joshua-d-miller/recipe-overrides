@@ -32,5 +32,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.joshua-d-miller.autopkg.munki.inspiration9esd</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.joshua-d-miller.autopkg.munki.inspiration9esd</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b7a30b4da851a63480f840d6423ea2d176fada33</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/Inspiration 9/Inspiration9ESD.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>18f2931898e037ed8fe93b4c04ab199f0adcd219d34787d89487e636bb8ff9ca</string>
+			</dict>
+			<key>com.github.joshua-d-miller.download.inspiration9esd</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b37872514c35c1dd923152b56951c49b6dc36078</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/Inspiration 9/Inspiration9ESD.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>cca28ad2c9e2baf6f7133b75e995280b68082dd23eeb2c50f32c8c4c5349a3dd</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

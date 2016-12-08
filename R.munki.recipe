@@ -18,16 +18,16 @@
 			<array>
 				<string>R</string>
 			</array>
-			<key>category</key>
-			<string>Mathematics</string>
-			<key>developer</key>
-			<string>R Core Team</string>
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
 			</array>
+			<key>category</key>
+			<string>Mathematics</string>
 			<key>description</key>
 			<string>R is a language and environment for statistical computing and graphics which provides a wide variety of statistical and graphical techniques: linear and nonlinear modelling, statistical tests, time series analysis, classification, clustering, etc.</string>
+			<key>developer</key>
+			<string>R Core Team</string>
 			<key>display_name</key>
 			<string>R for Mac OS X</string>
 			<key>minimum_os_version</key>
@@ -42,5 +42,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>io.github.hjuutilainen.munki.R</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>io.github.hjuutilainen.download.R</key>
+			<dict>
+				<key>git_hash</key>
+				<string>c3d5e772fa36dc9a842aa630dc6d484aab4abb7d</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/R/R.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>92313d41526a8149917a57fee1208bb37485b4dc77f7b29c022144d85f857b18</string>
+			</dict>
+			<key>io.github.hjuutilainen.munki.R</key>
+			<dict>
+				<key>git_hash</key>
+				<string>c3d5e772fa36dc9a842aa630dc6d484aab4abb7d</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/R/R.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>8f78709f41dea3e6c964e45d663cad6f0cd37d355b4bed571b88f986019198bd</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

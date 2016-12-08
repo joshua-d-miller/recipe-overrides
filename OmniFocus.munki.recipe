@@ -18,14 +18,14 @@
 			<array>
 				<string>testing</string>
 			</array>
-			<key>description</key>
-			<string>OmniFocus is designed to quickly capture your thoughts and allow you to store, manage, and process them into actionable to-do items. Perfect for the Getting Things Done® system, but flexible enough for any task management style, OmniFocus helps you work smarter by giving you powerful tools for staying on top of all the things you need to do.</string>
-			<key>display_name</key>
-			<string>OmniFocus</string>
-			<key>developer</key>
-			<string>The Omni Group</string>
 			<key>category</key>
 			<string>Productivity</string>
+			<key>description</key>
+			<string>OmniFocus is designed to quickly capture your thoughts and allow you to store, manage, and process them into actionable to-do items. Perfect for the Getting Things Done® system, but flexible enough for any task management style, OmniFocus helps you work smarter by giving you powerful tools for staying on top of all the things you need to do.</string>
+			<key>developer</key>
+			<string>The Omni Group</string>
+			<key>display_name</key>
+			<string>OmniFocus</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
@@ -34,5 +34,40 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.autopkg.munki.omnifocus</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.omnigroupproduct</key>
+			<dict>
+				<key>git_hash</key>
+				<string>046710aa7b7e2f9c2c905c7113046e69c5766076</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/OmniGroup/OmniGroupProduct.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>714d5006583cc813a5d5bbda5e3fb6e55f82c1fa9aac861453c76c1c01d98e30</string>
+			</dict>
+			<key>com.github.autopkg.munki.omnifocus</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b49f7d37c46f59306b9889cdae7e6d67f94abff7</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/OmniGroup/OmniFocus.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>33ef08137120cadb8c93486ad3d2c5831b58f575c4381c346332e2541d4eaf4f</string>
+			</dict>
+			<key>com.github.autopkg.munki.omnigroupproduct</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b49f7d37c46f59306b9889cdae7e6d67f94abff7</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/OmniGroup/OmniGroupProduct.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>fd5fbca5f667274400b4eeba00950d172b438713a20d30cf62f579d39927315f</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

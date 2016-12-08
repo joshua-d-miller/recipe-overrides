@@ -46,5 +46,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.joshua-d-miller.autopkg.munki.boxsync</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.hansen-m.download.boxsync</key>
+			<dict>
+				<key>git_hash</key>
+				<string>882b5da88b9f447deab1211ded2d1fa496d027f3</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.hansen-m-recipes/Box/BoxSync.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>09e5fbb27eb365012ae1b3e145411ff9c02bd8709af175cc2661bdf11e8eb4b9</string>
+			</dict>
+			<key>com.github.joshua-d-miller.autopkg.munki.boxsync</key>
+			<dict>
+				<key>git_hash</key>
+				<string>7716b2288f3221fcae56f28f49ec91ec69f6e930</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/Box/BoxSync.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>d87c9a028e3b93f5173e1595e5da7dbe31711bb71e18aefdba23162f8608db40</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

@@ -26,22 +26,22 @@
 			</array>
 			<key>category</key>
 			<string>Productivity</string>
-			<key>developer</key>
-			<string>Adobe Systems Inc.</string>
 			<key>description</key>
 			<string>This update provides system requirement enhancements, mitigation for security issues, improved overall stability, bug fixes, and feature enhancements. For a list of specific bug fixes, new features, and other changes in this release, see the Release Notes.</string>
+			<key>developer</key>
+			<string>Adobe Systems Inc.</string>
 			<key>display_name</key>
 			<string>Adobe Acrobat Pro XI Update</string>
 			<key>name</key>
 			<string>%NAME%</string>
-			<key>unattended_install</key>
-			<true/>
 			<key>postinstall_script</key>
 			<string>#!/bin/bash
 			defaults delete /Library/Preferences/com.adobe.Acrobat.Pro.plist 11
 			/usr/libexec/PlistBuddy -c 'Add :11:FeatureLockdown:bUpdater bool false' /Library/Preferences/com.adobe.Acrobat.Pro.plist
 			exit 0
 			</string>
+			<key>unattended_install</key>
+			<true/>
 			<key>update_for</key>
 			<array>
 				<string>Adobe Acrobat XI</string>
@@ -50,5 +50,41 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.autopkg.munki.AdobeAcrobatProXUpdate</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>AdobeAcrobatProUpdateInfoProvider</key>
+			<dict>
+				<key>git_hash</key>
+				<string>cc1f09f45a5a5ba1c4d26bbb8bae2c76582886a9</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/AdobeAcrobatPro/AdobeAcrobatProUpdateInfoProvider.py</string>
+				<key>sha256_hash</key>
+				<string>25348b0774f7846a26119e5d99dd53a2c93f1f6bb153f9aa4e5a93c4ec369848</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.AdobeAcrobatProXUpdate</key>
+			<dict>
+				<key>git_hash</key>
+				<string>cc1f09f45a5a5ba1c4d26bbb8bae2c76582886a9</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/AdobeAcrobatPro/AdobeAcrobatProXUpdate.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>c6f46257961345740a620f73a9c35ccc3c98c13882bbdbcb55d427edc4b9ec5b</string>
+			</dict>
+			<key>com.github.autopkg.munki.AdobeAcrobatProXUpdate</key>
+			<dict>
+				<key>git_hash</key>
+				<string>3a2c8d5c4150d9144e94dfc8bc185da268be6398</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/AdobeAcrobatPro/AdobeAcrobatProXUpdate.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>196593a680b4754d5bdf47d1963f3d3e0ee4a5bb43e70ab1122203eb821324e3</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

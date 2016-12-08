@@ -3,17 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.munki.Studiocode10</string>
+	<string>local.munki.Studiocode</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>Media</string>
 		<key>NAME</key>
 		<string>Studiocode 10</string>
-		<key>SEARCH_PATTERN</key>
-		<string>(?P&lt;url&gt;http://downloads.sportstec.com/studiocode/installer/Studiocode10.*?Installer\.dmg)</string>
-		<key>SEARCH_URL</key>
-		<string>http://www.studiocodegroup.com/support/download-upgrades-fixes/</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -43,7 +39,7 @@ Seamlessly publish and distribute your valuable video assets across your campus,
 
 www.studiocodegroup.com</string>
 			<key>developer</key>
-			<string>Studiocode Business Group</string>
+			<string>Vosaic</string>
 			<key>display_name</key>
 			<string>%NAME%</string>
 			<key>name</key>
@@ -53,6 +49,32 @@ www.studiocodegroup.com</string>
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.joshua-d-miller.autopkg.munki.StudioCode10</string>
+	<string>com.github.joshua-d-miller.autopkg.munki.StudioCode</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.joshua-d-miller.autopkg.download.Studiocode</key>
+			<dict>
+				<key>git_hash</key>
+				<string>3506cf88430f67a723d947b84144dd83206bb130</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/Studiocode/Studiocode.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>9b936e90d0231395fc335a0ec296f9aa64d5d2c0bed22b8f726f521b9d481859</string>
+			</dict>
+			<key>com.github.joshua-d-miller.autopkg.munki.StudioCode</key>
+			<dict>
+				<key>git_hash</key>
+				<string>3506cf88430f67a723d947b84144dd83206bb130</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/Studiocode/Studiocode.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>cbc021bea4b445296d62912ec65bb7bf09ff4700bdb6ff74d8e8e04613cc2cf8</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

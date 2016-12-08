@@ -41,5 +41,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.joshua-d-miller.autopkg.munki.LyX</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.joshua-d-miller.autopkg.munki.LyX</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b7a30b4da851a63480f840d6423ea2d176fada33</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/LyX/lyx.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>bef8505f845d43a02c4b39176c081c7f449ba7bd374a1a11268f374b47a7a1ef</string>
+			</dict>
+			<key>com.github.joshua-d-miller.download.LyX</key>
+			<dict>
+				<key>git_hash</key>
+				<string>3506cf88430f67a723d947b84144dd83206bb130</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/LyX/lyx.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>e6820337f07b62abf3e787b881c8eca741d8a2c617cd98715df639b7cd31baae</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

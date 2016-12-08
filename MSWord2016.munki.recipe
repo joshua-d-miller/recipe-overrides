@@ -42,5 +42,41 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.autopkg.munki.MSWord2016</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>MSOffice2016URLandUpdateInfoProvider</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d959bb64d28f67fe1574eef46348f8d55b3456db</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/MSOfficeUpdates/MSOffice2016URLandUpdateInfoProvider.py</string>
+				<key>sha256_hash</key>
+				<string>cf74231b7434ec9178548256b98a08958e6db9b459c37d76a26952f4bcbc2cce</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.MSWord2016</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d49d9febcf853d0809eb99c54cee83ca1ffac997</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/MSOfficeUpdates/MSWord2016.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>8d1d9f32b56d4cc8b434d1fcbdb5db1b64ea0cbcc462a4926cc71370c7ecf043</string>
+			</dict>
+			<key>com.github.autopkg.munki.MSWord2016</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d49d9febcf853d0809eb99c54cee83ca1ffac997</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/MSOfficeUpdates/MSWord2016.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>73faa383af25281a56c6dc8ad9417c291948fa13b24cc003997d94c6447618af</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

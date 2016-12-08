@@ -32,5 +32,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.joshua-d-miller.autopkg.munki.nvivo11</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.joshua-d-miller.autopkg.munki.nvivo11</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b7a30b4da851a63480f840d6423ea2d176fada33</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/NVivo/NVivo11.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>dca7ab991beae91bdf76cdcef9270943ffd0260ba7fd526668ce2e400dbf3076</string>
+			</dict>
+			<key>com.github.joshua-d-miller.download.nvivo11</key>
+			<dict>
+				<key>git_hash</key>
+				<string>c4570b95cd7d2b3ef8c770910b1f0ba38958ea81</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/NVivo/NVivo11.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>f378421cea7f3b37d5d01fc8026bd1bdd008cadf5999008aa97c72b74c18bb11</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

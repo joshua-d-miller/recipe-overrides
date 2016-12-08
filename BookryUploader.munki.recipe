@@ -34,5 +34,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.joshua-d-miller.autopkg.munki.bookryuploader</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.joshua-d-miller.autopkg.munki.bookryuploader</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b7a30b4da851a63480f840d6423ea2d176fada33</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/Bookry Uploader/BookryUploader.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>56c41b736ecc679d60f132f1faefa82ff5f42c7ee795db74b1008e0b5cd7da1d</string>
+			</dict>
+			<key>com.github.joshua-d-miller.download.bookryuploader</key>
+			<dict>
+				<key>git_hash</key>
+				<string>9322c05470fecd6a7fe977895e42c6149839f075</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/Bookry Uploader/BookryUploader.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>27a51cfa08c0452c2559119aedc7db2246ce502822070ba4d2c4004decd9df27</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

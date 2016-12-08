@@ -18,10 +18,10 @@
 			</array>
 			<key>category</key>
 			<string>Peripherals</string>
-			<key>developer</key>
-			<string>Apple Inc.</string>
 			<key>description</key>
 			<string>Provides the latest HP printing and scanning software for OS X.</string>
+			<key>developer</key>
+			<string>Apple Inc.</string>
 			<key>display_name</key>
 			<string>Printer Software HP</string>
 			<key>name</key>
@@ -30,5 +30,41 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.n8felton.munki.AppleHPPrinterDrivers</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>com.github.n8felton.shared/AppleSupportDownloadInfoProvider</key>
+			<dict>
+				<key>git_hash</key>
+				<string>228a3c268a6d52727263da64de69d8d23fa4b11c</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/SharedProcessors/AppleSupportDownloadInfoProvider.py</string>
+				<key>sha256_hash</key>
+				<string>cb97c7d29684d437fd11fc5aa9781f5185659d1c0c78d1979b1c32d7f77d90e1</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.n8felton.download.AppleHPPrinterDrivers</key>
+			<dict>
+				<key>git_hash</key>
+				<string>3c8ce8ebe981dee6e1697253d84e92d566bcdaf3</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/ApplePrinterDrivers/AppleHPPrinterDrivers.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>72f8cd1ad26ee90a4d0b4205c0ca953845391691c8498d91c029b1e598846767</string>
+			</dict>
+			<key>com.github.n8felton.munki.AppleHPPrinterDrivers</key>
+			<dict>
+				<key>git_hash</key>
+				<string>6f54c8daa3e674ab615cffbba0630ba7617b3d94</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/ApplePrinterDrivers/AppleHPPrinterDrivers.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>b6bd8b24557682f6378ca3fc5041185ae8c70b620bdc69c48659cd67dced28fc</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

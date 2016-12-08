@@ -30,10 +30,10 @@
 			</array>
 			<key>category</key>
 			<string>Media</string>
-			<key>developer</key>
-			<string>Trimble Navigation Limited</string>
 			<key>description</key>
 			<string>SketchUp Pro is the most intuitive way to design, document and communicate your ideas in 3D. http://www.sketchup.com/products/sketchup-pro</string>
+			<key>developer</key>
+			<string>Trimble Navigation Limited</string>
 			<key>display_name</key>
 			<string>SketchUp Pro</string>
 			<key>minimum_os_version</key>
@@ -44,5 +44,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.jps3.munki.SketchUpPro</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.jps3.download.SketchUpPro</key>
+			<dict>
+				<key>git_hash</key>
+				<string>7e2c09167cbb8fe4f4fba0b84b90162b2e4819d0</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.jps3-recipes/SketchUpPro/SketchUpPro.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>d2255fef35396841cbbdfab0364385ed18ad4e02db7c9bc42a74404ecdbf9d1b</string>
+			</dict>
+			<key>com.github.jps3.munki.SketchUpPro</key>
+			<dict>
+				<key>git_hash</key>
+				<string>bdecb1c7d52890766199ebeb10d846948731f839</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.jps3-recipes/SketchUpPro/SketchUpPro.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>26f669c9a2e91e9ab4e8352d90e37b992b05a2bb1ab8ec17f12fb3e7851a07bc</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

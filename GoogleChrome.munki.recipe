@@ -24,10 +24,10 @@
 			</array>
 			<key>category</key>
 			<string>Web Browsers</string>
-			<key>developer</key>
-			<string>Google Inc.</string>
 			<key>description</key>
 			<string>Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.</string>
+			<key>developer</key>
+			<string>Google Inc.</string>
 			<key>display_name</key>
 			<string>Google Chrome</string>
 			<key>name</key>
@@ -42,5 +42,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.autopkg.munki.google-chrome</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.googlechrome</key>
+			<dict>
+				<key>git_hash</key>
+				<string>f29f399c54adee7122e9fdc3c1ea7ed4c67388a4</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/GoogleChrome/GoogleChrome.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>880dbbc39342ba18bb4609a4746be75fa4b41667840201876c0f936aef7599e6</string>
+			</dict>
+			<key>com.github.autopkg.munki.google-chrome</key>
+			<dict>
+				<key>git_hash</key>
+				<string>5f5db38265797f1754def56335de7bfc75811305</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/GoogleChrome/GoogleChrome.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>8fd2feaa1c196109ee3bc4149b2447936782336f913c39875a4ad6c3e6dc4baa</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

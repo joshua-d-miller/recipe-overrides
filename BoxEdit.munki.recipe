@@ -200,5 +200,31 @@ fi
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.joshua-d-miller.autopkg.munki.boxedit</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.hansen-m.download.boxedit</key>
+			<dict>
+				<key>git_hash</key>
+				<string>3145502e8cbda86c2106f82c7fe437c42e71f535</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.hansen-m-recipes/Box/BoxEdit.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>0922a488108f306cfe8d6cb59efb38cf62bbb84f8246e4130352a6ebdeaa0916</string>
+			</dict>
+			<key>com.github.joshua-d-miller.autopkg.munki.boxedit</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b7a30b4da851a63480f840d6423ea2d176fada33</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/Box/BoxEdit.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>ef6a9b16b868cd08670c50e092b20d988ab763f09b0fab5b2c0e656a82ce6b6c</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

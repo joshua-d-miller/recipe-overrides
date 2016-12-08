@@ -32,5 +32,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.joshua-d-miller.autopkg.munki.sente6</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.joshua-d-miller.autopkg.munki.sente6</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b7a30b4da851a63480f840d6423ea2d176fada33</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/Sente 6/Sente6.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>a69d1ff819e17fbfff3aa1540361595ffe6f11cbea79fcbf393b8e0d30fd85a7</string>
+			</dict>
+			<key>com.github.joshua-d-miller.download.sente6</key>
+			<dict>
+				<key>git_hash</key>
+				<string>881e9d44946aa986930130e8c028e7d5fc968428</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/Sente 6/Sente6.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>03f2de7a4db5d30a857110bb43a58945e2b740c568f07aa526f9edfbffa3f777</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

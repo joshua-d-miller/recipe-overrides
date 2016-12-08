@@ -53,5 +53,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.joshua-d-miller.autopkg.munki.GoogleVoiceandVideo</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.hansen-m.download.GoogleVoiceAndVideo</key>
+			<dict>
+				<key>git_hash</key>
+				<string>0cc1d3df7e844d02b421ee8a4b922d3bab293307</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.hansen-m-recipes/Google/GoogleVoiceAndVideo.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>843cc69de46cd7e997b3fa2043e950105a606c4ce005fd5a5b43936281210919</string>
+			</dict>
+			<key>com.github.joshua-d-miller.autopkg.munki.GoogleVoiceandVideo</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b7a30b4da851a63480f840d6423ea2d176fada33</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/Google Voice and Video/GoogleVoiceAndVideo.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>50c8c38893b518662c2b388aade7cbd624cbe994bb497c5a2b70490509606ef9</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

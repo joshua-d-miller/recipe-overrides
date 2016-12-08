@@ -18,10 +18,10 @@
 			</array>
 			<key>category</key>
 			<string>Administrative Tools</string>
-			<key>developer</key>
-			<string>iTerm Development Team</string>
 			<key>description</key>
 			<string>Powerful alternative to Terminal.app.</string>
+			<key>developer</key>
+			<string>iTerm Development Team</string>
 			<key>display_name</key>
 			<string>iTerm2</string>
 			<key>name</key>
@@ -32,5 +32,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.keeleysam.autopkg.munki.iTerm2</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.keeleysam.autopkg.download.iTerm2</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b0cea7d89566df5c0e2a92cfebff2734ca6c538b</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.keeleysam-recipes/iTerm2/iTerm2.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>a2985bbb6e6ebf5093c5f5a75fb899ba140a0802359f334e3bda2cb0ff564303</string>
+			</dict>
+			<key>com.github.keeleysam.autopkg.munki.iTerm2</key>
+			<dict>
+				<key>git_hash</key>
+				<string>cd9d2e08532a636c75becf22a9500f9216785e43</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.keeleysam-recipes/iTerm2/iTerm2.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>7a3f1cc7917cb7f8dd698e1cd86983a273e052369598848cb4afd07d42747f52</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

@@ -18,10 +18,10 @@
 			</array>
 			<key>category</key>
 			<string>Media</string>
-			<key>developer</key>
-			<string>Trimble Navigation Limited</string>
 			<key>description</key>
 			<string>SketchUp is 3D modeling software that's easy to learn and incredibly fun to use.</string>
+			<key>developer</key>
+			<string>Trimble Navigation Limited</string>
 			<key>display_name</key>
 			<string>%NAME%</string>
 			<key>name</key>
@@ -32,5 +32,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.sheagcraig.munki.SketchUpMake</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.sheagcraig.download.SketchUpMake</key>
+			<dict>
+				<key>git_hash</key>
+				<string>957cdb3b54b9dc4d22e7f30688484929a6547fff</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.sheagcraig-recipes/Sketchup/SketchUpMake.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>e72dcc03720205f9ad03ed5bec16530a84e558b0c8b4d70712fa633660daffec</string>
+			</dict>
+			<key>com.github.sheagcraig.munki.SketchUpMake</key>
+			<dict>
+				<key>git_hash</key>
+				<string>83fa632c8ed422599137cef464fd892d1c72da0b</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.sheagcraig-recipes/Sketchup/SketchUpMake.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>00599872825759ebe6d83e40e64bbb2311ce498b85d07ec7b25bc9a7ca4fe33d</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

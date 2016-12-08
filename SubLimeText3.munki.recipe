@@ -20,10 +20,10 @@
 			</array>
 			<key>category</key>
 			<string>Administrative Tools</string>
-			<key>developer</key>
-			<string>Sublime HQ Pty Ltd.</string>
 			<key>description</key>
 			<string>Sublime Text is an advanced text editor for OS X.</string>
+			<key>developer</key>
+			<string>Sublime HQ Pty Ltd.</string>
 			<key>display_name</key>
 			<string>Sublime Text 3</string>
 			<key>name</key>
@@ -34,5 +34,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.keeleysam.recipes.SublimeText.SublimeText3.munki</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.keeleysam.recipes.SublimeText.SublimeText3.download</key>
+			<dict>
+				<key>git_hash</key>
+				<string>9ea4ad1be9603bc312c439c6810a9e07c374e9fc</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.keeleysam-recipes/SublimeText/SublimeText3.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>5bd3875dc38bce30bcfc921627db5f0e8bb375509ec6ff360e5ce319152aa0d8</string>
+			</dict>
+			<key>com.github.keeleysam.recipes.SublimeText.SublimeText3.munki</key>
+			<dict>
+				<key>git_hash</key>
+				<string>bd68c2f451bb7d088705102a1a0fddc543c48f37</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.keeleysam-recipes/SublimeText/SublimeText3.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>8187e93837961a99b4959b7763394996d1c03c5e03b9e3cdee7f08ddd4585d87</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

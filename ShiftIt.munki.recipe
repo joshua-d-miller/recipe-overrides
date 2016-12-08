@@ -30,5 +30,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.joshua-d-miller.autopkg.munki.ShiftIt</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.joshua-d-miller.autopkg.download.ShiftIt</key>
+			<dict>
+				<key>git_hash</key>
+				<string>3a657e3decc3068a66ef43e490059f3cd861324b</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/ShiftIt/ShiftIt.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>6a911f7fef4e5435fe521e5a87084031cda4b53ba072acda0d4edd2c42c86814</string>
+			</dict>
+			<key>com.github.joshua-d-miller.autopkg.munki.ShiftIt</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b7a30b4da851a63480f840d6423ea2d176fada33</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/ShiftIt/ShiftIt.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>f0566028fe9e1a3e19df3af7987ee4e5fa5559b4c85a01ae9d474e81e24f2e0a</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

@@ -18,10 +18,10 @@
 			</array>
 			<key>category</key>
 			<string>Web Plugins</string>
-			<key>developer</key>
-			<string>Oracle Corporation</string>
 			<key>description</key>
 			<string>The JDK is a development environment for building applications, applets, and components using the Java programming language. The JDK includes tools useful for developing and testing programs written in the Java programming language and running on the Java platform.</string>
+			<key>developer</key>
+			<string>Oracle Corporation</string>
 			<key>display_name</key>
 			<string>Oracle Java 8 Development Kit</string>
 			<key>minimum_os_version</key>
@@ -41,5 +41,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.nmcspadden.OracleJava8JDK.munki</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.hansen-m.download.OracleJava8JDK</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d3a808975310f861a49dedda4b4e8e82a0778393</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.hansen-m-recipes/Oracle/OracleJava8JDK.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>c9e8186528d1faf8869d1716d1ed01e454e419734d59cbad976bd20c0fe20529</string>
+			</dict>
+			<key>com.github.nmcspadden.OracleJava8JDK.munki</key>
+			<dict>
+				<key>git_hash</key>
+				<string>9d6aa9f2787c120a35d2ba919bc4ce39903143c0</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.nmcspadden-recipes/Oracle/OracleJava8JDK.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>ce6d399c5d13bf95083faf2b3ddb2af65b04cfc22c92930edd7700b7c1c6f2b6</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

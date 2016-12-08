@@ -20,10 +20,10 @@
 			</array>
 			<key>category</key>
 			<string>Social</string>
-			<key>developer</key>
-			<string>Timothy Hatcher</string>
 			<key>description</key>
 			<string>Traditionally, chat clients on the Mac have been anything but glamorous. Colloquy is an advanced IRC, SILC and ICB client which aims to fill this void. By adhering to Mac OS X interface conventions, Colloquy has the look and feel of a quality Mac application.</string>
+			<key>developer</key>
+			<string>Timothy Hatcher</string>
 			<key>display_name</key>
 			<string>Colloquy</string>
 			<key>name</key>
@@ -34,5 +34,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.keeleysam.recipes.Colloquy.munki</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.keeleysam.recipes.Colloquy.download</key>
+			<dict>
+				<key>git_hash</key>
+				<string>bd68c2f451bb7d088705102a1a0fddc543c48f37</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.keeleysam-recipes/Colloquy/Colloquy.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>8ebe38f2345687320f5b0d2a244505cf6546b015098c8a314f1aeaeeb7538268</string>
+			</dict>
+			<key>com.github.keeleysam.recipes.Colloquy.munki</key>
+			<dict>
+				<key>git_hash</key>
+				<string>bd68c2f451bb7d088705102a1a0fddc543c48f37</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.keeleysam-recipes/Colloquy/Colloquy.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>9df7bd3caca7a5f8afeff5dd269af0f6483a6548509b3b22bef446ca098e948e</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

@@ -41,5 +41,31 @@ exit 0
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.joshua-d-miller.autopkg.munki.drobodashboard</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.joshua-d-miller.autopkg.munki.drobodashboard</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b7a30b4da851a63480f840d6423ea2d176fada33</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/Drobo/DroboDashboard.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>68601f549bc446aa1f745c701ea933be1173da2d01e1ef86802efe5524c75495</string>
+			</dict>
+			<key>com.github.joshua-d-miller.download.drobodashboard</key>
+			<dict>
+				<key>git_hash</key>
+				<string>3a657e3decc3068a66ef43e490059f3cd861324b</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/Drobo/DroboDashboard.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>445cca0d2156e4009ac53adb9a8a71a0be426fb67d2934520347aa777d4b410f</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

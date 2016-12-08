@@ -28,10 +28,10 @@
 			</array>
 			<key>category</key>
 			<string>Web Plugins</string>
-			<key>developer</key>
-			<string>Microsoft Corporation</string>
 			<key>description</key>
 			<string>Silverlight is a powerful development tool for creating engaging, interactive user experiences for Web and mobile applications. Silverlight is a free plug-in, powered by the .NET framework and compatible with multiple browsers, devices and operating systems, bringing a new level of interactivity wherever the Web works.</string>
+			<key>developer</key>
+			<string>Microsoft Corporation</string>
 			<key>display_name</key>
 			<string>Microsoft® Silverlight™ Browser Plug-In</string>
 			<key>name</key>
@@ -42,5 +42,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.autopkg.munki.Silverlight</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.Silverlight</key>
+			<dict>
+				<key>git_hash</key>
+				<string>8958ead0cda7264101e339a5eba318a2f407e20a</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Silverlight/Silverlight.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>13d6bfcdea65f1383dd6edb4ad0f3d5b810f12bafc0d1ea3ddd32abfad8528d2</string>
+			</dict>
+			<key>com.github.autopkg.munki.Silverlight</key>
+			<dict>
+				<key>git_hash</key>
+				<string>423bd68ebbfc17689e4420dab2e9acfa9b6c0505</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Silverlight/Silverlight.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>37216c9bd28abade3e0897d28ef855da2ea19cee28f811840be3d615e925c019</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

@@ -28,5 +28,50 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.groob.munki.makerbot</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>MakerBotPkgFinder</key>
+			<dict>
+				<key>git_hash</key>
+				<string>0fbc57727c36a8b9fb84e1e8706a485ac0c0677f</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.groob-recipes/MakerBot/MakerBotPkgFinder.py</string>
+				<key>sha256_hash</key>
+				<string>f2fd4e78bee57e5f8d2820a7d3d43cd41cfcf52eb02c2d0b699cbaade4fdfce1</string>
+			</dict>
+			<key>MakerBotURLProvider</key>
+			<dict>
+				<key>git_hash</key>
+				<string>c599001ef65841fd7cd75260d522156a1716665e</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.groob-recipes/MakerBot/MakerBotURLProvider.py</string>
+				<key>sha256_hash</key>
+				<string>8e962f023e2f47c19a3b74f1e8e4bf8165b88b5f788ff2172da3b19fa7c1d2a4</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.groob.download.makerbot</key>
+			<dict>
+				<key>git_hash</key>
+				<string>1e52179b9d8237b5f1c1a6abd69727d0e850f7ef</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.groob-recipes/MakerBot/MakerBot.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>c1514b268378e80f21aeffcd24c4a351b2fa40b023b8582c76da665b0af45693</string>
+			</dict>
+			<key>com.github.groob.munki.makerbot</key>
+			<dict>
+				<key>git_hash</key>
+				<string>0fbc57727c36a8b9fb84e1e8706a485ac0c0677f</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.groob-recipes/MakerBot/MakerBot.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>ea78b8096fd2d54ff52cd66a9480386ed040aa2efd1f3ecff34600cc9dceef79</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

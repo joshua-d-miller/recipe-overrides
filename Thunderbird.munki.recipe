@@ -20,10 +20,10 @@
 			<array>
 				<string>testing</string>
 			</array>
-			<key>description</key>
-			<string>Mozilla Thunderbird is a free and open source mail client.</string>
 			<key>category</key>
 			<string>Productivity</string>
+			<key>description</key>
+			<string>Mozilla Thunderbird is a free and open source mail client.</string>
 			<key>developer</key>
 			<string>Mozilla Corporation</string>
 			<key>display_name</key>
@@ -36,5 +36,41 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.autopkg.munki.thunderbird</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>MozillaURLProvider</key>
+			<dict>
+				<key>git_hash</key>
+				<string>8332edca4fbafc1e8aff8c119e571f27b4853bb5</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Mozilla/MozillaURLProvider.py</string>
+				<key>sha256_hash</key>
+				<string>b3c2711d58a670f13d186f77743fd0808470d387fd780b852e8fcfcecdbec251</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.thunderbird</key>
+			<dict>
+				<key>git_hash</key>
+				<string>223abbe4082fea498959e444e2aa21252e543995</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Mozilla/Thunderbird.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>7e1249054f68cbee0ea359405cdd3653a3d57ab2e34a9fc2f127d17fc5f516a5</string>
+			</dict>
+			<key>com.github.autopkg.munki.thunderbird</key>
+			<dict>
+				<key>git_hash</key>
+				<string>8332edca4fbafc1e8aff8c119e571f27b4853bb5</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Mozilla/Thunderbird.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>5857e6c206dbe0e6bcf14a5a490906b858b62f11e7365a8134f12daa0ae13c14</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

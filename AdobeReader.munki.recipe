@@ -29,18 +29,18 @@
 			</array>
 			<key>category</key>
 			<string>Productivity</string>
-			<key>developer</key>
-			<string>Adobe Systems Inc.</string>
 			<key>description</key>
 			<string>Adobe® Reader® is the global standard for reliably viewing, printing, and commenting on PDF documents. It's the only PDF file viewer that can open and interact with all types of PDF content, including forms and multimedia.</string>
+			<key>developer</key>
+			<string>Adobe Systems Inc.</string>
 			<key>display_name</key>
 			<string>Adobe Reader</string>
 			<key>minimum_os_version</key>
 			<string>10.6.4</string>
 			<key>name</key>
 			<string>%NAME%</string>
-		<key>postinstall_script</key>
-		<string>#!/bin/sh
+			<key>postinstall_script</key>
+			<string>#!/bin/sh
 
 # Set some variables...
 
@@ -61,8 +61,8 @@ PREFS_DIR="/Library/Preferences"
 
 exit 0
 			</string>
-	<key>preinstall_script</key>
-	<string>#!/bin/sh
+			<key>preinstall_script</key>
+			<string>#!/bin/sh
 if [ -e "/Applications/Adobe Reader.app" ]; then
 rm -r "/Applications/Adobe Reader.app"
 fi
@@ -74,5 +74,41 @@ exit 0
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.autopkg.munki.AdobeReader</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>AdobeReaderURLProvider</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b6e90cf85dc6e56377b38a0f32e32768412ea10a</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/AdobeReader/AdobeReaderURLProvider.py</string>
+				<key>sha256_hash</key>
+				<string>aae69b07251b138562d568cf1ee787ae2c6f3d837c46339ef91d7bbf2196ecf3</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.AdobeReader</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b6e90cf85dc6e56377b38a0f32e32768412ea10a</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/AdobeReader/AdobeReader.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>4feece464cdd89d5e96c058c295738c7115e9e74384233fa87c64c205a6429cb</string>
+			</dict>
+			<key>com.github.autopkg.munki.AdobeReader</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b6e90cf85dc6e56377b38a0f32e32768412ea10a</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/AdobeReader/AdobeReader.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>1518a6e6cdb872418ef3a924d5d9bbf1b1b681985452e0e2f42e9570d24dd100</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

@@ -52,5 +52,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.joshua-d-miller.autopkg.munki.Mendeley</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.hansen-m.download.Mendeley</key>
+			<dict>
+				<key>git_hash</key>
+				<string>5d214016f9c96fcaf6edc3bd55ad629383186bee</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.hansen-m-recipes/Mendeley/Mendeley.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>3815270838d6bf5f1b1f097938624bf1c85a849c7ba3e13476ae9c3d95921fe0</string>
+			</dict>
+			<key>com.github.joshua-d-miller.autopkg.munki.Mendeley</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b7a30b4da851a63480f840d6423ea2d176fada33</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/Mendeley/Mendeley.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>eda0ce5d27c2b1311b3b9b155a92f10df07594abd5ea1b84646af470f077865c</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

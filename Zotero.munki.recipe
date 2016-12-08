@@ -48,5 +48,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.joshua-d-miller.autopkg.munki.zotero</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.joshua-d-miller.autopkg.munki.zotero</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b7a30b4da851a63480f840d6423ea2d176fada33</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/Zotero/Zotero.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>856bb90da612bb6733b9efa0c6a1be2a57b1ede33ac3ece545111329c31767cd</string>
+			</dict>
+			<key>com.github.joshua-d-miller.download.zotero</key>
+			<dict>
+				<key>git_hash</key>
+				<string>a84f722cec4c84b57cd23af0d9b549df53c1e0d3</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/Zotero/Zotero.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>c1c97a4277e7864650ecb2fe34972b23b6a690bb60698ecbfbbb1247f185d638</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

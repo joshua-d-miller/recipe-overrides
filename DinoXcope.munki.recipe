@@ -34,5 +34,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.joshua-d-miller.autopkg.munki.dinoxcope</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.joshua-d-miller.autopkg.munki.dinoxcope</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b7a30b4da851a63480f840d6423ea2d176fada33</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/DinoXcope/DinoXcope.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>f283635ff052cd98ba93e15b447df8c02dee9948e71255e6735f5288f9e661f9</string>
+			</dict>
+			<key>com.github.joshua-d-miller.download.dinoxcope</key>
+			<dict>
+				<key>git_hash</key>
+				<string>a02c4bd394ec61402e6bfcc8f700cc2105e346c5</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/DinoXcope/DinoXcope.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>17fe8f9078620862e07d3487feef1aa31543546d9b33765abc402a82571be575</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

@@ -18,10 +18,10 @@
 			</array>
 			<key>category</key>
 			<string>Media</string>
-			<key>developer</key>
-			<string>VideoLAN</string>
 			<key>description</key>
 			<string>VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols. Plays everything, Files, Discs  -DVD, CD, VCD, Blu-Ray-, Webcams and Streams. Plays most codecs with no codec packs needed - MPEG-2, H.264, DivX, MPEG-4, WebM, WMV player</string>
+			<key>developer</key>
+			<string>VideoLAN</string>
 			<key>display_name</key>
 			<string>VLC Media Player</string>
 			<key>name</key>
@@ -32,5 +32,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.autopkg.munki.VLC</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.VLC</key>
+			<dict>
+				<key>git_hash</key>
+				<string>e9fd841d100d01a4c30c6ecd4b7cc5f2eb42021e</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/VLC/VLC.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>fa7b7123ffe1d932eef69d7d97f8e02c40dfcd0fff46d249439fd5e0dd90783e</string>
+			</dict>
+			<key>com.github.autopkg.munki.VLC</key>
+			<dict>
+				<key>git_hash</key>
+				<string>37fe16ce9cc765bddba74fb6abc474b6e1eeaa83</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/VLC/VLC.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>ba51394e291074d2a4bb89d7138705e6824a4268f1ca18949e27de59cb491508</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

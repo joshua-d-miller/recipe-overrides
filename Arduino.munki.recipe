@@ -24,12 +24,12 @@
 			</array>
 			<key>category</key>
 			<string>Programming</string>
-			<key>developer</key>
-			<string>Arduino</string>
 			<key>description</key>
 			<string>The open-source Arduino Software (IDE) makes it easy to write code and upload it to the board. It runs on Windows, Mac OS X, and Linux. The environment is written in Java and based on Processing and other open-source software.
                 This software can be used with any Arduino board.
             </string>
+			<key>developer</key>
+			<string>Arduino</string>
 			<key>display_name</key>
 			<string>%NAME%</string>
 			<key>name</key>
@@ -38,5 +38,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.jps3.munki.Arduino</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.jps3.download.Arduino</key>
+			<dict>
+				<key>git_hash</key>
+				<string>1b93a948ecf240c5b4c1bd5b785095ae1385bf13</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.jps3-recipes/Arduino/Arduino.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>2ca117e8adfc9668ae0cf7ea13a43697c6f99d36cf51e7724bf40cbe5da48219</string>
+			</dict>
+			<key>com.github.jps3.munki.Arduino</key>
+			<dict>
+				<key>git_hash</key>
+				<string>973be376d40a217f1d44bee496329b41541553a7</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.jps3-recipes/Arduino/Arduino.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>a7298b085423dc9b40df910532275245c56817ff4bbcdfa23d72e3e31c3d20e1</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

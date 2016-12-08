@@ -38,5 +38,40 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.homebysix.munki.Zoom</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.hansen-m.download.zoom</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b976bf03611fb240e31165a39569b9fab3c5f865</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.hansen-m-recipes/Zoom/Zoom.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>45f8502dea968c69392ad936ebeea62ed30e84c6febb8e31afe42591783dbc96</string>
+			</dict>
+			<key>com.github.homebysix.munki.Zoom</key>
+			<dict>
+				<key>git_hash</key>
+				<string>54c67fefa05d7058638e90c5a3cd01a572b50c1c</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/Zoom/Zoom.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>acdbba3c78e6ea9cab970f8b931349f935bec96c5899bc20662f53d0c9c3fc3a</string>
+			</dict>
+			<key>com.github.homebysix.pkg.Zoom</key>
+			<dict>
+				<key>git_hash</key>
+				<string>00025ae3581a7b0aa903e1d80da820907fcf05ae</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/Zoom/Zoom.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>9de3f14bdc5e0177897370f29d77cfe68a03b436e66ae4baa2bf176efdff4eac</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

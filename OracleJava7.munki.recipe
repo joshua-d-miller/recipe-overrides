@@ -18,10 +18,10 @@
 			</array>
 			<key>category</key>
 			<string>Web Plugins</string>
-			<key>developer</key>
-			<string>Oracle Corporation</string>
 			<key>description</key>
 			<string>Java 7 is the latest release for Java that contains many new features, enhancements and bug fixes to improve efficiency to develop and run Java programs.</string>
+			<key>developer</key>
+			<string>Oracle Corporation</string>
 			<key>display_name</key>
 			<string>Java 7 Update</string>
 			<key>minimum_os_version</key>
@@ -82,5 +82,31 @@ defaults write /Library/Preferences/com.oracle.java.Java-Updater JavaAutoUpdateE
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.autopkg.munki.OracleJava7</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.OracleJava7</key>
+			<dict>
+				<key>git_hash</key>
+				<string>9e04789ebae7628db01ef79b12a3b1fad6183ac3</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/OracleJava/OracleJava7.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>6ca0afc03df4046c6b01df7ae7ec2e1b92c8aa52254ea5074336b30fbad4a482</string>
+			</dict>
+			<key>com.github.autopkg.munki.OracleJava7</key>
+			<dict>
+				<key>git_hash</key>
+				<string>0b9c74b0b96056a9a1b8aedbd7a0de59170a310a</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/OracleJava/OracleJava7.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>6c3a0f2cf702816edfa12297a80d7f5509734657ddea8364be52d8bcc0877bd2</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

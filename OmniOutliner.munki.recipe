@@ -18,12 +18,12 @@
 			<array>
 				<string>testing</string>
 			</array>
+			<key>category</key>
+			<string>Productivity</string>
 			<key>description</key>
 			<string>Welcome to OmniOutliner 3, an amazingly flexible program for creating, collecting, and organizing information. Use OmniOutliner's document structure to brainstorm new ideas, drill out specifics, and line up the steps needed to get everything done. It's more than just an outlining tool—you've got multiple columns, smart checkboxes, customizable popup lists, and an über-innovative styles system at your disposal. Use OmniOutliner to draft to-do lists, create agendas, manage tasks, track expenses, take notes, plan events, write screenplays . . . and just about anything else you can think of. </string>
 			<key>developer</key>
 			<string>The Omni Group</string>
-			<key>category</key>
-			<string>Productivity</string>
 			<key>display_name</key>
 			<string>OmniOutliner</string>
 			<key>name</key>
@@ -34,5 +34,40 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.autopkg.munki.omnioutliner</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.omnigroupproduct</key>
+			<dict>
+				<key>git_hash</key>
+				<string>046710aa7b7e2f9c2c905c7113046e69c5766076</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/OmniGroup/OmniGroupProduct.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>714d5006583cc813a5d5bbda5e3fb6e55f82c1fa9aac861453c76c1c01d98e30</string>
+			</dict>
+			<key>com.github.autopkg.download.omnioutliner</key>
+			<dict>
+				<key>git_hash</key>
+				<string>bd474daa7aa517015cb44a0ea6945853cfcf75c0</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/OmniGroup/OmniOutliner.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>af1e775d960ee969cc6b41c49acde2bd3f4f3e27cb7c45a9a1b5be3ceda93649</string>
+			</dict>
+			<key>com.github.autopkg.munki.omnioutliner</key>
+			<dict>
+				<key>git_hash</key>
+				<string>bd474daa7aa517015cb44a0ea6945853cfcf75c0</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/OmniGroup/OmniOutliner.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>9d2f7ee6cb34500f42c1dfb5e51ff582fc37f0e97aa48838d7a92ad70328eac7</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

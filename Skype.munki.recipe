@@ -22,16 +22,14 @@
 			</array>
 			<key>category</key>
 			<string>Social</string>
-			<key>developer</key>
-			<string>Microsoft Corporation</string>
 			<key>description</key>
 			<string>Make internet calls for free with Skype. Call friends and family on any phone with Pay As You Go and Pay Monthly subscriptions, sign up today at Skype.com</string>
+			<key>developer</key>
+			<string>Microsoft Corporation</string>
 			<key>display_name</key>
 			<string>Skype</string>
 			<key>name</key>
 			<string>%NAME%</string>
-			<key>unattended_install</key>
-			<true/>
 			<key>postinstall_script</key>
 			<string>#!/bin/bash
 /usr/bin/defaults write /Library/Preferences/com.skype.skype SKAllowStealthUpgrade -bool false
@@ -40,9 +38,37 @@
 /usr/bin/defaults write /Library/Preferences/com.skype.skype SKDisableWelcomeTour -bool true
 /usr/bin/defaults write /Library/Preferences/com.skype.skype SKShowWelcomeTour -bool false
 			</string>
+			<key>unattended_install</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.autopkg.munki.Skype</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.Skype</key>
+			<dict>
+				<key>git_hash</key>
+				<string>88dcc41ccf4ab264d00d61fbb6a76bc3245bc10a</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Skype/Skype.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>6243ae66813df7deed96b7c4fea4f8aee5dbde398672717d92ea725d031e0846</string>
+			</dict>
+			<key>com.github.autopkg.munki.Skype</key>
+			<dict>
+				<key>git_hash</key>
+				<string>cb1ffba34aeafc5c96bdca9c15da65b957c50e2e</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Skype/Skype.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>52de6e60a95e3744a56a9c50f6e84c70ab699006e473a621cd2f3d6b57672022</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

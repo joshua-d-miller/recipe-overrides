@@ -36,5 +36,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.killahquam.munki.slack</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.killahquam.download.slack</key>
+			<dict>
+				<key>git_hash</key>
+				<string>0f2aa883ca7cbb3a3050f382f9936ae8328ad0f7</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.killahquam-recipes/Slack/Slack.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>2d3df626ad2487d6f5ab662d22fc9006ef1c9bf0daf972554fb27df37fb02516</string>
+			</dict>
+			<key>com.github.killahquam.munki.slack</key>
+			<dict>
+				<key>git_hash</key>
+				<string>21fdefb2525eff2063a12b9741ba2a658ccfb9ef</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.killahquam-recipes/Slack/Slack.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>e271a23373e68811060b90dd0bbcd41b25b88bde267416506eb1f45cd3eae331</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

@@ -42,5 +42,41 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.autopkg.munki.MSExcel2016</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>MSOffice2016URLandUpdateInfoProvider</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d959bb64d28f67fe1574eef46348f8d55b3456db</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/MSOfficeUpdates/MSOffice2016URLandUpdateInfoProvider.py</string>
+				<key>sha256_hash</key>
+				<string>cf74231b7434ec9178548256b98a08958e6db9b459c37d76a26952f4bcbc2cce</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.MSExcel2016</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d49d9febcf853d0809eb99c54cee83ca1ffac997</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/MSOfficeUpdates/MSExcel2016.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>2504406e5ab5903c0e3fdfdf1d64cc1c239ab37396c355280026d671fd37bc06</string>
+			</dict>
+			<key>com.github.autopkg.munki.MSExcel2016</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d49d9febcf853d0809eb99c54cee83ca1ffac997</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/MSOfficeUpdates/MSExcel2016.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>dbe59272cc58ca46e5deceda870eea31e4426c631746dc076fa9f84221db02ec</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

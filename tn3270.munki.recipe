@@ -34,5 +34,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.joshua-d-miller.autopkg.munki.tn3270X</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.hansen-m.download.tn3270X</key>
+			<dict>
+				<key>git_hash</key>
+				<string>882b5da88b9f447deab1211ded2d1fa496d027f3</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.hansen-m-recipes/TN3270/tn3270.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>3d078902baddcdad0c91ca5fe9245632d7c8a81061e6ac3db1374e5fff0d4bda</string>
+			</dict>
+			<key>com.github.joshua-d-miller.autopkg.munki.tn3270X</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b7a30b4da851a63480f840d6423ea2d176fada33</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/TN3270/tn3270.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>c310c4a5663d64cb122ab13acbea27dfe01dbcfab5d780eeaea92f7642e9c1c0</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

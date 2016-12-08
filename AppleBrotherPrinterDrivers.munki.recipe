@@ -18,10 +18,10 @@
 			</array>
 			<key>category</key>
 			<string>Peripherals</string>
-			<key>developer</key>
-			<string>Apple Inc.</string>
 			<key>description</key>
 			<string>Provides the latest Brother printing and scanning software for OS X.</string>
+			<key>developer</key>
+			<string>Apple Inc.</string>
 			<key>display_name</key>
 			<string>Printer Software Brother</string>
 			<key>name</key>
@@ -30,5 +30,41 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.n8felton.munki.AppleBrotherPrinterDrivers</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>com.github.n8felton.shared/AppleSupportDownloadInfoProvider</key>
+			<dict>
+				<key>git_hash</key>
+				<string>228a3c268a6d52727263da64de69d8d23fa4b11c</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/SharedProcessors/AppleSupportDownloadInfoProvider.py</string>
+				<key>sha256_hash</key>
+				<string>cb97c7d29684d437fd11fc5aa9781f5185659d1c0c78d1979b1c32d7f77d90e1</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.n8felton.download.AppleBrotherPrinterDrivers</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d2ac6f1fe22934c9ce7739276a9159fa24437215</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/ApplePrinterDrivers/AppleBrotherPrinterDrivers.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>0021ccfbd15c3559ce695b864f7623c15bb7dbf0f220047d77f6d8271a257497</string>
+			</dict>
+			<key>com.github.n8felton.munki.AppleBrotherPrinterDrivers</key>
+			<dict>
+				<key>git_hash</key>
+				<string>5c4eefbfbbf233228e8c689221f5b58e8dd7d50c</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/ApplePrinterDrivers/AppleBrotherPrinterDrivers.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>8cd4e39cd7069d0c589d4666d2957ed2252f4cdb134fe80ea321517e3037ef29</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

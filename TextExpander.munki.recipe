@@ -36,5 +36,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>io.github.hjuutilainen.munki.TextExpander</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>io.github.hjuutilainen.download.TextExpander</key>
+			<dict>
+				<key>git_hash</key>
+				<string>8471b8fc8ee88153b5fee7b8aafd04c1e7526350</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/SmileOnMyMac/TextExpander.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>ca84affb245d9797405b9716d100a154272553a3d4c3f48e9e6d8b71922b8ae5</string>
+			</dict>
+			<key>io.github.hjuutilainen.munki.TextExpander</key>
+			<dict>
+				<key>git_hash</key>
+				<string>87af24607c06ba1a3e9ec6ba1765f52154e662d4</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/SmileOnMyMac/TextExpander.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>2b5c25e7ec3cbbc1fa9cbd5f3284cec6c35bf6ed5e59d8be592f04d6d715538f</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

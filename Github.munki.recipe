@@ -18,6 +18,8 @@
 			<array>
 				<string>production</string>
 			</array>
+			<key>category</key>
+			<string>Administrative Tools</string>
 			<key>description</key>
 			<string>Sharing code should be as simple as possible.  That is why GitHub for Mac was created.
 
@@ -29,12 +31,10 @@
 
 			Powerfully simple branching
 			Branching is one of Git’s best features. We’ve made it easy to try out remote branches, create new local branches and publish branches to share with others.</string>
-			<key>display_name</key>
-			<string>GitHub</string>
-			<key>category</key>
-			<string>Administrative Tools</string>
 			<key>developer</key>
 			<string>GitHub Inc.</string>
+			<key>display_name</key>
+			<string>GitHub</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
@@ -43,5 +43,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.keeleysam.recipes.GitHub.munki</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.keeleysam.recipes.GitHub.download</key>
+			<dict>
+				<key>git_hash</key>
+				<string>bc4a1f7079a455c7e59b0ce0f475b17bf44614bb</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.keeleysam-recipes/Github/Github.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>e05147faa1e30270b298e5b9dd6e3b33aeb37bde0e922f70e7df6b259a4404bf</string>
+			</dict>
+			<key>com.github.keeleysam.recipes.GitHub.munki</key>
+			<dict>
+				<key>git_hash</key>
+				<string>bc4a1f7079a455c7e59b0ce0f475b17bf44614bb</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.keeleysam-recipes/Github/Github.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>ca238f549180afdc5e72fa89112dc9d986b823d3a968ac6ca01fb927090c4e6a</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

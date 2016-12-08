@@ -37,5 +37,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.joshua-d-miller.autopkg.munki.MacTeX</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.joshua-d-miller.autopkg.munki.MacTeX</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b7a30b4da851a63480f840d6423ea2d176fada33</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/MacTeX/mactex.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>d3c53c60d9268b26727f790c713bf2628db931d293831d6f7fe3c81be379f1a5</string>
+			</dict>
+			<key>com.github.joshua-d-miller.download.MacTeX</key>
+			<dict>
+				<key>git_hash</key>
+				<string>9bf3b91d24d34be10414cb94de47a9006ed299b0</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/MacTeX/mactex.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>bb50916da3449fe8f630ea7e14a23033c86e3e8ce37a84db9987093611e3285e</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

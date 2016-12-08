@@ -18,10 +18,10 @@
 			</array>
 			<key>category</key>
 			<string>Administrative Tools</string>
-			<key>developer</key>
-			<string>Bare Bones Software</string>
 			<key>description</key>
 			<string>TextWrangler is the powerful general purpose text editor, and Unix and server administrator's tool. TextWrangler is the "little brother" to BBEdit, a leading professional HTML and text editor.</string>
+			<key>developer</key>
+			<string>Bare Bones Software</string>
 			<key>display_name</key>
 			<string>TextWrangler</string>
 			<key>name</key>
@@ -51,5 +51,41 @@ done
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.autopkg.munki.textwrangler</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>BarebonesURLProvider</key>
+			<dict>
+				<key>git_hash</key>
+				<string>c4a6bacbba3a00ff24f0914efcd9159eb26999ba</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Barebones/BarebonesURLProvider.py</string>
+				<key>sha256_hash</key>
+				<string>f23c5f4769d3be3f29d1e573867275ae63e38c23e56b39250478c3159927a33f</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.textwrangler</key>
+			<dict>
+				<key>git_hash</key>
+				<string>937886757bbb1981b1179263f2aed613fea1d53d</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Barebones/TextWrangler.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>9e10b50a7087d36f58ba0385d5385f1be65406c988037dbf910b58c4cc91d2f5</string>
+			</dict>
+			<key>com.github.autopkg.munki.textwrangler</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d9449d893954ed882c35e6708452aac791ba0e83</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Barebones/TextWrangler.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>2d3a3e329f8aa0c17b67de887282084b308de821c573ce4bac7c2613fefe355a</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

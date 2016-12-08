@@ -16,6 +16,8 @@
 			<array>
 				<string>production</string>
 			</array>
+			<key>category</key>
+			<string>Reference</string>
 			<key>description</key>
 			<string>
 &lt;html&gt;
@@ -72,8 +74,6 @@ Keep all of your itineraries, confirmations, scanned travel documents, maps, and
 &lt;/p&gt;
 &lt;/html&gt;
 			</string>
-			<key>category</key>
-			<string>Reference</string>
 			<key>developer</key>
 			<string>Evernote Corporation</string>
 			<key>display_name</key>
@@ -86,5 +86,31 @@ Keep all of your itineraries, confirmations, scanned travel documents, maps, and
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.autopkg.munki.Evernote</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.Evernote</key>
+			<dict>
+				<key>git_hash</key>
+				<string>ebcbf5b5b3e600b329bf15d412217fd5ecbb4ff8</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Evernote/Evernote.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>0a4c58e9f0ff617bcefddf22e6dba8c5d50758ce952a9888264c47094f0dbf76</string>
+			</dict>
+			<key>com.github.autopkg.munki.Evernote</key>
+			<dict>
+				<key>git_hash</key>
+				<string>1a63ebc794e5feb519c95e5241e6ed00adcecd20</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Evernote/Evernote.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>e06b5c074460371eef0a4b796c421474abfd211b05b9bbffb6668759baf441c6</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

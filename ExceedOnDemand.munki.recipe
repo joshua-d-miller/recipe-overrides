@@ -40,5 +40,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.joshua-d-miller.autopkg.munki.exceedondemandclient</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.hansen-m.download.exceedondemandclient</key>
+			<dict>
+				<key>git_hash</key>
+				<string>f9737d4b476e9cff5dbd8de55b0c53179929cc46</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.hansen-m-recipes/OpenText/ExceedOnDemand.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>3c00b371528eb91a6e1f112ab4bec2c0b3114e2f9db983c5fba6dc11fff87a48</string>
+			</dict>
+			<key>com.github.joshua-d-miller.autopkg.munki.exceedondemandclient</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b7a30b4da851a63480f840d6423ea2d176fada33</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/OpenText/ExceedOnDemand.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>f3ce0c449036919bccb36ea4a1cc4d337abd5827b5d3f3ae525a37030318eb13</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

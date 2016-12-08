@@ -34,5 +34,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.joshua-d-miller.autopkg.munki.voipconnect</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.joshua-d-miller.autopkg.munki.voipconnect</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b7a30b4da851a63480f840d6423ea2d176fada33</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/VOIP Connect/voipconnect.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>4af85d9a5c5117aa516492126919cad20a6cb4e76d214663d923b438e96fea70</string>
+			</dict>
+			<key>com.github.joshua-d-miller.download.voipconnect</key>
+			<dict>
+				<key>git_hash</key>
+				<string>a2f546d2f29ee979476b9591b8b47e33f0b93a49</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/VOIP Connect/voipconnect.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>5c8f163735d27ab48b1e128281f15bd390c5d9c1806433b69d7b4559c1a3a5ec</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

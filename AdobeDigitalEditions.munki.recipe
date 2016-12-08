@@ -36,5 +36,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.joshua-d-miller.autopkg.munki.AdobeDigitalEditions</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.hansen-m.download.AdobeDigitalEditions</key>
+			<dict>
+				<key>git_hash</key>
+				<string>882b5da88b9f447deab1211ded2d1fa496d027f3</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.hansen-m-recipes/Adobe/AdobeDigitalEditions.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>22c919220913e554c5b3cbb33baeb5b88a2d507576b67ee1cf2da4cc04041c6c</string>
+			</dict>
+			<key>com.github.joshua-d-miller.autopkg.munki.AdobeDigitalEditions</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b7a30b4da851a63480f840d6423ea2d176fada33</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/Adobe/AdobeDigitalEditions.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>3033d7fca58e9ba016ff5d53089ca12c00a751c3d08f69c15dc4a60d21d1d224</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

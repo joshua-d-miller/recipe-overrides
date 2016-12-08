@@ -20,16 +20,14 @@
 			</array>
 			<key>category</key>
 			<string>Social</string>
-			<key>developer</key>
-			<string>Google Inc.</string>
 			<key>description</key>
 			<string>Google Drive sync for Mac. Access files on your computer from anywhere.</string>
+			<key>developer</key>
+			<string>Google Inc.</string>
 			<key>display_name</key>
 			<string>Google Drive</string>
 			<key>name</key>
 			<string>%NAME%</string>
-			<key>unattended_install</key>
-			<true/>
 			<key>postinstall_script</key>
 			<string>#!/usr/bin/ruby
 
@@ -66,9 +64,37 @@ end
 
 exit 0
 			</string>
+			<key>unattended_install</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.autopkg.recipes-dankeller.munki.google-drive</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.recipes-dankeller.download.google-drive</key>
+			<dict>
+				<key>git_hash</key>
+				<string>83d7f88010c9f1f0c7b0434b35a6d2002b72d632</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.dankeller-recipes/GoogleDrive/GoogleDrive.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>aa562b3d69489b45660b6175d8824ec10804889b5268260d2633ece021955180</string>
+			</dict>
+			<key>com.github.autopkg.recipes-dankeller.munki.google-drive</key>
+			<dict>
+				<key>git_hash</key>
+				<string>fb3f77e2d2b628c20c8581c4ed628ae6d9e005bb</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.dankeller-recipes/GoogleDrive/GoogleDrive.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>faf31817ddd2997574e433903819dab992c7afa7c5e78c1743fbe7bb6c70775a</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

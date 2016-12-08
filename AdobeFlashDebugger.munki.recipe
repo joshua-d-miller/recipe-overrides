@@ -30,5 +30,41 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.joshua-d-miller.autopkg.munki.AdobeFlashDebbugger</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>AdobeFlashDmgUnpacker</key>
+			<dict>
+				<key>git_hash</key>
+				<string>8a10f6be649c769c44b89ea3766501bcd7021a4e</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.vmule-recipes/AdobeFlashDebugger/AdobeFlashDmgUnpacker.py</string>
+				<key>sha256_hash</key>
+				<string>79f5d14362600cfb4c54b6a5e3278a1f3477bf630c244ff1b2b8bc62080a3fc4</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.joshua-d-miller.autopkg.munki.AdobeFlashDebbugger</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b7a30b4da851a63480f840d6423ea2d176fada33</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/Adobe/AdobeFlashDebugger.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>06a84332c0c33fe1c50c3d93ae0560eeabed76c82c0a559017f252afbf792a38</string>
+			</dict>
+			<key>com.github.vmule.download.AdobeFlashDebugger</key>
+			<dict>
+				<key>git_hash</key>
+				<string>43b24fe357591d7546c1374f18fe9cb259298e32</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.vmule-recipes/AdobeFlashDebugger/AdobeFlashDebbugger.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>dd79f1f84234958a341c3637a2d5ac71a9486efec952701126c5f0cceacecd29</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

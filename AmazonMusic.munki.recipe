@@ -38,5 +38,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.joshua-d-miller.autopkg.munki.AmazonMusic</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.hansen-m.download.AmazonMusic</key>
+			<dict>
+				<key>git_hash</key>
+				<string>e4ff5afed8fa2f6de63f6157bb370977f341f5c3</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.hansen-m-recipes/Amazon/AmazonMusic.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>e95bc9463570c5cfb93bea40484fb9cd7bac90257ecaf4a83b6ee610f8ed623d</string>
+			</dict>
+			<key>com.github.joshua-d-miller.autopkg.munki.AmazonMusic</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b7a30b4da851a63480f840d6423ea2d176fada33</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/Amazon/AmazonMusic.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>1e293c6983acd13da0a7574d7a6f082c5a39e6b8ca1b1e2edf1895c287557069</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

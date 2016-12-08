@@ -20,10 +20,10 @@
 			</array>
 			<key>category</key>
 			<string>Media</string>
-			<key>developer</key>
-			<string>Spotify</string>
 			<key>description</key>
 			<string>Spotify is a music streaming service offering unlimited streaming of selected music from a range of major and independent record labels.</string>
+			<key>developer</key>
+			<string>Spotify</string>
 			<key>display_name</key>
 			<string>Spotify</string>
 			<key>name</key>
@@ -34,5 +34,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.autopkg.munki.Spotify</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.Spotify</key>
+			<dict>
+				<key>git_hash</key>
+				<string>3feff5e323d1caae2b1b8c5eef3722e7b52e07f9</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Spotify/Spotify.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>78b4aa01b807ae0fe6c190b4837f89a77cd38044bf236204c469777cdac5a44f</string>
+			</dict>
+			<key>com.github.autopkg.munki.Spotify</key>
+			<dict>
+				<key>git_hash</key>
+				<string>1384607a1688a2fb85a58bf2296e815489e8f26f</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Spotify/Spotify.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>07c76f44a53bc8a53c03ed1c13c3e6ad017c910b1132c8939fcc61734298a59e</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

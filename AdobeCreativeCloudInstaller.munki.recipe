@@ -34,5 +34,40 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>uk.ac.ox.orchard.munki.AdobeCreativeCloudInstaller</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.rtrouton.download.AdobeCreativeCloudInstaller</key>
+			<dict>
+				<key>git_hash</key>
+				<string>8e5f1e080f2bf3ecc4749634071d8c15455ddc0a</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/AdobeCreativeCloud/AdobeCreativeCloudInstaller.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>1644b0333520bfc73cc93b90f2e8ac0437649c23e043ea6c3f27c1df9a42d7e8</string>
+			</dict>
+			<key>com.github.rtrouton.pkg.AdobeCreativeCloudInstaller</key>
+			<dict>
+				<key>git_hash</key>
+				<string>8e5f1e080f2bf3ecc4749634071d8c15455ddc0a</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/AdobeCreativeCloud/AdobeCreativeCloudInstaller.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>7a24313948e63e23090f584d3baac5e448a9155869781d7cf0c482b9d34390e9</string>
+			</dict>
+			<key>uk.ac.ox.orchard.munki.AdobeCreativeCloudInstaller</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d1b2956e9330cbfd3f70973c470265215e0180f3</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.orchard-recipes/Adobe/AdobeCreativeCloudInstaller.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>068965c0a6d39355faf755643bdd79e8cfbe506a800f5b8c0e81cd2da7792a8f</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

@@ -34,5 +34,31 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.foigus.munki.ExpressScribe</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.foigus.download.ExpressScribe</key>
+			<dict>
+				<key>git_hash</key>
+				<string>486c11b8c57a6c51947e752b14570fba85ebe177</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.foigus-recipes/NCHSoftware/ExpressScribe.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>93e5428ea95dba5749ff1ebe797013bf1f18e4f2973b79188414fd82e16b9e9e</string>
+			</dict>
+			<key>com.github.foigus.munki.ExpressScribe</key>
+			<dict>
+				<key>git_hash</key>
+				<string>772bdd3b49459735862e7002d9364fe2b8f95362</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.foigus-recipes/NCHSoftware/ExpressScribe.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>b252191b80aae4d07521dacd5841e49e0e0c12d30a1d189731f79a95837990d4</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

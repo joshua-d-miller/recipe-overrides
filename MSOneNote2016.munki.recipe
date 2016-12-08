@@ -42,5 +42,41 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.autopkg.munki.MSOneNote2016</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>MSOffice2016URLandUpdateInfoProvider</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d959bb64d28f67fe1574eef46348f8d55b3456db</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/MSOfficeUpdates/MSOffice2016URLandUpdateInfoProvider.py</string>
+				<key>sha256_hash</key>
+				<string>cf74231b7434ec9178548256b98a08958e6db9b459c37d76a26952f4bcbc2cce</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.MSOneNote2016</key>
+			<dict>
+				<key>git_hash</key>
+				<string>c46583fe1bb6218f5128df5dedcdc8290199e538</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/MSOfficeUpdates/MSOneNote2016.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>e1211276d739d499067faa75d0e85f2f98d78e54730febf4c2fbb43de639432a</string>
+			</dict>
+			<key>com.github.autopkg.munki.MSOneNote2016</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d49d9febcf853d0809eb99c54cee83ca1ffac997</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/MSOfficeUpdates/MSOneNote2016.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>1df24704448a3f61cf434700c63c7e2f6f8af364037eb629b7b1249c5e232c68</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>
