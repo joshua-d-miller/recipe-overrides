@@ -34,16 +34,5 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>uk.ac.ox.orchard.munki.AdobeCreativeCloudInstaller</string>
-	<key>ParentRecipeTrustInfo</key>
-	<dict>
-		<key>non_core_processors</key>
-		<dict/>
-		<key>parent_recipes</key>
-		<dict>
-			<key>com.github.rtrouton.download.AdobeCreativeCloudInstaller</key>
-			<key>com.github.rtrouton.pkg.AdobeCreativeCloudInstaller</key>
-			<key>uk.ac.ox.orchard.munki.AdobeCreativeCloudInstaller</key>
-		</dict>
-	</dict>
 </dict>
 </plist>
