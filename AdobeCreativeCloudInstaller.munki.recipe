@@ -25,9 +25,9 @@
 			<key>developer</key>
 			<string>Adobe Systems Inc.</string>
 			<key>display_name</key>
-			<string>%name%</string>
+			<string>%NAME%</string>
 			<key>name</key>
-			<string>%name%</string>
+			<string>%NAME%</string>
 			<key>unattended_install</key>
 			<true/>
 		</dict>
