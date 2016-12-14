@@ -79,11 +79,11 @@
 			<key>com.github.autopkg.download.Office2011Updates</key>
 			<dict>
 				<key>git_hash</key>
-				<string>ef1c90571a9f5bc877d9dd4e1b7780219aafa481</string>
+				<string>a84c8c3ad6da7b43ccf3cb2749ebb93ca7be6839</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/MSOfficeUpdates/MSOffice2011Updates.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>faa96754ce09de6c45bb7e2cd3cde21786c4c11f5b7b9d95d6fa3f5eaa5c0384</string>
+				<string>b07eb960132d628098752ae0101d8f2a64370cd8279b10370db17debc046c1eb</string>
 			</dict>
 			<key>com.github.autopkg.munki.Office2011Updates</key>
 			<dict>

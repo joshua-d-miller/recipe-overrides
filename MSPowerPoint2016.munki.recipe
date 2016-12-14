@@ -61,11 +61,11 @@
 			<key>com.github.autopkg.download.MSPowerPoint2016</key>
 			<dict>
 				<key>git_hash</key>
-				<string>c46583fe1bb6218f5128df5dedcdc8290199e538</string>
+				<string>c835cef1f83b1c49ca4739887e53f57d2375d6fc</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/MSOfficeUpdates/MSPowerPoint2016.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>aea09880e513aebc65c456f2aa95d722d99d9f85d03d8b5a56740bf6c3945dbf</string>
+				<string>b581885cc20a1f7d29fca358d85e37b3e7d453020686e86cb9e9803f9b23b2e2</string>
 			</dict>
 			<key>com.github.autopkg.munki.MSPowerPoint2016</key>
 			<dict>

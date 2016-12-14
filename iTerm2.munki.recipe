@@ -50,7 +50,7 @@
 			<key>com.github.keeleysam.autopkg.munki.iTerm2</key>
 			<dict>
 				<key>git_hash</key>
-				<string>cd9d2e08532a636c75becf22a9500f9216785e43</string>
+				<string>f6df176e67433ef78fb1621ca56724a5e8bc4860</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.keeleysam-recipes/iTerm2/iTerm2.munki.recipe</string>
 				<key>sha256_hash</key>

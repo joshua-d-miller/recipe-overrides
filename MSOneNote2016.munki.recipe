@@ -61,11 +61,11 @@
 			<key>com.github.autopkg.download.MSOneNote2016</key>
 			<dict>
 				<key>git_hash</key>
-				<string>c46583fe1bb6218f5128df5dedcdc8290199e538</string>
+				<string>78f96ee8a177b2ff6f15009de0c64a5b201d0097</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/MSOfficeUpdates/MSOneNote2016.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>e1211276d739d499067faa75d0e85f2f98d78e54730febf4c2fbb43de639432a</string>
+				<string>89c26796a3efeec2a86d694a6342ea2ae3c87ed0bcf978a729812fe39c200dbe</string>
 			</dict>
 			<key>com.github.autopkg.munki.MSOneNote2016</key>
 			<dict>

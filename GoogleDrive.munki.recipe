@@ -88,11 +88,11 @@ exit 0
 			<key>com.github.autopkg.recipes-dankeller.munki.google-drive</key>
 			<dict>
 				<key>git_hash</key>
-				<string>fb3f77e2d2b628c20c8581c4ed628ae6d9e005bb</string>
+				<string>129f38a900503f514288900a38ac4da311c2dae3</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.dankeller-recipes/GoogleDrive/GoogleDrive.munki.recipe</string>
 				<key>sha256_hash</key>
-				<string>faf31817ddd2997574e433903819dab992c7afa7c5e78c1743fbe7bb6c70775a</string>
+				<string>cce1c27048619ab8a82578b4968a05a6929f880ccaac61af6a2813f6a8095276</string>
 			</dict>
 		</dict>
 	</dict>

@@ -60,11 +60,11 @@
 			<key>com.github.joshua-d-miller.autopkg.munki.Unity3D</key>
 			<dict>
 				<key>git_hash</key>
-				<string>b7a30b4da851a63480f840d6423ea2d176fada33</string>
+				<string>4b28c0b05e6f6e891a38a7113119746a83304647</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/Unity3D/Unity3D.munki.recipe</string>
 				<key>sha256_hash</key>
-				<string>d75558897567fa523d8496089909acf0f712d618b693580b2d4c94f55925fcea</string>
+				<string>792f786ee4488219a6d29253b56142ccee907dfcd57518c6aef58b0b6931c3a4</string>
 			</dict>
 		</dict>
 	</dict>
