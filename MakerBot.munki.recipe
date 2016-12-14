@@ -8,8 +8,6 @@
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>Science</string>
-		<key>NAME</key>
-		<string>MakerBot</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -21,7 +19,7 @@
 			<key>display_name</key>
 			<string>MakerBot</string>
 			<key>name</key>
-			<string>%NAME%</string>
+			<string>MakerBot</string>
 			<key>unattended_install</key>
 			<true/>
 		</dict>
