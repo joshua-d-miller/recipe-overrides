@@ -43,20 +43,20 @@
 			<key>com.github.autopkg.download.Handbrake</key>
 			<dict>
 				<key>git_hash</key>
-				<string>ac81e5e06db47f60ad8d294680ae669ebb7c61a7</string>
+				<string>2c27e5ffc235efca5d39b107787502b2ec7172e5</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Handbrake/Handbrake.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>fb1c663a887520371cf1dbb618f41b3bee34a8f58a39983cea367071af14f446</string>
+				<string>50420bf890cee155ad9f53934ef3897bac3553ae2598066e0b7407dfe889cb4e</string>
 			</dict>
 			<key>com.github.autopkg.munki.Handbrake</key>
 			<dict>
 				<key>git_hash</key>
-				<string>490e0b2db109294c1d3a4f260df9fb9814f59464</string>
+				<string>5011cb739ce9caa6c4f13d7ea2342ec5205f8f08</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Handbrake/Handbrake.munki.recipe</string>
 				<key>sha256_hash</key>
-				<string>8f73454852b63e613b982bccd17f781622df82f4611b023b1f2a39ab8e3d2a99</string>
+				<string>d7d2119f6ce67c0f7e72c51f89a91df7864fa0215b98c9016b73c80d250da889</string>
 			</dict>
 		</dict>
 	</dict>

@@ -48,11 +48,11 @@
 			<key>com.github.sheagcraig.munki.SketchUpMake</key>
 			<dict>
 				<key>git_hash</key>
-				<string>83fa632c8ed422599137cef464fd892d1c72da0b</string>
+				<string>4645628f4320a45de8becf40dfc8b4fdbddd3389</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.sheagcraig-recipes/Sketchup/SketchUpMake.munki.recipe</string>
 				<key>sha256_hash</key>
-				<string>00599872825759ebe6d83e40e64bbb2311ce498b85d07ec7b25bc9a7ca4fe33d</string>
+				<string>124cc9920a48ecea1cd153724c1ce5cf1aaee2b803ea62021dfbf301198927ea</string>
 			</dict>
 		</dict>
 	</dict>
