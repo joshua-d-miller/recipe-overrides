@@ -43,20 +43,20 @@
 			<key>com.github.autopkg.download.google-earth</key>
 			<dict>
 				<key>git_hash</key>
-				<string>1ee2b9bc67dd5baa1577ea807f9b7cb821a73011</string>
+				<string>a185f6926b5e4bb6431a942dd2892a651e1acbfb</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/GoogleEarth/GoogleEarth.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>9642060e1a7500097a249a1a811c367dc444dbe950103c6ec6eefaea0ee7e465</string>
+				<string>b6738116e8b5e6ac705a80fb33837e197015c86b6a5ac633274b0dbcd4fbadbe</string>
 			</dict>
 			<key>com.github.autopkg.munki.google-earth</key>
 			<dict>
 				<key>git_hash</key>
-				<string>f9c7b9306cf758b49602e24224d13583df0179cd</string>
+				<string>a185f6926b5e4bb6431a942dd2892a651e1acbfb</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/GoogleEarth/GoogleEarth.munki.recipe</string>
 				<key>sha256_hash</key>
-				<string>cd18b07197b8a1cf4da312c4a88db517e3f809cf3ba25f1d42ee49aae616f301</string>
+				<string>2b330ed5ac695ee8bffad0647136f1badaefc1412b1674275daa6f51fd4994d7</string>
 			</dict>
 		</dict>
 	</dict>
