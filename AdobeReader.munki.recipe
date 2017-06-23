@@ -93,20 +93,20 @@ exit 0
 			<key>com.github.autopkg.download.AdobeReader</key>
 			<dict>
 				<key>git_hash</key>
-				<string>b6e90cf85dc6e56377b38a0f32e32768412ea10a</string>
+				<string>71a9ca9ea3b9610c732aa95f906d20b0213f60c8</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/AdobeReader/AdobeReader.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>4feece464cdd89d5e96c058c295738c7115e9e74384233fa87c64c205a6429cb</string>
+				<string>c766398bc92e766a26ad7d0cedc97d7d975c5b529ef8f6260b9b5d5268d40a85</string>
 			</dict>
 			<key>com.github.autopkg.munki.AdobeReader</key>
 			<dict>
 				<key>git_hash</key>
-				<string>b6e90cf85dc6e56377b38a0f32e32768412ea10a</string>
+				<string>2147123be00c8a8e53cdc392f76c7b54f735ebd9</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/AdobeReader/AdobeReader.munki.recipe</string>
 				<key>sha256_hash</key>
-				<string>1518a6e6cdb872418ef3a924d5d9bbf1b1b681985452e0e2f42e9570d24dd100</string>
+				<string>6962d6dd0afc6615519d0afd8ce3b144fcaa81ea90e0b586b1159ea43a8eb766</string>
 			</dict>
 		</dict>
 	</dict>

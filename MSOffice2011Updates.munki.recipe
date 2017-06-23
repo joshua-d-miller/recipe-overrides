@@ -67,11 +67,11 @@
 			<key>MSOffice2011UpdateInfoProvider</key>
 			<dict>
 				<key>git_hash</key>
-				<string>6dc54404bb31673f5c3ef556fb8af2bcd2c4d8c1</string>
+				<string>1d4fc94191bbe85d60c4a271ceb16d992ac6fea6</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/MSOfficeUpdates/MSOffice2011UpdateInfoProvider.py</string>
 				<key>sha256_hash</key>
-				<string>b45b1273ec683eb42ad7cc014d370a837191fe9f6a92ca354f226166b6bde67f</string>
+				<string>b76c49041689e74372bb5b48de09a93077956000ffc34ec37e21cc203333e708</string>
 			</dict>
 		</dict>
 		<key>parent_recipes</key>

@@ -50,20 +50,20 @@ exit 0
 			<key>com.github.joshua-d-miller.autopkg.munki.drobodashboard</key>
 			<dict>
 				<key>git_hash</key>
-				<string>b7a30b4da851a63480f840d6423ea2d176fada33</string>
+				<string>38bf7a7159bee9b17d248c709c1c2f044d442396</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/Drobo/DroboDashboard.munki.recipe</string>
 				<key>sha256_hash</key>
-				<string>68601f549bc446aa1f745c701ea933be1173da2d01e1ef86802efe5524c75495</string>
+				<string>e3d7470cfdeea5804db0633783c12dba6e8d58fff549785d64dda331a6353fee</string>
 			</dict>
 			<key>com.github.joshua-d-miller.download.drobodashboard</key>
 			<dict>
 				<key>git_hash</key>
-				<string>3a657e3decc3068a66ef43e490059f3cd861324b</string>
+				<string>38bf7a7159bee9b17d248c709c1c2f044d442396</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/Drobo/DroboDashboard.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>445cca0d2156e4009ac53adb9a8a71a0be426fb67d2934520347aa777d4b410f</string>
+				<string>6a033b8cdce046d11b023ac9e72e8ffeb80d6e5f8210d5e397c935a70dbe42a3</string>
 			</dict>
 		</dict>
 	</dict>

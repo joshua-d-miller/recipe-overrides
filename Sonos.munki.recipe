@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.Sonos</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>Media/Sonos</string>
+		<key>NAME</key>
+		<string>Sonos</string>
+		<key>USER_AGENT</key>
+		<string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/536.28.10 (KHTML, like Gecko) Version/6.0.3 Safari/536.28.10</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>Multimedia</string>
+			<key>description</key>
+			<string>Take total control of your home listening experience with the Sonos app. Play, control and explore your music, your way.</string>
+			<key>developer</key>
+			<string>Sonos, Inc.</string>
+			<key>display_name</key>
+			<string>Sonos</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.munki.Sonos</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.Sonos</key>
+			<dict>
+				<key>git_hash</key>
+				<string>22e75a6af28c8dc16b336c0d4951fcaade1d023d</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.arubdesu-recipes/Sonos/Sonos.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>134108f6ad4c79b0bfd4fdf3670b96f86bbb330956bcc8cec6b57a7d0e091eb9</string>
+			</dict>
+			<key>com.github.autopkg.munki.Sonos</key>
+			<dict>
+				<key>git_hash</key>
+				<string>22e75a6af28c8dc16b336c0d4951fcaade1d023d</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.arubdesu-recipes/Sonos/Sonos.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>cd76402f4f48936362601371c34b2d4f3ab91949d7c54ba0b8c3855445cfb5e3</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.Kindle</string>
+	<key>Input</key>
+	<dict>
+		<key>DOWNLOAD_URL</key>
+		<string>http://www.amazon.com/kindlemacdownload/ref=klp_mac</string>
+		<key>MUNKI_CATEGORY</key>
+		<string>Reference</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>Reference/Amazon Kindle</string>
+		<key>NAME</key>
+		<string>Amazon Kindle</string>
+		<key>USER_AGENT</key>
+		<string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/601.4.4 (KHTML, like Gecko) Version/9.0.3 Safari/601.4.4</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>%MUNKI_CATEGORY%</string>
+			<key>description</key>
+			<string>The Kindle app gives users the ability to read Kindle books on a beautiful, easy-to-use interface. You’ll have access to over 1,000,000 books in the Kindle Store, including best sellers and new releases. Amazon Whispersync automatically syncs your last page read, bookmarks, notes, and highlights across devices (including Kindle), so you can pick up where you left off on another device.</string>
+			<key>developer</key>
+			<string>Amazon</string>
+			<key>display_name</key>
+			<string>Amazon Kindle</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.aysiu.munki.Kindle</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.aysiu.munki.Kindle</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b0cf991ca986ed240c55828f4ded39077460ed26</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.aysiu-recipes/Kindle/Kindle.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>7463260fe659e9d438120eae0457ece2bf842c92d143422cb76754a16fc8ea3f</string>
+			</dict>
+			<key>com.github.hansen-m.download.Kindle</key>
+			<dict>
+				<key>git_hash</key>
+				<string>963b993dd3ca831568d34cba3a68cc63b14189ef</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.hansen-m-recipes/Amazon/Kindle.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>f4258ae749aa333dd47959f0f20b25a2bba26aabddb42003ee8f722e2530decd</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

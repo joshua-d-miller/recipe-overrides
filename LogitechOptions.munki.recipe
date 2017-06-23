@@ -52,11 +52,11 @@
 			<key>com.github.joshua-d-miller.download.logitechoptions</key>
 			<dict>
 				<key>git_hash</key>
-				<string>df267fb639af6adb8d85a219bd7cda2d39c27cdc</string>
+				<string>6b13a1754c35a2a8f7c8573f2cfa9b73b36ab91a</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/Logitech/LogitechOptions.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>3533dd8f09f5c2787d0d3987790b42f6d04da34786b9603ea0dc0cd881b5403e</string>
+				<string>ff42bb15e0d7c3e2997c2873b665a55fd5f59172e7c56327ff04036533c40860</string>
 			</dict>
 		</dict>
 	</dict>

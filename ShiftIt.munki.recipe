@@ -39,11 +39,11 @@
 			<key>com.github.joshua-d-miller.autopkg.download.ShiftIt</key>
 			<dict>
 				<key>git_hash</key>
-				<string>3a657e3decc3068a66ef43e490059f3cd861324b</string>
+				<string>d048bfe256c4c7cec852908418ba755efdde01a8</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/ShiftIt/ShiftIt.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>6a911f7fef4e5435fe521e5a87084031cda4b53ba072acda0d4edd2c42c86814</string>
+				<string>bc7755897d59de7dd94da373f3965ec3ed442549560776691ed2d36f3423f8c7</string>
 			</dict>
 			<key>com.github.joshua-d-miller.autopkg.munki.ShiftIt</key>
 			<dict>

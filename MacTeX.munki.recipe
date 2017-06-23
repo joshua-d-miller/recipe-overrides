@@ -55,11 +55,11 @@
 			<key>com.github.joshua-d-miller.download.MacTeX</key>
 			<dict>
 				<key>git_hash</key>
-				<string>9bf3b91d24d34be10414cb94de47a9006ed299b0</string>
+				<string>11b93e5890a5473289e5801210070ee367bf4496</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/MacTeX/mactex.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>bb50916da3449fe8f630ea7e14a23033c86e3e8ce37a84db9987093611e3285e</string>
+				<string>bafd83aaedd553c133192b6a0a2a71c67cd3765aed32602e57b60ae717132a02</string>
 			</dict>
 		</dict>
 	</dict>

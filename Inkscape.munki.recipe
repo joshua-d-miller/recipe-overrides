@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.Inkscape</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>Media/Inkscape</string>
+		<key>NAME</key>
+		<string>Inkscape</string>
+		<key>SEARCH_PATTERN</key>
+		<string>(?P&lt;url&gt;https://inkscape\.org/en/gallery/item/[0-9]+/Inkscape-[0-9.-]+-x11-10\.7-x86_64\.dmg)</string>
+		<key>SEARCH_URL</key>
+		<string>https://inkscape.org/en/download/mac-os/</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>Media</string>
+			<key>description</key>
+			<string>Vector graphics application.</string>
+			<key>developer</key>
+			<string>The Inkscape Team</string>
+			<key>display_name</key>
+			<string>Inkscape</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>requires</key>
+			<array>
+				<string>XQuartz</string>
+			</array>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.homebysix.munki.Inkscape</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.hansen-m.download.Inkscape</key>
+			<dict>
+				<key>git_hash</key>
+				<string>12338f23079c8280bb5b131f3a5ddb87db9d0fc9</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.hansen-m-recipes/Inkscape/Inkscape.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>97c43a323f72eed1ea1f4ca79460cfad61347df3e80ed0a8827dd306f22155be</string>
+			</dict>
+			<key>com.github.homebysix.munki.Inkscape</key>
+			<dict>
+				<key>git_hash</key>
+				<string>504c58bf7d1fc953f76dc301c25e42b11be64476</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/Inkscape/Inkscape.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>5fe6114dcd2cbd37535d124c5f1b2026d2cd404a8a405ecd2c1aa17b4408ba17</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

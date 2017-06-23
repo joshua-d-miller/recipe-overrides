@@ -11,7 +11,7 @@
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>Adobe/Creative Cloud</string>
 		<key>NAME</key>
-		<string>Adobe Creative Cloud Installer</string>
+		<string>Creative Cloud Installer</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -25,9 +25,26 @@
 			<key>developer</key>
 			<string>Adobe Systems Inc.</string>
 			<key>display_name</key>
-			<string>%NAME%</string>
+			<string>Adobe Creative Cloud Installer</string>
 			<key>name</key>
-			<string>%NAME%</string>
+			<string>Adobe Creative Cloud Installer</string>
+			<key>postinstall_script</key>
+			<string>#!/bin/bash
+		mkdir -p /Library/Application\ Support/Adobe/OOBE/Configs/
+		touch /Library/Application\ Support/Adobe/OOBE/Configs/ServiceConfig.xml
+		cat &gt;/Library/Application\ Support/Adobe/OOBE/Configs/ServiceConfig.xml &lt;&lt; EOL
+		&lt;config&gt;
+		    &lt;panel&gt;
+		        &lt;name&gt;AppsPanel&lt;/name&gt;
+		        &lt;visible&gt;true&lt;/visible&gt;
+		    &lt;/panel&gt;
+		    &lt;feature&gt;
+		        &lt;name&gt;SelfServeInstalls&lt;/name&gt;
+		        &lt;enabled&gt;true&lt;/enabled&gt;
+		    &lt;/feature&gt;
+		&lt;/config&gt;
+		EOL
+			</string>
 			<key>unattended_install</key>
 			<true/>
 		</dict>

@@ -51,11 +51,11 @@
 			<key>com.github.hansen-m.download.RStudio</key>
 			<dict>
 				<key>git_hash</key>
-				<string>882b5da88b9f447deab1211ded2d1fa496d027f3</string>
+				<string>ace1154fd8e627a1e509dd947799a4cfa6b4b7bf</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.hansen-m-recipes/RStudio/RStudio.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>bff6bcb1f6051ed82b048cd1f934484662e510a503015837906eff880fe59c0b</string>
+				<string>0c31bb4b003283ef84165ba7c4bd13667223e5a9c68dbd6e1e2f51a1faac68e8</string>
 			</dict>
 			<key>com.github.joshua-d-miller.autopkg.munki.RStudio</key>
 			<dict>

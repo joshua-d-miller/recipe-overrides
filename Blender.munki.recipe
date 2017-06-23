@@ -37,36 +37,26 @@
 	<key>ParentRecipeTrustInfo</key>
 	<dict>
 		<key>non_core_processors</key>
-		<dict>
-			<key>BlenderPermissionsFixer</key>
-			<dict>
-				<key>git_hash</key>
-				<string>ceb7898b4c5f10af170a4604628b1b0980342426</string>
-				<key>path</key>
-				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/Blender/BlenderPermissionsFixer.py</string>
-				<key>sha256_hash</key>
-				<string>59f359387fd8ba41ac5d594a9e0344761709a3969387eb5de30d3f2a1768179d</string>
-			</dict>
-		</dict>
+		<dict/>
 		<key>parent_recipes</key>
 		<dict>
 			<key>io.github.hjuutilainen.download.Blender</key>
 			<dict>
 				<key>git_hash</key>
-				<string>ceb7898b4c5f10af170a4604628b1b0980342426</string>
+				<string>1dd92ffb44fb709342651e7dc5773aca1d71e71c</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/Blender/Blender.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>ee1d45da60605d5dddd53cc3a901221b9c7ad510745e3ef70cb59712b4ca7ce4</string>
+				<string>05c567d3136004099bd3ecf044712b3e834611f11b1e4986af633b81edf4ca97</string>
 			</dict>
 			<key>io.github.hjuutilainen.munki.Blender</key>
 			<dict>
 				<key>git_hash</key>
-				<string>4c7d1f208aab10e7ef456e8612630c246a501f72</string>
+				<string>1dd92ffb44fb709342651e7dc5773aca1d71e71c</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/Blender/Blender.munki.recipe</string>
 				<key>sha256_hash</key>
-				<string>bad5cdffdee57b8b9f5b6a59abe567e2924660642ede9bb6896d7c0eba2ff335</string>
+				<string>f9595b95f0039b402f802223e39d894543ede1370edd3003563dc4949159ebbe</string>
 			</dict>
 		</dict>
 	</dict>

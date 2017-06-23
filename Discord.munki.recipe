@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.Discord</string>
+	<key>Input</key>
+	<dict>
+		<key>DOWNLOAD_URL</key>
+		<string>https://discordapp.com/api/download?platform=osx</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>Social/Discord</string>
+		<key>NAME</key>
+		<string>Discord</string>
+		<key>USER_AGENT</key>
+		<string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/536.28.10 (KHTML, like Gecko) Version/6.0.3 Safari/536.28.10</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>Social</string>
+			<key>description</key>
+			<string>Discord is a freeware proprietary VoIP application designed for gaming communities. Discord runs on Microsoft Windows, macOS, Android, iOS, Linux, and in a web browser. In December 2016, the developers announced that Discord had over 25 million users.</string>
+			<key>developer</key>
+			<string>Discord</string>
+			<key>display_name</key>
+			<string>Discord</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.joshua-d-miller.autopkg.munki.Discord</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.joshua-d-miller.autopkg.munki.Discord</key>
+			<dict>
+				<key>git_hash</key>
+				<string>7b27abf101694c41c5d367c36c24337f77baf5e8</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/Discord/Discord.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>d69316304512ce209480b3b66a7c70d58a991ae802c7ba467189b6eb53c6c463</string>
+			</dict>
+			<key>com.github.joshua-d-miller.download.Discord</key>
+			<dict>
+				<key>git_hash</key>
+				<string>afb1891bf8e9924602ea59418a8dd059f4adf5cb</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/Discord/Discord.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>6226008296161478b3028f704378a47a290877a98f936853b9a73363d88839d0</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

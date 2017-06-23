@@ -70,11 +70,11 @@
 			<key>com.github.joshua-d-miller.autopkg.munki.Mendeley</key>
 			<dict>
 				<key>git_hash</key>
-				<string>b7a30b4da851a63480f840d6423ea2d176fada33</string>
+				<string>ecda771e11795d484dc5929968f9e24e0076905a</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/Mendeley/Mendeley.munki.recipe</string>
 				<key>sha256_hash</key>
-				<string>eda0ce5d27c2b1311b3b9b155a92f10df07594abd5ea1b84646af470f077865c</string>
+				<string>77cffe19aeab3163da7b4f93bc4da8a9a4a4213475c23c3703bc730bf0b0c277</string>
 			</dict>
 		</dict>
 	</dict>

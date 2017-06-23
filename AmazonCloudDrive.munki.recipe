@@ -6,28 +6,26 @@
 	<string>local.munki.AmazonCloudDrive</string>
 	<key>Input</key>
 	<dict>
-		<key>APP_FILENAME</key>
-		<string>Amazon Cloud Drive App</string>
 		<key>DEVELOPER</key>
 		<string>Amazon</string>
-		<key>DOWNLOAD_URL</key>
-		<string>https://d29x207vrinatv.cloudfront.net/mac/AmazonCloudDriveApp.zip</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>Social/Amazon Cloud Drive</string>
+		<string>Social/Amazon Drive</string>
 		<key>NAME</key>
-		<string>Amazon Cloud Drive</string>
+		<string>Amazon Drive</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
 			</array>
+			<key>category</key>
+			<string>Social</string>
 			<key>description</key>
 			<string>Amazon Cloud Drive is your place for everything digital. Cloud Drive offers free mobile apps, secure access from any computer, and it's built in to your Amazon devices—so you can access your digital content everywhere you are.</string>
 			<key>developer</key>
 			<string>%DEVELOPER%</string>
 			<key>display_name</key>
-			<string>Amazon Cloud Drive</string>
+			<string>Amazon Drive</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
@@ -45,20 +43,20 @@
 			<key>com.github.clburlison.download.AmazonCloudDrive</key>
 			<dict>
 				<key>git_hash</key>
-				<string>42379911ac728bab0488e36edb92aff519c58f7c</string>
+				<string>3d8fce59075a842755fe05772c2fd3de05229c96</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.clburlison-recipes/Amazon/AmazonCloudDrive.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>87d8bd0e26e690edef2383c82b3dba094903dfdb2ec616772bcf9e951890fab4</string>
+				<string>a2ca276498a43705d795ea8f18378caa8980839323bf6a717237e492c3d4ba6c</string>
 			</dict>
 			<key>com.github.clburlison.munki.AmazonCloudDrive</key>
 			<dict>
 				<key>git_hash</key>
-				<string>42379911ac728bab0488e36edb92aff519c58f7c</string>
+				<string>3d8fce59075a842755fe05772c2fd3de05229c96</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.clburlison-recipes/Amazon/AmazonCloudDrive.munki.recipe</string>
 				<key>sha256_hash</key>
-				<string>c455932c7ac552459340a190d7217b903df2ec4bb94c3e828c53cd2d668f0163</string>
+				<string>51f097e5556e18d8d3069105d2e780ab5ca66978cd5d97d7474584dd984a6dad</string>
 			</dict>
 		</dict>
 	</dict>

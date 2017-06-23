@@ -61,20 +61,20 @@
 			<key>com.github.joshua-d-miller.autopkg.munki.AdobeAcrobatDCUpdate</key>
 			<dict>
 				<key>git_hash</key>
-				<string>b7a30b4da851a63480f840d6423ea2d176fada33</string>
+				<string>d8d43eb2906c7a9b97629ec26cfc76179e5613db</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/Adobe/AdobeAcrobatDCUpdate.munki.recipe</string>
 				<key>sha256_hash</key>
-				<string>569a322bddcc11d87c77e7bcb94e94fc1811a4a85534645add08b469ae7c38c0</string>
+				<string>37ac0de0b7f703aa121dbfe0e21a55700ae6e84b3494c36f4cd839fc42aef5d9</string>
 			</dict>
 			<key>com.github.novaksam.download.AdobeAcrobatDCUpdate</key>
 			<dict>
 				<key>git_hash</key>
-				<string>eba3d0160acb4e5d6e2c4fc5c36d236fbc412e11</string>
+				<string>1a65705c4f567a4889f2440aacacdcc9b2126464</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.novaksam-recipes/Recipes - Download/AdobeAcrobatDCUpdates.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>1f1bb4a92c523059dd95f9dc27c3737445dd78fd6ca260b1c39d536361ce553c</string>
+				<string>6d5845aa76b42b35b0ae840a0e10f6d7bfacfc3226f3c2d05369a0c4b6c132fc</string>
 			</dict>
 		</dict>
 	</dict>

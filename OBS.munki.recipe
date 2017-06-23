@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.OBS</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/obs</string>
+		<key>NAME</key>
+		<string>Open Broadcaster Software</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>Free and open source software for video recording and live streaming. Download and start streaming quickly and easily on Windows, Mac or Linux.</string>
+			<key>developer</key>
+			<string>Hugh Bailey</string>
+			<key>display_name</key>
+			<string>Open Broadcaster Software</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.joshua-d-miller.autopkg.munki.OBS</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.joshua-d-miller.autopkg.download.OBS</key>
+			<dict>
+				<key>git_hash</key>
+				<string>991e5120a055af0503b36ab1438f2f302fc4d567</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/OBS/OBS.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>70c3de7b0b0d1b800058b5d695878ebf3635695ed6d36488171cd8c41ad1576d</string>
+			</dict>
+			<key>com.github.joshua-d-miller.autopkg.munki.OBS</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d048bfe256c4c7cec852908418ba755efdde01a8</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/OBS/OBS.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>bdc91ffb0d04639f6b8c4d8eb3507e52e83f43bfe6f3b6d6274de2e081191f90</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

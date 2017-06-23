@@ -66,11 +66,11 @@
 			<key>com.github.joshua-d-miller.download.zotero</key>
 			<dict>
 				<key>git_hash</key>
-				<string>a84f722cec4c84b57cd23af0d9b549df53c1e0d3</string>
+				<string>44498c3f4614907dd3220699290012fb8da91131</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/Zotero/Zotero.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>c1c97a4277e7864650ecb2fe34972b23b6a690bb60698ecbfbbb1247f185d638</string>
+				<string>c30692e8a5185676e1ee4f7822504279330e779cb8086858055152158e42500a</string>
 			</dict>
 		</dict>
 	</dict>

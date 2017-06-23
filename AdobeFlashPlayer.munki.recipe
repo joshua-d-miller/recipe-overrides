@@ -59,11 +59,11 @@
 			<key>com.github.autopkg.download.FlashPlayer</key>
 			<dict>
 				<key>git_hash</key>
-				<string>e635a469d30f3bf06bc320391e6afec07677c429</string>
+				<string>1e13bcf8dd8e90e10c04a5c913842e263499a8e2</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/AdobeFlashPlayer/AdobeFlashPlayer.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>d3f2ae0f10f07489c083b8ad7f4f00e988c049850e9be20f41ea6a9dc568e878</string>
+				<string>32cb6011ba302138a63d00ae7640ff104ba0721e2e0d4fcbdcd5085e3b09b1fe</string>
 			</dict>
 			<key>com.github.autopkg.munki.FlashPlayerNoRepackage</key>
 			<dict>

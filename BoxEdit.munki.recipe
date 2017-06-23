@@ -218,11 +218,11 @@ fi
 			<key>com.github.joshua-d-miller.autopkg.munki.boxedit</key>
 			<dict>
 				<key>git_hash</key>
-				<string>b7a30b4da851a63480f840d6423ea2d176fada33</string>
+				<string>0671bedc3a9677c1839158e3fbf08c4c08897179</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/Box/BoxEdit.munki.recipe</string>
 				<key>sha256_hash</key>
-				<string>ef6a9b16b868cd08670c50e092b20d988ab763f09b0fab5b2c0e656a82ce6b6c</string>
+				<string>24b46360e33f7ee874142429ffe0be6c9de6e42a7cc86a49405887b8fa3d6b26</string>
 			</dict>
 		</dict>
 	</dict>

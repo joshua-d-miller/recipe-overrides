@@ -42,11 +42,11 @@
 			<key>MakerBotURLProvider</key>
 			<dict>
 				<key>git_hash</key>
-				<string>c599001ef65841fd7cd75260d522156a1716665e</string>
+				<string>bd0c1f7776c7146545dc666e65f988ad8a48900b</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.groob-recipes/MakerBot/MakerBotURLProvider.py</string>
 				<key>sha256_hash</key>
-				<string>8e962f023e2f47c19a3b74f1e8e4bf8165b88b5f788ff2172da3b19fa7c1d2a4</string>
+				<string>417a7ca69822e81b40801586681de5a3485c753168979813c004e9d566119b9f</string>
 			</dict>
 		</dict>
 		<key>parent_recipes</key>

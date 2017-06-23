@@ -52,11 +52,11 @@
 			<key>com.github.joshua-d-miller.download.dashlane</key>
 			<dict>
 				<key>git_hash</key>
-				<string>13f66e93d8e9a238cf048437a255a3b73a5d312f</string>
+				<string>e9719042cb9699d3b04c1269705d5bbb6d52013c</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/Dashlane/Dashlane.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>e70a539e6b157be14a75dc183df04f8196d8117804f0a177cfff57349b6c22fa</string>
+				<string>dde964c16f0c5b6f885645e86f47c66de9d2266d340f0cff6c82ee58ce10424f</string>
 			</dict>
 		</dict>
 	</dict>

@@ -72,23 +72,14 @@ exit 0
 		</dict>
 		<key>parent_recipes</key>
 		<dict>
-			<key>com.github.autopkg.download.AdobeReader</key>
-			<dict>
-				<key>git_hash</key>
-				<string>b6e90cf85dc6e56377b38a0f32e32768412ea10a</string>
-				<key>path</key>
-				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/AdobeReader/AdobeReader.download.recipe</string>
-				<key>sha256_hash</key>
-				<string>4feece464cdd89d5e96c058c295738c7115e9e74384233fa87c64c205a6429cb</string>
-			</dict>
 			<key>com.github.autopkg.download.AdobeReaderDC</key>
 			<dict>
 				<key>git_hash</key>
-				<string>b6e90cf85dc6e56377b38a0f32e32768412ea10a</string>
+				<string>6fe055d5bbfb6e533096652142fea25dc8de377a</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/AdobeReader/AdobeReaderDC.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>ac13cbb44a083e56f2a72b4b3365e586861831239be3a37258eab7465e657a7b</string>
+				<string>aec62028d4f42cd9253b8c56885fa2df8f1111c815251aa8729377fa63226a48</string>
 			</dict>
 			<key>com.github.autopkg.munki.AdobeReaderDC</key>
 			<dict>

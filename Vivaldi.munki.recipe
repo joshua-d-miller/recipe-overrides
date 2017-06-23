@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.Vivaldi</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>Productivity/Vivaldi</string>
+		<key>NAME</key>
+		<string>Vivaldi</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>Productivity</string>
+			<key>description</key>
+			<string>A browser for our friends.</string>
+			<key>developer</key>
+			<string>Vivaldi Technologies</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.sheagcraig.munki.Vivaldi</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.sheagcraig.download.Vivaldi</key>
+			<dict>
+				<key>git_hash</key>
+				<string>7a9192eab96d02a04fce7fed47bf7086b2dd38df</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.sheagcraig-recipes/Vivaldi/Vivaldi.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>2bb2f7d88ee8336624a6138bfc0bc4beb84e03ddb894e37e48c346f11d58a251</string>
+			</dict>
+			<key>com.github.sheagcraig.munki.Vivaldi</key>
+			<dict>
+				<key>git_hash</key>
+				<string>76a97e38f269a6d33ca60cc712dd6a385892ec90</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.sheagcraig-recipes/Vivaldi/Vivaldi.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>878a5764d533247d8c1efdac35523d610349007bdb874ceb4174033ab193a75f</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
