@@ -7,7 +7,7 @@
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_CATEGORY</key>
-		<string>Media</string>
+		<string>Multimedia</string>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>Media/GIMP</string>
 		<key>NAME</key>

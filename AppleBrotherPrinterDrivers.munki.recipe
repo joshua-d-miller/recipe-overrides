@@ -49,11 +49,11 @@
 			<key>com.github.n8felton.download.AppleBrotherPrinterDrivers</key>
 			<dict>
 				<key>git_hash</key>
-				<string>d2ac6f1fe22934c9ce7739276a9159fa24437215</string>
+				<string>9e036600c1ac7df3e3555a78a0320e233195b295</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/ApplePrinterDrivers/AppleBrotherPrinterDrivers.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>0021ccfbd15c3559ce695b864f7623c15bb7dbf0f220047d77f6d8271a257497</string>
+				<string>37e374fa99165d4980e5a9a494edc6c56e4a34a13729300984b57777acbd0c4e</string>
 			</dict>
 			<key>com.github.n8felton.munki.AppleBrotherPrinterDrivers</key>
 			<dict>

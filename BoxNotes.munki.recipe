@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.BoxNotes</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>Social/Box/Notes</string>
+		<key>NAME</key>
+		<string>Box Notes</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>Social</string>
+			<key>description</key>
+			<string>Box Notes makes it easy to create meeting notes, share ideas, track status updates and plan projects together — there's no limit to your productivity. And, every Box Note is instantly available on web, mobile or your desktop, so you can access your ideas from anywhere.</string>
+			<key>developer</key>
+			<string>Box</string>
+			<key>display_name</key>
+			<string>%NAME%</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+			<key>unattended_uninstall</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.joshua-d-miller.autopkg.munki.boxnotes</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.joshua-d-miller.autopkg.munki.boxnotes</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b68683a84a17afd9043640dc72826bf9e6018015</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/Box/BoxNotes.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>42a944a7e5f114665c40693cac0a5b85021651250db0f14475d50bc7e9675846</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

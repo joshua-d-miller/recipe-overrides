@@ -50,11 +50,11 @@
 			<key>com.github.hansen-m.download.OracleJava8JDK</key>
 			<dict>
 				<key>git_hash</key>
-				<string>d3a808975310f861a49dedda4b4e8e82a0778393</string>
+				<string>b2606f14593a51378f1c935cc489291d34c0e7a0</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.hansen-m-recipes/Oracle/OracleJava8JDK.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>c9e8186528d1faf8869d1716d1ed01e454e419734d59cbad976bd20c0fe20529</string>
+				<string>1fbe2ad3113bfc96be9df8d3d57100e66e2300586f7795b397fa6747e33af5e1</string>
 			</dict>
 			<key>com.github.nmcspadden.OracleJava8JDK.munki</key>
 			<dict>

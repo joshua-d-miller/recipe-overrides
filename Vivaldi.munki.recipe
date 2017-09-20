@@ -22,6 +22,8 @@
 			<string>A browser for our friends.</string>
 			<key>developer</key>
 			<string>Vivaldi Technologies</string>
+			<key>display_name</key>
+			<string>%NAME%</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
@@ -39,11 +41,11 @@
 			<key>com.github.sheagcraig.download.Vivaldi</key>
 			<dict>
 				<key>git_hash</key>
-				<string>7a9192eab96d02a04fce7fed47bf7086b2dd38df</string>
+				<string>792cfb3de4f00ac589339c64f37a8006115b5f2e</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.sheagcraig-recipes/Vivaldi/Vivaldi.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>2bb2f7d88ee8336624a6138bfc0bc4beb84e03ddb894e37e48c346f11d58a251</string>
+				<string>804dd7df19ffac180702bc223878fc86954886b8800d03b8edd9e67be50199d5</string>
 			</dict>
 			<key>com.github.sheagcraig.munki.Vivaldi</key>
 			<dict>

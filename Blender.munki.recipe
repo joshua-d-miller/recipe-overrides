@@ -43,11 +43,11 @@
 			<key>io.github.hjuutilainen.download.Blender</key>
 			<dict>
 				<key>git_hash</key>
-				<string>1dd92ffb44fb709342651e7dc5773aca1d71e71c</string>
+				<string>cd194728c0697c8d350ad07081ff24998e79103a</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/Blender/Blender.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>05c567d3136004099bd3ecf044712b3e834611f11b1e4986af633b81edf4ca97</string>
+				<string>27b152b1dcce4b1e4d7c980bee56bdee76df234ec672cf63148dce6e01b64d9f</string>
 			</dict>
 			<key>io.github.hjuutilainen.munki.Blender</key>
 			<dict>

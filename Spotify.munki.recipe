@@ -19,7 +19,7 @@
 				<string>production</string>
 			</array>
 			<key>category</key>
-			<string>Media</string>
+			<string>Multimedia</string>
 			<key>description</key>
 			<string>Spotify is a music streaming service offering unlimited streaming of selected music from a range of major and independent record labels.</string>
 			<key>developer</key>
@@ -28,8 +28,8 @@
 			<string>Spotify</string>
 			<key>name</key>
 			<string>%NAME%</string>
-		           <key>postinstall_script</key>
-		           <string>#!/bin/bash
+			<key>postinstall_script</key>
+			<string>#!/bin/bash
 		chmod go+x /Applications/Spotify.app/Contents/Frameworks/Chromium\ Embedded\ Framework.framework/Chromium\ Embedded\ Framework /Applications/Spotify.app/Contents/Frameworks/Spotify\ Helper.app/Contents/MacOS/Spotify\ Helper /Applications/Spotify.app/Contents/MacOS/*
 		           </string>
 			<key>unattended_install</key>

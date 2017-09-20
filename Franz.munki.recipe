@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.Franz</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>Social/Franz</string>
+		<key>NAME</key>
+		<string>Franz</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>Social</string>
+			<key>description</key>
+			<string>Franz is a free messaging app which combines chat and messaging services into one application. Franz currently supports Slack, WhatsApp, WeChat, HipChat, Facebook Messenger, Telegram, Google Hangouts, GroupMe, Skype and many more.</string>
+			<key>developer</key>
+			<string>MeetFranz</string>
+			<key>display_name</key>
+			<string>%NAME%</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.andrewvalentine.munki.franz</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.andrewvalentine.download.franz</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b9fcfc4605fd22be395b1b2a2aae6755f293067d</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.andrewvalentine-recipes/Franz/Franz.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>f72e2deec13dad97972fb8a8b11d4b1adfe64de4d2a402e5cfedbb932d69c6f4</string>
+			</dict>
+			<key>com.github.andrewvalentine.munki.franz</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b9fcfc4605fd22be395b1b2a2aae6755f293067d</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.andrewvalentine-recipes/Franz/Franz.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>1ff517bceaf23f22521ed4ff74731a82ae9a19d2d450221ab496584cf18aa706</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

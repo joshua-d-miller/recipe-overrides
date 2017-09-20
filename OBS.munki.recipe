@@ -7,7 +7,7 @@
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/obs</string>
+		<string>Media/Open Broadcaster Software</string>
 		<key>NAME</key>
 		<string>Open Broadcaster Software</string>
 		<key>pkginfo</key>

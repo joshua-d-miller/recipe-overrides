@@ -49,11 +49,11 @@
 			<key>com.github.n8felton.download.AppleCanonLaserPrinterDrivers</key>
 			<dict>
 				<key>git_hash</key>
-				<string>2dc0d2dc5d0ad32174c5164f5bf2493df26d1b3f</string>
+				<string>aec143414b36d0194ce81241b5e28d105de05b25</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/ApplePrinterDrivers/AppleCanonLaserPrinterDrivers.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>16776bb9e74308845c2b830ccda9f5ca2bfebf77867e50a648e750b9cb59eb09</string>
+				<string>4288712348c1ab9a17a415f3ee85128c883b0b44990f05d18b558b7f2b068986</string>
 			</dict>
 			<key>com.github.n8felton.munki.AppleCanonLaserPrinterDrivers</key>
 			<dict>

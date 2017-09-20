@@ -42,21 +42,17 @@
 		<dict>
 			<key>com.github.joshua-d-miller.autopkg.munki.logitechoptions</key>
 			<dict>
-				<key>git_hash</key>
-				<string>df267fb639af6adb8d85a219bd7cda2d39c27cdc</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/Logitech/LogitechOptions.munki.recipe</string>
 				<key>sha256_hash</key>
-				<string>3180d662ca966fa88815d38459e7d1f2483be3ecabc2220a4733cd3f61e94346</string>
+				<string>ea31fccc05187f9cc9faf0e2f60b6c492492496e822491694f942dc255c0026a</string>
 			</dict>
 			<key>com.github.joshua-d-miller.download.logitechoptions</key>
 			<dict>
-				<key>git_hash</key>
-				<string>6b13a1754c35a2a8f7c8573f2cfa9b73b36ab91a</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/Logitech/LogitechOptions.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>ff42bb15e0d7c3e2997c2873b665a55fd5f59172e7c56327ff04036533c40860</string>
+				<string>7423531c1aaafb788c0107be2bf92fbf04d2be25bf604bd9da73e140b4c7a019</string>
 			</dict>
 		</dict>
 	</dict>

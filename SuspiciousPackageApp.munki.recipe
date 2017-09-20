@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.SuspiciousPackageApp</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>Suspicious Package</string>
+		<key>PKG_URL</key>
+		<string>http://www.mothersruin.com/software/downloads/SuspiciousPackage.dmg</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>SysAdmin Tools</string>
+			<key>description</key>
+			<string>Suspicious Package: An Application for Inspecting OS X Installer Packages</string>
+			<key>developer</key>
+			<string>Mothers Ruin Software</string>
+			<key>display_name</key>
+			<string>Suspicious Package</string>
+			<key>minimum_os_version</key>
+			<string>10.9</string>
+			<key>name</key>
+			<string>%NAME%</string>
+		</dict>
+		<key>repo_subdirectory</key>
+		<string>SysAdmin Tools/Suspicious Package</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.poundbangbash.eholtam-recipes.munki.SuspiciousPackageApp</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.poundbangbash.eholtam-recipes.download.SuspiciousPackageApp</key>
+			<dict>
+				<key>git_hash</key>
+				<string>e8b78f03b2c8eacf5c62f99a93175998dee7991d</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.eholtam-recipes/SuspiciousPackageApp/SuspiciousPackageApp.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>edc58f2c67edea4d13bb0f5bdf9468c311da538cdc376383662da55ef6812ee1</string>
+			</dict>
+			<key>com.github.poundbangbash.eholtam-recipes.munki.SuspiciousPackageApp</key>
+			<dict>
+				<key>git_hash</key>
+				<string>8d82ff5d8f34542047a4aacce6e23cd4e7847b10</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.eholtam-recipes/SuspiciousPackageApp/SuspiciousPackageApp.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>e138bb4982b788fac3178dc2b907065357754e323448934ed1a521bf5606c8c9</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

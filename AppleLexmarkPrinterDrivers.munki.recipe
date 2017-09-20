@@ -49,11 +49,11 @@
 			<key>com.github.n8felton.download.AppleLexmarkPrinterDrivers</key>
 			<dict>
 				<key>git_hash</key>
-				<string>2dc0d2dc5d0ad32174c5164f5bf2493df26d1b3f</string>
+				<string>f8c8f80bb3f8b74f96027f16f3ad8e81cfd05f61</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/ApplePrinterDrivers/AppleLexmarkPrinterDrivers.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>a2d7cd000c37f942b211baa58b5dc1065613ac0a77237d51a88c31cc25f5258e</string>
+				<string>70ea2b6e3c7b2db9ef78d16ebd2bdd19b63ceeb71d05dddb99736a0f1f094b2b</string>
 			</dict>
 			<key>com.github.n8felton.munki.AppleLexmarkPrinterDrivers</key>
 			<dict>

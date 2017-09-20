@@ -75,11 +75,11 @@
 			<key>com.github.homebysix.pkg.Zoom</key>
 			<dict>
 				<key>git_hash</key>
-				<string>77a77b7c32f30624ac37321cf8170d082513e9e9</string>
+				<string>74a634071d54393e022b208f1ed95b5fde2816aa</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/Zoom/Zoom.pkg.recipe</string>
 				<key>sha256_hash</key>
-				<string>3bfc9b3a0c720513187b7afb83523c216f23349feac3e1f7ffac6699d5d6711c</string>
+				<string>ae821eba9be18fa47e444e120d7bb8e1173ee44e3a641716676d3139451c7249</string>
 			</dict>
 		</dict>
 	</dict>

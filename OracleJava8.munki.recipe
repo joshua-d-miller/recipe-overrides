@@ -58,11 +58,11 @@
 			<key>com.github.autopkg.download.OracleJava8</key>
 			<dict>
 				<key>git_hash</key>
-				<string>8e54b7fd5f5ed196709e787e104519b99a85624d</string>
+				<string>698b1d3afd01dbfa839cc271180899af3d96fa90</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/OracleJava/OracleJava8.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>415895415df9f10ef8d97334c24adbeefacf7cd249b98a1d0417b1087da6ab6b</string>
+				<string>94215ec0af87d6eeaa6ac353b88eb015a99c03f6f0a52f8c59899304d5308542</string>
 			</dict>
 			<key>com.github.autopkg.munki.OracleJava8</key>
 			<dict>

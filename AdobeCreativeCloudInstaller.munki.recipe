@@ -9,7 +9,7 @@
 		<key>DOWNLOAD_URL</key>
 		<string>https://ccmdls.adobe.com/AdobeProducts/KCCC/1/osx10/CreativeCloudInstaller.dmg</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>Adobe/Creative Cloud</string>
+		<string>Adobe/Adobe Creative Cloud</string>
 		<key>NAME</key>
 		<string>Creative Cloud Installer</string>
 		<key>pkginfo</key>

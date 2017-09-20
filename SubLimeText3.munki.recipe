@@ -7,7 +7,7 @@
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>Admin</string>
+		<string>SysAdmin Tools/Sublime Text</string>
 		<key>NAME</key>
 		<string>SublimeText</string>
 		<key>SPARKLE_FEED_URL</key>
@@ -19,7 +19,7 @@
 				<string>testing</string>
 			</array>
 			<key>category</key>
-			<string>Administrative Tools</string>
+			<string>Text Editors</string>
 			<key>description</key>
 			<string>Sublime Text is an advanced text editor for OS X.</string>
 			<key>developer</key>
@@ -27,7 +27,7 @@
 			<key>display_name</key>
 			<string>Sublime Text 3</string>
 			<key>name</key>
-			<string>%NAME%</string>
+			<string>Sublime Text</string>
 			<key>unattended_install</key>
 			<true/>
 		</dict>

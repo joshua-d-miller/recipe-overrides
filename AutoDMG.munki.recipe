@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.AutoDMG</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>SysAdmin Tools/AutoDMG</string>
+		<key>NAME</key>
+		<string>AutoDMG</string>
+		<key>PRERELEASE</key>
+		<string></string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>SysAdmin Tools</string>
+			<key>description</key>
+			<string>Create deployable system images from OS X installer.</string>
+			<key>developer</key>
+			<string>Per Olofsson</string>
+			<key>display_name</key>
+			<string>%NAME%</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.timsutton.munki.AutoDMG</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.timsutton.download.AutoDMG</key>
+			<dict>
+				<key>git_hash</key>
+				<string>94a6c85091058bb7d7f8ba6e457f05f02fa67c0f</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.timsutton-recipes/AutoDMG/AutoDMG.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>5a2f33a8d5c115ca5f5f7b185a96e2bf5a30ed4d50b9fc80dea179059832ef4e</string>
+			</dict>
+			<key>com.github.timsutton.munki.AutoDMG</key>
+			<dict>
+				<key>git_hash</key>
+				<string>a3b8423b3fcf78e7d9c694d09c0330158979d8a1</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.timsutton-recipes/AutoDMG/AutoDMG.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>6eebb8cd35ecba1f2557f51e20d527ad63dbd974fc023c293662fd629a14c120</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

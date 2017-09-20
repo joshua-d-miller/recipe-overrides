@@ -7,7 +7,9 @@
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>Admin</string>
+		<string>SysAdmin Tools/iTerm</string>
+		<key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
+        <string>True</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -15,7 +17,7 @@
 				<string>testing</string>
 			</array>
 			<key>category</key>
-			<string>Administrative Tools</string>
+			<string>SysAdmin Tools</string>
 			<key>description</key>
 			<string>Powerful alternative to Terminal.app.</string>
 			<key>developer</key>

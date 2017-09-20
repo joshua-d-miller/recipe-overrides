@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.NBICreator</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>SysAdmin Tools/NBICreator</string>
+		<key>NAME</key>
+		<string>NBICreator</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>SysAdmin Tools</string>
+			<key>description</key>
+			<string>NBICreator is an OS X Application to create NetInstall images</string>
+			<key>developer</key>
+			<string>Erik Berglund</string>
+			<key>display_name</key>
+			<string>NBICreator</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.gmarnin.munki.NBICreator</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.gmarnin.download.NBICreator</key>
+			<dict>
+				<key>git_hash</key>
+				<string>1675116b303060bdb30be6964a1d25c2199a7798</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.gmarnin-recipes/NBICreator/NBICreator.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>ce029fec2628ac1b17cd4d98d35bee50008296183e9deeab1a7a8c1f7263ed6d</string>
+			</dict>
+			<key>com.github.gmarnin.munki.NBICreator</key>
+			<dict>
+				<key>git_hash</key>
+				<string>78f916935449eee3b1e3ee58fafe164f9d1d0f27</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.gmarnin-recipes/NBICreator/NBICreator.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>3116a13341843c4e27ac847e6fe6a4102b792acb0be9e069aca98a8f35d603db</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

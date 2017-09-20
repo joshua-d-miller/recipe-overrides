@@ -30,6 +30,8 @@
 			<string>Productivity</string>
 			<key>developer</key>
 			<string>Microsoft Corporation</string>
+			<key>display_name</key>
+			<string>%NAME%</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>

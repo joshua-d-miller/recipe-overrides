@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.Veertu Desktop</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>SysAdmin Tools/%NAME%</string>
+		<key>NAME</key>
+		<string>Veertu Desktop</string>
+		<key>SPARKLE_FEED_URL</key>
+		<string>https://d2sje6b9huarvp.cloudfront.net/vdoaupd.rss</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>SysAdmin Tools</string>
+			<key>description</key>
+			<string>Responsive, Secure &amp; Native way to run VMs on your Mac.</string>
+			<key>developer</key>
+			<string>Veertu Inc</string>
+			<key>display_name</key>
+			<string>Veertu Desktop</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.flammable.munki.VeertuDesktop</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.flammable.download.VeertuDesktop</key>
+			<dict>
+				<key>git_hash</key>
+				<string>2310abdc6df0d58605a5c412b43426fe796f5c95</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.flammable-recipes/Veertu Inc/Veertu Desktop.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>c986760a8d618e8309da177e951ab85eefecb27a38ed422d2afb126cc6df83b0</string>
+			</dict>
+			<key>com.github.flammable.munki.VeertuDesktop</key>
+			<dict>
+				<key>git_hash</key>
+				<string>2310abdc6df0d58605a5c412b43426fe796f5c95</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.flammable-recipes/Veertu Inc/Veertu Desktop.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>c5f96a77295117472e3278a47f86add09913dac2488319f100a135f3a695eb6f</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

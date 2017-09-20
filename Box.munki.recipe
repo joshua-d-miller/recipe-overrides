@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.Box</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>Social/Box/Drive</string>
+		<key>NAME</key>
+		<string>Box</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>blocking_applications</key>
+			<array>
+				<string>Box</string>
+			</array>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>Social</string>
+			<key>description</key>
+			<string>Box Drive is natively integrated into Windows Explorer and Mac Finder so it's built right into the way you already work.</string>
+			<key>developer</key>
+			<string>Box</string>
+			<key>display_name</key>
+			<string>Box</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+			<key>unattended_uninstall</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.joshua-d-miller.autopkg.munki.Box</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.joshua-d-miller.autopkg.munki.Box</key>
+			<dict>
+				<key>git_hash</key>
+				<string>a69af88f0bf81801462618ece1c443990c1c6707</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/Box/Box.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>964fe143e7eb865e30f7f1b49e549a67c7ad15dee74a7a0cb74bbf9db6b7e335</string>
+			</dict>
+			<key>com.github.joshua-d-miller.download.Box</key>
+			<dict>
+				<key>git_hash</key>
+				<string>5c14dcc5adbb66b7fa4396ace7450f70c715d088</string>
+				<key>path</key>
+				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/Box/Box.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>628246bd3b809edc1488bb960937c72bdd7dc6dd0508e38c493e6d5a4745a434</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

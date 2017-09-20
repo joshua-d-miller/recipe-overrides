@@ -50,11 +50,11 @@
 			<key>com.github.joshua-d-miller.download.dymolabel</key>
 			<dict>
 				<key>git_hash</key>
-				<string>250738bd0b7dbed2de9578a7fbeebf8d8f5d7fc2</string>
+				<string>67daf050ec3807df960442292381e24b957950ed</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes/DYMO/DYMOLabel.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>e2be7edccc7707fc3214d32e948b4c56ec520200a750143929efe204b331a495</string>
+				<string>8047be7af40f8fb2ee38b683a7dbdbf0ef37cdbc759e351c6805d5a5dc916a6d</string>
 			</dict>
 		</dict>
 	</dict>

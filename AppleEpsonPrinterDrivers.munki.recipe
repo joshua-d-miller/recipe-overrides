@@ -49,11 +49,11 @@
 			<key>com.github.n8felton.download.AppleEpsonPrinterDrivers</key>
 			<dict>
 				<key>git_hash</key>
-				<string>2dc0d2dc5d0ad32174c5164f5bf2493df26d1b3f</string>
+				<string>15079afb763e522a2cd3c384d11c46e4152d8003</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/ApplePrinterDrivers/AppleEpsonPrinterDrivers.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>ac7d7b7993bbe8c3d90fe93118b40df52c2fe973ea94e19739a373ed701e5fee</string>
+				<string>97dde7eae23c6289a12a74362d568bc94c2bcc10e5e7c8af2ad39f84d4623f09</string>
 			</dict>
 			<key>com.github.n8felton.munki.AppleEpsonPrinterDrivers</key>
 			<dict>

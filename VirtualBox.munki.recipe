@@ -7,7 +7,7 @@
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>Admin</string>
+		<string>SysAdmin Tools</string>
 		<key>NAME</key>
 		<string>Oracle VirtualBox</string>
 		<key>pkginfo</key>
@@ -21,11 +21,11 @@
 				<string>testing</string>
 			</array>
 			<key>category</key>
-			<string>Administrative Tools</string>
+			<string>SysAdmin Tools</string>
 			<key>description</key>
 			<string>Oracle VirtualBox is a powerful x86 and AMD64/Intel64 virtualization product for enterprise as well as home use. Not only is VirtualBox an extremely feature rich, high performance product for enterprise customers, it is also the only professional solution that is freely available as Open Source Software under the terms of the GNU General Public License (GPL) version 2. See "About VirtualBox" for an introduction.</string>
 			<key>developer</key>
-			<string>Orcale Corporation</string>
+			<string>Oracle Corporation</string>
 			<key>display_name</key>
 			<string>Oracle VM VirtualBox</string>
 			<key>name</key>

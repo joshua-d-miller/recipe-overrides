@@ -51,11 +51,11 @@
 			<key>io.github.hjuutilainen.download.R</key>
 			<dict>
 				<key>git_hash</key>
-				<string>c3d5e772fa36dc9a842aa630dc6d484aab4abb7d</string>
+				<string>5a9cc4992ca3ba38db925d17f9d5a0fb9e99741a</string>
 				<key>path</key>
 				<string>/Users/sadmin/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/R/R.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>92313d41526a8149917a57fee1208bb37485b4dc77f7b29c022144d85f857b18</string>
+				<string>7e2e2c65563ded25642ca3b17b19d22295f0f2b7afbe8ae75e5e5659bb1c3311</string>
 			</dict>
 			<key>io.github.hjuutilainen.munki.R</key>
 			<dict>

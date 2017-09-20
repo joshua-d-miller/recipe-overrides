@@ -9,7 +9,7 @@
 		<key>DOWNLOAD_URL</key>
 		<string>https://central.github.com/mac/latest</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>Admin</string>
+		<string>SysAdmin Tools/GitHub</string>
 		<key>NAME</key>
 		<string>GitHub</string>
 		<key>pkginfo</key>
@@ -19,7 +19,7 @@
 				<string>production</string>
 			</array>
 			<key>category</key>
-			<string>Administrative Tools</string>
+			<string>SysAdmin Tools</string>
 			<key>description</key>
 			<string>Sharing code should be as simple as possible.  That is why GitHub for Mac was created.
 
@@ -32,7 +32,7 @@
 			Powerfully simple branching
 			Branching is one of Git’s best features. We’ve made it easy to try out remote branches, create new local branches and publish branches to share with others.</string>
 			<key>developer</key>
-			<string>GitHub Inc.</string>
+			<string>GitHub, Inc.</string>
 			<key>display_name</key>
 			<string>GitHub</string>
 			<key>name</key>
